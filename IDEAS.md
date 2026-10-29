@@ -450,8 +450,11 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in `EXPERIMENT_RANKING.md`. The pinned neighbour-transfer portfolio
-remains the best complete candidate at local score `22.287265765408524`.
+recorded in `EXPERIMENT_RANKING.md`. The strict per-`N` public-union portfolio
+is the best audited and Kaggle-validated candidate: local score
+`22.287085755423853`, public score `22.2870857554`. It combines the refreshed
+public `n=130` certificate with 59 strict per-`N` improvements from the saved
+public union.
 
 The eight-branch expansion is now implemented in `eight_ideas.py` with shared
 spatial-hash and fixed-container helpers in `search_kernels.py`. It tested
@@ -462,6 +465,19 @@ Every complete output passed the independent audit; no branch accepted a
 strict improvement. The island and soft/replica branches generated invalid
 intermediate states and were correctly rejected before serialization.
 
+#### Island and replica validity-guard follow-up (2026-10-29)
+
+The first per-`N` pilot showed that the final candidate selectors in these two
+branches did not consistently require exact validity: an infeasible relaxed
+state could replace a valid population member or be selected as the final
+output. `eight_ideas.py` now starts from a certified incumbent, admits only
+exact-valid repaired candidates, and validates the selected layout again
+before return. Regression tests cover both branches. On the fresh seed
+`20261030`, the repaired island and soft/replica methods each returned valid
+layouts for all 30 targets, with zero strict improvements. The complete
+eight-method output remained identical to the incumbent and passed the full
+submission audit; see `EXPERIMENT_RANKING.md` for timings and artifact path.
+
 Completed negative-result experiments:
 
 - boundary-aware `N+K -> N` deletion beam over 89 hard target sizes and 5,666
@@ -471,10 +487,67 @@ Completed negative-result experiments:
 - compact destroy/reinsert followed by oriented-square SLP repair;
 - rigid whole-layout rotation over all 1,000 sizes.
 
-All generated full submissions passed the independent audit with zero invalid
-puzzles and tied the incumbent because no strict improvement was accepted.
+The listed negative-result submissions passed the independent audit with zero
+invalid puzzles and tied the incumbent because no strict improvement was
+accepted.
 The earlier bounded SLP run on selected certificate layouts also produced no
 accepted improvements. These results rule out simple safe cropping, rigid
 rotation, and small one-trial kicks as sufficient improvements under the
 tested budgets; they do not rule out buffered repair, separator flips,
 fixed-container feasibility search, or full beam/island search.
+
+#### Wider-strip screen and refreshed public record (2026-10-29)
+
+The diagonal-strip search covered widths 9 through 30 where geometrically
+eligible, across 900 target sizes. It took 767.8 seconds, found no strict
+improvement, preserved all 1,000 incumbent layouts, and passed the full audit
+at `22.287265765` with zero invalid puzzles or errors.
+
+A newer rational `n=130` certificate from the pinned [Couzo repository
+commit](https://github.com/franciscouzo/square-packing/tree/3a4d95c72083da3c3fd5acc4b1d0e94479c5422d)
+was parsed and independently validated. Replacing only `n=130` lowered the
+full-file score to `22.28708575920191`, a gain of `0.00018000620661`; the
+complete audit reported zero invalid puzzles and zero errors. The candidate
+and source provenance are retained under
+`data/variants/public_record_refresh_20261029/`. This n=130-only candidate was
+kept local; the merged portfolio below was the candidate submitted to Kaggle.
+
+The audited `data/submission.public_union.csv` was then merged through the
+strict per-`N` candidate gate with the same n=130 record. It contributed 59
+additional layouts, with no per-`N` regression; 60 sizes now improve over the
+public incumbent. The complete 500,500-row candidate scores
+`22.287085755423853` and passes the full audit with zero invalid puzzles or
+errors. It is saved at
+`data/variants/public_union_refresh_20261029/submission.csv`. Kaggle marked
+the matching uploaded file Complete with public score `22.2870857554`, a
+`0.00018000998467` gain over the previous public best.
+
+#### CPU repair-kernel crossover (2026-10-29)
+
+On actual incumbent layouts at `N=300, 600, 700, 800, 900, 983, 1000`, dense
+and spatial-hash pair lists and LP outputs matched exactly across five
+alternating runs per path. The spatial-to-dense median time ratio ranged from
+`0.910` to `1.012`; it was consistently useful only at the tested sizes from
+`N=800` upward. `slp_submission.py` now dispatches to the shared spatial hash
+at that threshold, keeping the vectorized provider for smaller layouts. The
+repair step is faster at large `N`, but the complete search has not been
+measured end-to-end, so no full-search speed gain is claimed. Raw repair-step
+timings are in `data/variants/repair_kernel_benchmark_20261029/benchmark.json`.
+
+A subsequent higher-budget eight-method tournament on `N=802, 857, 919, 983,
+1000` returned exact-valid layouts for every method and size, but accepted no
+strict gain. The full file remained numerically identical to the n=130-start
+portfolio and passed the complete audit; detailed timings and provenance are
+in `EXPERIMENT_RANKING.md` and `data/variants/per_n_tournament_large_20261029/`.
+
+#### Current certified-row screen (2026-10-29)
+
+The 77 current report-order certificates in
+[the issue #742 intake](https://github.com/jlevy/squares/pull/742) were
+screened by declared exact side length against the current best local CSV.
+None could clear the strict `1e-12` per-size merge threshold, so no packing
+was imported or changed. The source manifest/census digests and per-size
+comparisons are recorded in
+`data/variants/mishapolk_registry_screen_20261029/registry_screen.json`.
+This was a bounds screen; it did not independently re-verify certificates
+that could not improve the current candidate.

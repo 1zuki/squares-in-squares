@@ -1,0 +1,10 @@
+{
+  "source_repository": "https://github.com/franciscouzo/square-packing",
+  "source_commit": "3a4d95c72083da3c3fd5acc4b1d0e94479c5422d",
+  "source_commit_date_utc": "2026-10-27T19:42:09Z",
+  "record_path": "certificates/best/n130.cert",
+  "record_url": "https://github.com/franciscouzo/square-packing/blob/3a4d95c72083da3c3fd5acc4b1d0e94479c5422d/certificates/best/n130.cert",
+  "raw_certificate_sha256": "a2618e1a7a2961cf63bf5a23ac0b006d18ef0dde00dad562b005d82a509c7fcd",
+  "repository_license": "MIT",
+  "note": "Public rational witness; parsed by local parse_public_certificates.py and checked with local geometry.validate_packing."
+}

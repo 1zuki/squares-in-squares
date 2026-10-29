@@ -7,38 +7,7 @@ import math
 import numpy as np
 
 from geometry import half_extent, separating_gap
-from slp_submission import linear_step, normalize, side, vertices
-
-
-def broadphase_pairs(p: np.ndarray, *, radius: float = 2.2, cell_size: float | None = None):
-    """Return center pairs within a safe radius using a spatial hash grid."""
-    n = len(p)
-    if n < 2:
-        return []
-    if cell_size is None:
-        cell_size = radius
-    bins: dict[tuple[int, int], list[int]] = {}
-    for i, (x, y, _angle) in enumerate(p):
-        key = (math.floor(float(x) / cell_size), math.floor(float(y) / cell_size))
-        bins.setdefault(key, []).append(i)
-    offsets = [
-        (dx, dy)
-        for dx in (-1, 0, 1)
-        for dy in (-1, 0, 1)
-    ]
-    pairs = set()
-    r2 = radius * radius
-    for key, members in bins.items():
-        for dx, dy in offsets:
-            other = bins.get((key[0] + dx, key[1] + dy), ())
-            for i in members:
-                for j in other:
-                    if i >= j:
-                        continue
-                    delta = p[i, :2] - p[j, :2]
-                    if float(delta @ delta) <= r2:
-                        pairs.add((i, j))
-    return sorted(pairs)
+from slp_submission import broadphase_pairs, linear_step, normalize, side, vertices
 
 
 def verify_broadphase(p: np.ndarray, *, cell_size: float = 2.2) -> dict:

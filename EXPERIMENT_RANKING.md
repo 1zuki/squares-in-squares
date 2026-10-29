@@ -21,18 +21,23 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Current best |
-| 1 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 1 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 1 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 1 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 1 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
+| 1 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
+| 2 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Previous public incumbent |
+| 2 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 2 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 2 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 2 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 2 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
 
-The ties are exact at the audit score precision because every new candidate
-was rejected and the complete output retained the incumbent layouts. The
-serialized bytes differ for some files because the experiment writers use a
-different decimal formatting path; the audits, rather than byte identity, are
-the comparison gate.
+The negative-result experiments tie the previous public incumbent because
+their candidates were rejected and their complete outputs retained its layouts.
+The refreshed portfolio passed Kaggle validation: public score `22.2870857554`,
+compared with the previous best `22.2872657654` (gain `0.00018000998467`). Its
+submission description carried SHA-256
+`a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef`, matching
+the local candidate. The serialized bytes differ for some files because
+experiment writers use different decimal formatting; audits and layout
+comparisons, rather than byte identity, are the comparison gate.
 
 ## Eight-branch expansion
 
@@ -108,6 +113,116 @@ snapshot. No incumbent was replaced and no Kaggle upload was made. This
 fresh-seed run adds no method-by-`N` winner signal. The island and replica
 candidates failed the exact final check on every tested target and were
 discarded.
+
+### Validity-guard follow-up (2026-10-29, seed `20261030`)
+
+The first pilot exposed a branch-level selection bug: island and soft/replica
+search could carry infeasible exploratory states into their populations and
+return the smallest one without an exact-validity gate. `eight_ideas.py` now
+certifies its seed, admits only exact-valid repaired candidates to those
+populations, and rechecks the selected output with a certified incumbent
+fallback. `tests/test_eight_ideas.py` covers both branches. The tournament
+runner also checkpoints each completed `N` atomically and can resume only when
+the runner, solver, inputs, seed, methods, and budgets match the checkpoint.
+
+The repaired branches were rerun with all eight methods on the same 30 sizes,
+seed `20261030`, and two trials per method. All methods now returned exact-
+valid candidates at every size, but none strictly improved the incumbent.
+The completed run took 422.7 seconds; timings below are measured wall time,
+so this remains a matched-settings comparison rather than an equal-time one.
+
+| Method | Exact-valid outputs | Runtime | Per-`N` wins |
+|---|---:|---:|---:|
+| Fixed-container feasibility | 30/30 | 40.3 s | 0 |
+| Buffered large-neighborhood repair | 30/30 | 23.5 s | 0 |
+| Separator flips | 30/30 | 53.1 s | 0 |
+| Strip construction | 30/30 | 8.4 s | 0 |
+| Multi-descendant beam repair | 30/30 | 39.1 s | 0 |
+| Island diversity | 30/30 | 72.2 s | 0 |
+| Soft-to-rigid / replica search | 30/30 | 154.1 s | 0 |
+| Accelerated broadphase SLP | 30/30 | 28.7 s | 0 |
+
+The serialized submission passed `audit_submission.py` at **22.287265765**,
+with zero invalid puzzles and zero errors. All 1,000 layouts are numerically
+identical to the pinned incumbent. Full per-trial results are in
+`data/variants/per_n_tournament_seed20261030/submission.csv.topology.json`;
+the full CSV remains local. No Kaggle upload was made because this run produced
+no new candidate for external validation.
+
+### CPU repair-kernel crossover (2026-10-29)
+
+The dense vectorized pair search and spatial-hash broadphase were compared on
+actual incumbent layouts at `N=300, 600, 700, 800, 900, 983, 1000`, using
+container slack `0.25`, `rho=0.04`, and five alternating `linear_step` runs per
+path. Every pair list matched exactly; both paths returned the same LP result
+at every size. Spatial-to-dense median time ratios were `1.011`, `0.994`,
+`0.986`, `0.910`, `0.963`, `0.946`, and `0.930`, respectively. The spatial
+path is slightly slower at `N=300`, effectively tied through `N=700`, and
+3.7–9.0% faster at the tested sizes from `N=800` onward.
+
+`slp_submission.py` now selects the existing dense provider below `N=800` and
+the equivalent spatial hash at or above that cutoff. `search_kernels.py`
+re-exports the same implementation, avoiding a second copy. All four
+large-`N` targets in the repaired tournament (`802, 857, 919, 983`) also had
+identical pair lists after dispatch. This is a measured single-repair-step
+speedup, not a claim that a full search or submission score improved. Raw
+timings and settings are in
+`data/variants/repair_kernel_benchmark_20261029/benchmark.json`.
+
+### High-budget large-`N` tournament (2026-10-29)
+
+The size-aware repair kernel was used in an eight-method tournament starting
+from the refreshed n=130 portfolio. It tested `N=802, 857, 919, 983, 1000`
+with seed `202610293`, four trials per method, eight repair steps, beam width
+5 and depth 3, four islands, four generations, and four replicas. The complete
+run took 731.0 seconds.
+
+| Method | Exact-valid targets | Runtime | Strict per-`N` wins |
+|---|---:|---:|---:|
+| Fixed-container feasibility | 5/5 | 49.9 s | 0 |
+| Buffered large-neighborhood repair | 5/5 | 34.3 s | 0 |
+| Separator flips | 5/5 | 45.2 s | 0 |
+| Strip construction | 5/5 | 3.0 s | 0 |
+| Multi-descendant beam repair | 5/5 | 45.0 s | 0 |
+| Island diversity | 5/5 | 128.8 s | 0 |
+| Soft-to-rigid / replica search | 5/5 | 387.2 s | 0 |
+| Accelerated broadphase SLP | 5/5 | 36.3 s | 0 |
+
+The output passed the full audit at **22.287085759**, with zero invalid
+puzzles and zero errors; it is numerically identical to the starting
+portfolio. Artifacts are in
+`data/variants/per_n_tournament_large_20261029/`. This adds no large-`N`
+method-by-size winner signal under the tested budget.
+
+### Wider strips and refreshed public record (2026-10-29)
+
+`wide_strip_search.py` screened diagonal-strip widths 9 through the geometric
+cap (up to width 30), covering 900 target sizes in 767.8 seconds. No candidate
+strictly improved its incumbent layout. The complete output was numerically
+identical to the incumbent for all 1,000 sizes and passed the full audit at
+**22.287265765**, with zero invalid puzzles and zero errors.
+
+A newer rational `n130.cert` from the pinned
+[Couzo repository commit](https://github.com/franciscouzo/square-packing/tree/3a4d95c72083da3c3fd5acc4b1d0e94479c5422d)
+was parsed and checked with the local geometry validator. Its side length is
+11.902430645984346, improving the incumbent's 11.90448303252669. Merging it
+changed only `N=130` in the 1,000-layout file. The merged submission passed
+`audit_submission.py` at **22.28708575920191**, with zero invalid puzzles and
+zero errors, a strict score gain of **0.00018000620661**. The candidate is
+`data/variants/public_record_refresh_20261029/submission.csv`. This n=130-only
+candidate was retained separately; the combined public-union candidate below
+was later submitted for Kaggle validation.
+
+An additional merge compared the existing audited
+`data/submission.public_union.csv` and the n=130 certificate against the
+pinned public incumbent using `merge_submission.py`'s strict-validity,
+strictly-smaller per-`N` rule. It accepted 59 public-union layouts and the
+n=130 record. Compared with the public incumbent, 60 sizes have a smaller
+side and none regresses by more than `1e-10`. The 500,500-row output passed a
+fresh full audit at **22.287085755423853**, with zero invalid puzzles and zero
+errors. The candidate at
+`data/variants/public_union_refresh_20261029/submission.csv` was submitted to
+Kaggle and completed with public score **22.2870857554**.
 
 A stronger follow-up needs explicit wall-time caps per method and additional
 seed replicates. If a routing rule by size band is proposed, hold contiguous
@@ -194,7 +309,26 @@ faster repair kernel is available.
 ## Artifact and audit policy
 
 Every completed output retains its CSV, sidecar provenance, method metadata,
-and JSON audit report under `data/variants/`. No new candidate was promoted,
-submitted, or used to overwrite the incumbent. Public submission history and
-scores remain in `data/variants/kaggle_submission_results.md`.
+and JSON audit report under `data/variants/`. The n=130-only candidate remains
+separate at `data/variants/public_record_refresh_20261029/submission.csv`. The
+combined public-union candidate was validated on Kaggle and its result is
+recorded in `data/variants/kaggle_submission_results.md`.
+
+## Current certified-row screen (2026-10-29)
+
+The current report-order rows from Mishapolk's certificate registry were
+screened against the best local candidate. The source manifest and census are
+pinned by SHA-256 in
+[issue #732](https://github.com/jlevy/squares/issues/732), and the later
+[issue #742 intake](https://github.com/jlevy/squares/pull/742) identifies 77
+current rows through `N=995`. Comparing their declared exact side lengths to
+the serialized candidate's locally measured sides found no row that could
+pass the merge gate's strict `1e-12` improvement threshold. No layouts were
+changed. The screen details are retained at
+`data/variants/mishapolk_registry_screen_20261029/registry_screen.json`.
+
+The full candidate was freshly audited at **22.287085755423853** with zero
+invalid puzzles and zero errors, then marked Complete by Kaggle at public score
+**22.2870857554**. The uploaded file hash in the submission description
+matched the local CSV.
 

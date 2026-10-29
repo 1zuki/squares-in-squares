@@ -219,20 +219,25 @@ def beam_repair(p: np.ndarray, rng: np.random.Generator, width: int, depth: int,
 
 def island_search(p: np.ndarray, rng: np.random.Generator, islands: int, generations: int, repair_steps: int):
     base = normalize(p)
-    base_side = side(base)
-    population = []
-    for island in range(islands):
+    base_valid, base_message, base_side = validate_packing(base.tolist(), gap=1e-12)
+    if not base_valid:
+        raise ValueError(f"island search requires a valid seed: {base_message}")
+    population = [(base.copy(), base_side, "incumbent")]
+    records = []
+    for island in range(max(0, islands - 1)):
         q = base.copy()
         q[:, :2] += rng.normal(0, 0.03 + 0.015 * island, q[:, :2].shape)
         q[:, 2] += rng.normal(0, 0.025 + 0.01 * island, len(q))
-        repaired, _ = relax_fixed_l(q, base_side, steps=repair_steps, rho=0.04)
-        population.append((repaired, side(repaired), f"island-{island}"))
-    records = []
+        repaired, repair_record = relax_fixed_l(q, base_side, steps=repair_steps, rho=0.04)
+        valid, message, checked = validate_packing(repaired.tolist(), gap=1e-12)
+        records.append({"stage": "initial", "island": island, **repair_record, "valid": valid, "message": message, "side": checked})
+        if valid:
+            population.append((repaired, checked, f"island-{island}"))
     for generation in range(generations):
         population.sort(key=lambda item: (item[1], item[2]))
         elites = population[: max(1, islands // 2)]
         next_pop = list(elites)
-        for island in range(islands - len(next_pop)):
+        for island in range(max(0, islands - len(next_pop))):
             parent, parent_side, label = elites[island % len(elites)]
             q = parent.copy()
             group = np.argsort(((q[:, :2] - q[:, :2].mean(axis=0)) ** 2).sum(axis=1), kind="stable")[: min(len(q), 4 + generation % 8)]
@@ -245,18 +250,30 @@ def island_search(p: np.ndarray, rng: np.random.Generator, islands: int, generat
             records.append({"generation": generation, "parent": label, **repair_record, "valid": valid, "message": message, "side": checked})
         population = next_pop
     best, best_side, _ = min(population, key=lambda item: (item[1], item[2]))
-    return best, {"input_side": base_side, "output_side": best_side, "records": records, "population": len(population)}
+    returned_valid, returned_message, returned_side = validate_packing(best.tolist(), gap=1e-12)
+    if not returned_valid:
+        best, returned_side = base.copy(), base_side
+        returned_valid, returned_message, _ = validate_packing(best.tolist(), gap=1e-12)
+    return best, {
+        "input_side": base_side,
+        "output_side": returned_side,
+        "records": records,
+        "population": len(population),
+        "returned_valid": returned_valid,
+        "returned_message": returned_message,
+    }
 
 
 def soft_replica(p: np.ndarray, rng: np.random.Generator, replicas: int, generations: int, repair_steps: int):
     base = normalize(p)
-    base_side = side(base)
-    states = []
-    for replica in range(replicas):
-        q = base.copy()
-        q[:, :2] += rng.normal(0, 0.025 + 0.02 * replica, q[:, :2].shape)
-        q[:, 2] += rng.normal(0, 0.02 + 0.02 * replica, len(q))
-        states.append((q, base_side + 0.03 * replica))
+    base_valid, base_message, base_side = validate_packing(base.tolist(), gap=1e-12)
+    if not base_valid:
+        raise ValueError(f"soft replica search requires a valid seed: {base_message}")
+    best = base.copy()
+    best_side = base_side
+    # Every replica begins at a certified state; infeasible proposals never
+    # replace a replica state or become eligible for the returned candidate.
+    states = [(base.copy(), base_side + 0.03 * replica) for replica in range(replicas)]
     records = []
     for generation in range(generations):
         temperature = 1.0 - generation / max(1, generations)
@@ -268,13 +285,29 @@ def soft_replica(p: np.ndarray, rng: np.random.Generator, replicas: int, generat
             repaired, repair_record = relax_fixed_l(q, container, steps=repair_steps, rho=0.05)
             value = placement_penalty(repaired, container=container, target_angle=target) + prior * placement_penalty(repaired, container=container)
             valid, message, checked = validate_packing(repaired.tolist(), gap=1e-12)
-            states[replica] = (repaired, max(base_side, checked))
-            records.append({"generation": generation, "replica": replica, "temperature": temperature, "value": value, **repair_record, "valid": valid, "message": message, "side": checked})
+            state_updated = False
+            best_updated = False
+            if valid:
+                states[replica] = (repaired, max(base_side, checked))
+                state_updated = True
+                if checked < best_side - EPS:
+                    best, best_side = repaired.copy(), checked
+                    best_updated = True
+            records.append({"generation": generation, "replica": replica, "temperature": temperature, "value": value, **repair_record, "valid": valid, "message": message, "side": checked, "state_updated": state_updated, "best_updated": best_updated})
         if len(states) >= 2 and generation % 2 == 1:
             states[0], states[1] = states[1], states[0]
-    candidates = [(q, side(q)) for q, _ in states]
-    best, best_side = min(candidates, key=lambda item: item[1])
-    return best, {"input_side": base_side, "output_side": best_side, "records": records, "replicas": replicas}
+    returned_valid, returned_message, returned_side = validate_packing(best.tolist(), gap=1e-12)
+    if not returned_valid:
+        best, returned_side = base.copy(), base_side
+        returned_valid, returned_message, _ = validate_packing(best.tolist(), gap=1e-12)
+    return best, {
+        "input_side": base_side,
+        "output_side": returned_side,
+        "records": records,
+        "replicas": replicas,
+        "returned_valid": returned_valid,
+        "returned_message": returned_message,
+    }
 
 
 def fast_slp(p: np.ndarray, trials: int, repair_steps: int):

@@ -1,0 +1,4143 @@
+{
+  "experiment": "per-N algorithm tournament",
+  "input": "data/variants/public_record_refresh_20261029/submission.csv",
+  "input_sha256": "3968c9ecdcaad4e1f18a3175eaa183c9c57754146fd0a078afc61b307a46e74d",
+  "code_hashes": {
+    "per_n_tournament.py": "03e0c21aef2e1ec679c9dc519642e4cce781fe5a05b6aaea7be63171f3de0142",
+    "eight_ideas.py": "eda35da5aa2c32f5628342c0d745de2bf4b597139dd7cb8616edd0b3af113ea7",
+    "search_kernels.py": "ee344618ccfbefdb64f51a5b8b42f03103d77a534875be217d0934070255e98d",
+    "slp_submission.py": "07949db1550237f23dec64347196060ceca7062244d52089759327f6aa4d1478",
+    "build_submission.py": "4348c6aae65b2b8be7d024d21123ffba39422d473309462b6ed79e6e0440bc85",
+    "topology_search.py": "c8e08302eb978c298f97cbfea67aa86b64029da657ef8d0e2f4401bfdcd058c9",
+    "geometry.py": "bdda70876edb6aa5ae54c0e9f0cba5e61a644667da1883b4bc6788ceafcffea2"
+  },
+  "targets": [
+    802,
+    857,
+    919,
+    983,
+    1000
+  ],
+  "methods": [
+    "fixed_container",
+    "buffered_lns",
+    "separator_flip",
+    "strip_construction",
+    "beam_repair",
+    "island",
+    "soft_replica",
+    "fast_slp"
+  ],
+  "seed": 202610293,
+  "budgets": {
+    "trials": 4,
+    "repair_steps": 8,
+    "beam_width": 5,
+    "beam_depth": 3,
+    "islands": 4,
+    "generations": 4,
+    "replicas": 4
+  },
+  "selection_rule": "Keep the smallest exact-valid side per N; incumbent wins ties and invalid candidates.",
+  "results": {
+    "802": {
+      "fixed_container": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.585896086999128,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "trial": 0,
+              "container": 28.804719028190267,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.000416680054408543,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=2.873e-09",
+              "side": 28.807219028190268,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "container": 28.80221902819027,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.0651667210094393,
+              "valid": false,
+              "message": "pair 5,6 separation -8.629e-03",
+              "side": 28.95332596406627,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "container": 28.799719028190268,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 5.119096465065315,
+              "valid": false,
+              "message": "pair 0,1 separation -5.136e-02",
+              "side": 29.004372779303353,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "container": 28.797219028190266,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 7.404272268807673,
+              "valid": false,
+              "message": "pair 0,6 separation -5.006e-02",
+              "side": 28.983211708769694,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "buffered_lns": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.811134763000155,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "trial": 0,
+              "patch_size": 3,
+              "buffer_size": 11,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.25672046487485994,
+              "valid": false,
+              "message": "pair 1,6 separation -3.046e-03",
+              "side": 28.846127199191155,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "patch_size": 4,
+              "buffer_size": 12,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.336626748437652,
+              "valid": false,
+              "message": "pair 0,1 separation -2.073e-02",
+              "side": 28.851555673712554,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "patch_size": 5,
+              "buffer_size": 13,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.2691134623767228,
+              "valid": false,
+              "message": "pair 0,5 separation -2.018e-03",
+              "side": 28.8779434531031,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "patch_size": 6,
+              "buffer_size": 14,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5049740360753591,
+              "valid": false,
+              "message": "pair 1,6 separation -1.174e-02",
+              "side": 28.86902475193986,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "separator_flip": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.340428018000239,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "tied_pairs": 4683,
+          "records": [
+            {
+              "trial": 0,
+              "pair": [
+                0,
+                1
+              ],
+              "tied_count": 4683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.22035695640703296,
+              "valid": false,
+              "message": "pair 1,6 separation -4.693e-02",
+              "side": 28.858993652076023,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "pair": [
+                0,
+                2
+              ],
+              "tied_count": 4683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.2405673162017759,
+              "valid": false,
+              "message": "pair 0,1 separation -2.415e-02",
+              "side": 28.8715733044442,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "pair": [
+                0,
+                5
+              ],
+              "tied_count": 4683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.1479014311095966,
+              "valid": false,
+              "message": "pair 0,1 separation -5.939e-02",
+              "side": 28.86188453439239,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "pair": [
+                0,
+                6
+              ],
+              "tied_count": 4683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11613072041014436,
+              "valid": false,
+              "message": "pair 0,1 separation -7.185e-02",
+              "side": 28.853105586819467,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "strip_construction": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 0.6000838809995912,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "width": 1,
+              "declared_count": 837,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 29.0
+            },
+            {
+              "width": 2,
+              "declared_count": 806,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 28.914213565372744
+            },
+            {
+              "width": 3,
+              "declared_count": 837,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 29.0
+            },
+            {
+              "width": 4,
+              "declared_count": 802,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-7.105e-15",
+              "side": 28.991378031648242
+            },
+            {
+              "width": 5,
+              "declared_count": 837,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 29.0
+            },
+            {
+              "width": 6,
+              "declared_count": 837,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 29.0
+            },
+            {
+              "width": 7,
+              "declared_count": 805,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-7.105e-15",
+              "side": 28.94974747130541
+            },
+            {
+              "width": 8,
+              "declared_count": 837,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 29.0
+            }
+          ]
+        }
+      },
+      "beam_repair": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 8.244093747000079,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "level": 0,
+              "branch": 0,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.050074088647257986,
+              "valid": false,
+              "message": "pair 702,703 separation -3.595e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "level": 0,
+              "branch": 1,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.10531117268695316,
+              "valid": false,
+              "message": "pair 586,595 separation -1.483e-01",
+              "side": 28.807219028190268
+            },
+            {
+              "level": 0,
+              "branch": 2,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06855989317145285,
+              "valid": false,
+              "message": "pair 44,49 separation -3.162e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "level": 0,
+              "branch": 3,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.1594205306064868,
+              "valid": false,
+              "message": "pair 593,602 separation -5.439e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "level": 0,
+              "branch": 4,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.14015775769993008,
+              "valid": false,
+              "message": "pair 211,790 separation -7.355e-02",
+              "side": 28.807219028190268
+            }
+          ]
+        }
+      },
+      "island": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 23.502051498999208,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "stage": "initial",
+              "island": 0,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.319689368837179,
+              "valid": false,
+              "message": "pair 2,7 separation -1.129e-01",
+              "side": 28.967720645073516
+            },
+            {
+              "stage": "initial",
+              "island": 1,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 6.926948566604276,
+              "valid": false,
+              "message": "pair 0,1 separation -4.805e-03",
+              "side": 29.016655032997246
+            },
+            {
+              "stage": "initial",
+              "island": 2,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 11.617258059613302,
+              "valid": false,
+              "message": "pair 0,1 separation -1.049e-01",
+              "side": 29.122880751395527
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07686851738879599,
+              "valid": false,
+              "message": "pair 127,151 separation -5.244e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04107070157046008,
+              "valid": false,
+              "message": "pair 127,150 separation -1.009e-01",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06801289795978911,
+              "valid": false,
+              "message": "pair 127,151 separation -5.355e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.061980894621547655,
+              "valid": false,
+              "message": "pair 149,172 separation -4.841e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.046020741281105546,
+              "valid": false,
+              "message": "pair 148,149 separation -3.383e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11870325538286262,
+              "valid": false,
+              "message": "pair 125,149 separation -1.493e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.10006487187988115,
+              "valid": false,
+              "message": "pair 126,127 separation -4.613e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07954871566460947,
+              "valid": false,
+              "message": "pair 104,127 separation -6.624e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.061177987449826284,
+              "valid": false,
+              "message": "pair 104,127 separation -1.959e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0939728711951825,
+              "valid": false,
+              "message": "pair 127,128 separation -8.673e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11360069830344136,
+              "valid": false,
+              "message": "pair 104,127 separation -6.939e-02",
+              "side": 28.807219028190268
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.09512027444312708,
+              "valid": false,
+              "message": "pair 126,127 separation -3.494e-02",
+              "side": 28.807219028190268
+            }
+          ],
+          "population": 1,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=2.873e-09"
+        }
+      },
+      "soft_replica": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 65.1897664900007,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "generation": 0,
+              "replica": 0,
+              "temperature": 1.0,
+              "value": 1.0674200082383467,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.9526263992012408,
+              "valid": false,
+              "message": "pair 0,1 separation -7.882e-03",
+              "side": 28.880561548222072,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 1,
+              "temperature": 1.0,
+              "value": 0.7723212416947016,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7565747758520736,
+              "valid": false,
+              "message": "pair 0,1 separation -9.700e-03",
+              "side": 28.871536547055747,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 2,
+              "temperature": 1.0,
+              "value": 0.7714847114257156,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7558887914568277,
+              "valid": false,
+              "message": "pair 0,1 separation -1.085e-02",
+              "side": 28.876697246021575,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 3,
+              "temperature": 1.0,
+              "value": 0.7508964797557803,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7355665558757818,
+              "valid": false,
+              "message": "pair 0,1 separation -3.211e-02",
+              "side": 28.87395897376154,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 0,
+              "temperature": 0.75,
+              "value": 0.5667920537246628,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5195534525371622,
+              "valid": false,
+              "message": "pair 0,1 separation -1.143e-02",
+              "side": 28.861988278108058,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 1,
+              "temperature": 0.75,
+              "value": 0.4504267454862103,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.4431614377196768,
+              "valid": false,
+              "message": "pair 0,1 separation -1.702e-02",
+              "side": 28.86858327411842,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 2,
+              "temperature": 0.75,
+              "value": 0.00047879396975482173,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 1.9825700070069496e-07,
+              "valid": false,
+              "message": "pair 4,9 separation -1.125e-06",
+              "side": 28.867219028190274,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 3,
+              "temperature": 0.75,
+              "value": 0.000622455917760897,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.2250468646522447e-07,
+              "valid": false,
+              "message": "pair 0,6 separation -1.553e-05",
+              "side": 28.897219028190268,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 0,
+              "temperature": 0.5,
+              "value": 0.0004793664809837289,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 1.1371373278132478e-07,
+              "valid": false,
+              "message": "pair 5,6 separation -1.062e-06",
+              "side": 28.83721902819032,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 1,
+              "temperature": 0.5,
+              "value": 0.257483035500536,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.2543222924036966,
+              "valid": false,
+              "message": "pair 0,1 separation -4.010e-03",
+              "side": 28.838932753725295,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 2,
+              "temperature": 0.5,
+              "value": 0.00047865730108721626,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 1.613860846294106e-07,
+              "valid": false,
+              "message": "pair 2,7 separation -2.834e-10",
+              "side": 28.867219028190274,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 3,
+              "temperature": 0.5,
+              "value": 0.0006194239359291172,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 2.1654661645114565e-07,
+              "valid": false,
+              "message": "pair 2,7 separation -3.130e-05",
+              "side": 28.897219028192932,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 0,
+              "temperature": 0.25,
+              "value": 0.0004795281161630446,
+              "accepted_steps": 5,
+              "lp_attempts": 8,
+              "penalty": 1.0657016088080806e-07,
+              "valid": false,
+              "message": "pair 1,2 separation -2.310e-05",
+              "side": 28.83721902819027,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 1,
+              "temperature": 0.25,
+              "value": 0.07479664495714958,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07381073556862307,
+              "valid": false,
+              "message": "pair 0,1 separation -5.239e-03",
+              "side": 28.82744366842556,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 2,
+              "temperature": 0.25,
+              "value": 0.0004786746625770036,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 2.0180763193882695e-07,
+              "valid": false,
+              "message": "pair 5,6 separation -4.674e-05",
+              "side": 28.867219028189904,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 3,
+              "temperature": 0.25,
+              "value": 0.0006156578187374415,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.3379826529685407e-07,
+              "valid": false,
+              "message": "pair 2,7 separation -2.620e-09",
+              "side": 28.897219028190268,
+              "state_updated": false,
+              "best_updated": false
+            }
+          ],
+          "replicas": 4,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=2.873e-09"
+        }
+      },
+      "fast_slp": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.873e-09",
+        "baseline_side": 28.807219028190268,
+        "candidate_side": 28.807219028190268,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.255552798000281,
+        "details": {
+          "input_side": 28.807219028190268,
+          "output_side": 28.807219028190268,
+          "records": [
+            {
+              "trial": 0,
+              "accepted": 0,
+              "valid": false,
+              "side": 28.88137072372722
+            },
+            {
+              "trial": 1,
+              "accepted": 0,
+              "valid": false,
+              "side": 28.963258324054873
+            },
+            {
+              "trial": 2,
+              "accepted": 0,
+              "valid": false,
+              "side": 29.034213702623852
+            },
+            {
+              "trial": 3,
+              "accepted": 0,
+              "valid": false,
+              "side": 29.03726347301007
+            }
+          ],
+          "broadphase": {
+            "valid": true,
+            "expected": 4978,
+            "observed": 4978,
+            "missing": []
+          }
+        }
+      }
+    },
+    "857": {
+      "fixed_container": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.11677714400139,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "trial": 0,
+              "container": 29.77304968401262,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0006412925960359632,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=5.000e-11",
+              "side": 29.77554968401262,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "container": 29.77054968401262,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.0179573520980254,
+              "valid": false,
+              "message": "pair 0,2 separation -3.778e-02",
+              "side": 29.92800812042322,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "container": 29.76804968401262,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 5.84101223301927,
+              "valid": false,
+              "message": "pair 0,2 separation -6.290e-02",
+              "side": 29.983102118261456,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "container": 29.76554968401262,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 8.483164864469364,
+              "valid": false,
+              "message": "pair 0,2 separation -3.060e-02",
+              "side": 30.015206224542435,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "buffered_lns": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.313778494999497,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "trial": 0,
+              "patch_size": 3,
+              "buffer_size": 11,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.4924920038009821,
+              "valid": false,
+              "message": "pair 0,2 separation -8.524e-03",
+              "side": 29.981456501188813,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "patch_size": 4,
+              "buffer_size": 12,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.25847218911721137,
+              "valid": false,
+              "message": "pair 1,3 separation -1.788e-02",
+              "side": 29.813584632750047,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "patch_size": 5,
+              "buffer_size": 13,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.29372624909765555,
+              "valid": false,
+              "message": "pair 0,2 separation -7.238e-03",
+              "side": 29.821671178770476,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "patch_size": 6,
+              "buffer_size": 14,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.31262391892987057,
+              "valid": false,
+              "message": "pair 2,3 separation -1.329e-02",
+              "side": 29.823887724972472,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "separator_flip": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.026332885998272,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "tied_pairs": 4962,
+          "records": [
+            {
+              "trial": 0,
+              "pair": [
+                0,
+                1
+              ],
+              "tied_count": 4962,
+              "accepted_steps": 0,
+              "lp_attempts": 2,
+              "penalty": 0.06222777943367111,
+              "valid": false,
+              "message": "pair 0,2 separation -4.130e-02",
+              "side": 29.808508553516205,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "pair": [
+                0,
+                2
+              ],
+              "tied_count": 4962,
+              "accepted_steps": 0,
+              "lp_attempts": 1,
+              "penalty": 0.02534836633322049,
+              "valid": false,
+              "message": "pair 0,2 separation -5.216e-02",
+              "side": 29.834689791830705,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "pair": [
+                0,
+                3
+              ],
+              "tied_count": 4962,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.15858429141667477,
+              "valid": false,
+              "message": "pair 0,2 separation -6.098e-03",
+              "side": 29.827615588708987,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "pair": [
+                0,
+                4
+              ],
+              "tied_count": 4962,
+              "accepted_steps": 0,
+              "lp_attempts": 1,
+              "penalty": 0.09894177913169362,
+              "valid": false,
+              "message": "pair 0,2 separation -2.557e-02",
+              "side": 29.817477056929327,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "strip_construction": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 0.5469788689988491,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "width": 1,
+              "declared_count": 896,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 30.0
+            },
+            {
+              "width": 2,
+              "declared_count": 864,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-1.776e-15",
+              "side": 29.914213565372602
+            },
+            {
+              "width": 3,
+              "declared_count": 896,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 30.0
+            },
+            {
+              "width": 4,
+              "declared_count": 858,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-7.105e-15",
+              "side": 29.828427127745716
+            },
+            {
+              "width": 5,
+              "declared_count": 896,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 30.0
+            },
+            {
+              "width": 6,
+              "declared_count": 857,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-7.105e-15",
+              "side": 29.995689017323773
+            },
+            {
+              "width": 7,
+              "declared_count": 864,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 29.949747471305404
+            },
+            {
+              "width": 8,
+              "declared_count": 896,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 30.0
+            }
+          ]
+        }
+      },
+      "beam_repair": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.982337208000899,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "level": 0,
+              "branch": 0,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.025947311143867592,
+              "valid": false,
+              "message": "pair 833,855 separation -1.418e-02",
+              "side": 29.798120633717307
+            },
+            {
+              "level": 0,
+              "branch": 1,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.12864032124377284,
+              "valid": false,
+              "message": "pair 252,259 separation -1.205e-01",
+              "side": 29.77554968401262
+            },
+            {
+              "level": 0,
+              "branch": 2,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06523511735219094,
+              "valid": false,
+              "message": "pair 609,630 separation -6.110e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "level": 0,
+              "branch": 3,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0836311971059249,
+              "valid": false,
+              "message": "pair 574,575 separation -5.961e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "level": 0,
+              "branch": 4,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.12856036940932017,
+              "valid": false,
+              "message": "pair 462,483 separation -7.725e-02",
+              "side": 29.77554968401262
+            }
+          ]
+        }
+      },
+      "island": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 23.990865748999568,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "stage": "initial",
+              "island": 0,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.1714739224492767,
+              "valid": false,
+              "message": "pair 0,2 separation -6.610e-02",
+              "side": 29.964977994354253
+            },
+            {
+              "stage": "initial",
+              "island": 1,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 6.913189492044821,
+              "valid": false,
+              "message": "pair 0,2 separation -2.397e-03",
+              "side": 29.975291046908673
+            },
+            {
+              "stage": "initial",
+              "island": 2,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 12.07382296510327,
+              "valid": false,
+              "message": "pair 0,3 separation -2.019e-02",
+              "side": 30.081745265053172
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.12526293381144543,
+              "valid": false,
+              "message": "pair 505,527 separation -2.990e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.02883793760129836,
+              "valid": false,
+              "message": "pair 505,526 separation -6.551e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.014583060680126643,
+              "valid": false,
+              "message": "pair 505,526 separation -5.007e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06921128863524564,
+              "valid": false,
+              "message": "pair 506,527 separation -6.794e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0895888243934631,
+              "valid": false,
+              "message": "pair 505,526 separation -1.007e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.05502369561933297,
+              "valid": false,
+              "message": "pair 505,526 separation -7.676e-03",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06468698225886357,
+              "valid": false,
+              "message": "pair 525,526 separation -3.962e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06880448268402244,
+              "valid": false,
+              "message": "pair 505,526 separation -3.771e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.15529554647223665,
+              "valid": false,
+              "message": "pair 505,526 separation -1.771e-01",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08089307471216646,
+              "valid": false,
+              "message": "pair 505,526 separation -2.953e-02",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08415002626174795,
+              "valid": false,
+              "message": "pair 505,526 separation -1.434e-01",
+              "side": 29.77554968401262
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.12474171147147152,
+              "valid": false,
+              "message": "pair 504,526 separation -3.399e-02",
+              "side": 29.77554968401262
+            }
+          ],
+          "population": 1,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=5.000e-11"
+        }
+      },
+      "soft_replica": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 70.74519094300013,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "generation": 0,
+              "replica": 0,
+              "temperature": 1.0,
+              "value": 0.8930291104728943,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7970396007581951,
+              "valid": false,
+              "message": "pair 0,2 separation -1.249e-02",
+              "side": 29.845420921087094,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 1,
+              "temperature": 1.0,
+              "value": 0.6911517626870519,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.6771508786105784,
+              "valid": false,
+              "message": "pair 0,2 separation -2.213e-02",
+              "side": 29.844665028092,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 2,
+              "temperature": 1.0,
+              "value": 0.8085432137236969,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7923505666070022,
+              "valid": false,
+              "message": "pair 0,2 separation -2.476e-02",
+              "side": 29.841549728609643,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 3,
+              "temperature": 1.0,
+              "value": 0.7759287273797211,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7602652337980335,
+              "valid": false,
+              "message": "pair 0,2 separation -1.903e-02",
+              "side": 29.846492019520987,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 0,
+              "temperature": 0.75,
+              "value": 0.5926014025380242,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5433537882930164,
+              "valid": false,
+              "message": "pair 0,2 separation -2.271e-02",
+              "side": 29.83361372763838,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 1,
+              "temperature": 0.75,
+              "value": 0.43855621358195157,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.43162325877024055,
+              "valid": false,
+              "message": "pair 0,2 separation -1.827e-02",
+              "side": 29.83281991153523,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 2,
+              "temperature": 0.75,
+              "value": 0.00034449783237190635,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 1.7311515792048702e-07,
+              "valid": false,
+              "message": "pair 0,2 separation -3.015e-06",
+              "side": 29.835549684012626,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 3,
+              "temperature": 0.75,
+              "value": 0.0004545426138369666,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.683083036745408e-07,
+              "valid": false,
+              "message": "pair 7,8 separation -2.389e-05",
+              "side": 29.865549684621467,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 0,
+              "temperature": 0.5,
+              "value": 0.0003458662511542181,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 1.2117309696513094e-07,
+              "valid": false,
+              "message": "pair 1,3 separation -1.275e-05",
+              "side": 29.805549684012625,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 1,
+              "temperature": 0.5,
+              "value": 0.27887123872751357,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.2756562424622143,
+              "valid": false,
+              "message": "pair 0,2 separation -1.989e-02",
+              "side": 29.820845048157683,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 2,
+              "temperature": 0.5,
+              "value": 0.0003437028283379973,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 2.0649187367062815e-07,
+              "valid": false,
+              "message": "pair 7,8 separation -1.239e-05",
+              "side": 29.83554968401262,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 3,
+              "temperature": 0.5,
+              "value": 0.00045291999213845546,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.3794698823333313e-07,
+              "valid": false,
+              "message": "pair 7,8 separation -1.128e-05",
+              "side": 29.865549684012628,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 0,
+              "temperature": 0.25,
+              "value": 0.00034583845675921753,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 1.700812602625483e-07,
+              "valid": false,
+              "message": "pair 3,4 separation -2.867e-07",
+              "side": 29.80554968401262,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 1,
+              "temperature": 0.25,
+              "value": 0.08520150970421315,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08432227769434399,
+              "valid": false,
+              "message": "pair 0,2 separation -2.530e-03",
+              "side": 29.80161946187996,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 2,
+              "temperature": 0.25,
+              "value": 0.00034404220621647946,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 5.379278149818651e-07,
+              "valid": false,
+              "message": "pair 7,8 separation -3.079e-06",
+              "side": 29.835549684024905,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 3,
+              "temperature": 0.25,
+              "value": 0.00045530903714380793,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 2.300673322748767e-07,
+              "valid": false,
+              "message": "pair 7,8 separation -5.230e-05",
+              "side": 29.865549680188295,
+              "state_updated": false,
+              "best_updated": false
+            }
+          ],
+          "replicas": 4,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=5.000e-11"
+        }
+      },
+      "fast_slp": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=5.000e-11",
+        "baseline_side": 29.77554968401262,
+        "candidate_side": 29.77554968401262,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.561620855998626,
+        "details": {
+          "input_side": 29.77554968401262,
+          "output_side": 29.77554968401262,
+          "records": [
+            {
+              "trial": 0,
+              "accepted": 0,
+              "valid": false,
+              "side": 29.874529197016606
+            },
+            {
+              "trial": 1,
+              "accepted": 0,
+              "valid": false,
+              "side": 29.931744607971986
+            },
+            {
+              "trial": 2,
+              "accepted": 0,
+              "valid": false,
+              "side": 29.937435423814886
+            },
+            {
+              "trial": 3,
+              "accepted": 0,
+              "valid": false,
+              "side": 30.051146408148604
+            }
+          ],
+          "broadphase": {
+            "valid": true,
+            "expected": 5346,
+            "observed": 5346,
+            "missing": []
+          }
+        }
+      }
+    },
+    "919": {
+      "fixed_container": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.95460254200043,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "trial": 0,
+              "container": 30.79774012563516,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0006428958136410685,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=2.136e-09",
+              "side": 30.80024012563516,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "container": 30.79524012563516,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.286727660546329,
+              "valid": false,
+              "message": "pair 0,1 separation -5.733e-02",
+              "side": 30.960747957502228,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "container": 30.79274012563516,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 6.0167490129890435,
+              "valid": false,
+              "message": "pair 0,1 separation -8.668e-03",
+              "side": 30.968519678716703,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "container": 30.790240125635158,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 8.533091447918622,
+              "valid": false,
+              "message": "pair 0,2 separation -2.225e-03",
+              "side": 31.024099599544574,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "buffered_lns": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.598233810000238,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "trial": 0,
+              "patch_size": 3,
+              "buffer_size": 11,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.3520357390726774,
+              "valid": false,
+              "message": "pair 0,2 separation -2.229e-02",
+              "side": 30.84617976068314,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "patch_size": 4,
+              "buffer_size": 12,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.3936333888103738,
+              "valid": false,
+              "message": "pair 1,8 separation -2.820e-02",
+              "side": 30.84502194261882,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "patch_size": 5,
+              "buffer_size": 13,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.32914691778302685,
+              "valid": false,
+              "message": "pair 0,1 separation -1.266e-02",
+              "side": 30.852489338955515,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "patch_size": 6,
+              "buffer_size": 14,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.36118275132880995,
+              "valid": false,
+              "message": "pair 0,1 separation -1.440e-02",
+              "side": 30.839813190699388,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "separator_flip": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.88443491200087,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "tied_pairs": 5371,
+          "records": [
+            {
+              "trial": 0,
+              "pair": [
+                0,
+                1
+              ],
+              "tied_count": 5371,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.15868470713747537,
+              "valid": false,
+              "message": "pair 0,1 separation -4.060e-02",
+              "side": 30.85475079345747,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "pair": [
+                0,
+                2
+              ],
+              "tied_count": 5371,
+              "accepted_steps": 0,
+              "lp_attempts": 1,
+              "penalty": 0.014512974817536335,
+              "valid": false,
+              "message": "pair 0,1 separation -3.087e-02",
+              "side": 30.827067763015847,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "pair": [
+                0,
+                3
+              ],
+              "tied_count": 5371,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.14621655009402612,
+              "valid": false,
+              "message": "pair 1,3 separation -8.883e-04",
+              "side": 30.85276231174759,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "pair": [
+                0,
+                4
+              ],
+              "tied_count": 5371,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.01153654326122015,
+              "valid": false,
+              "message": "pair 0,1 separation -3.141e-02",
+              "side": 30.80024012563516,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "strip_construction": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 0.6059507739992114,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "width": 1,
+              "declared_count": 957,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 31.0
+            },
+            {
+              "width": 2,
+              "declared_count": 924,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 30.9142135653727
+            },
+            {
+              "width": 3,
+              "declared_count": 957,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 31.0
+            },
+            {
+              "width": 4,
+              "declared_count": 919,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 30.909902579696965
+            },
+            {
+              "width": 5,
+              "declared_count": 957,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 31.0
+            },
+            {
+              "width": 6,
+              "declared_count": 957,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 31.0
+            },
+            {
+              "width": 7,
+              "declared_count": 924,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 30.949747471305333
+            },
+            {
+              "width": 8,
+              "declared_count": 957,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 31.0
+            }
+          ]
+        }
+      },
+      "beam_repair": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.017706175000058,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "level": 0,
+              "branch": 0,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.038675026387982106,
+              "valid": false,
+              "message": "pair 157,166 separation -1.154e-01",
+              "side": 30.80024012563516
+            },
+            {
+              "level": 0,
+              "branch": 1,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04017718266473842,
+              "valid": false,
+              "message": "pair 630,653 separation -4.150e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "level": 0,
+              "branch": 2,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.05293089334848739,
+              "valid": false,
+              "message": "pair 201,202 separation -4.355e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "level": 0,
+              "branch": 3,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07037750221807257,
+              "valid": false,
+              "message": "pair 315,324 separation -3.583e-02",
+              "side": 30.814799214561095
+            },
+            {
+              "level": 0,
+              "branch": 4,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.14255134517132106,
+              "valid": false,
+              "message": "pair 679,703 separation -9.833e-02",
+              "side": 30.80024012563516
+            }
+          ]
+        }
+      },
+      "island": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 25.804197477000343,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "stage": "initial",
+              "island": 0,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.4143779455328387,
+              "valid": false,
+              "message": "pair 0,1 separation -1.075e-03",
+              "side": 30.945632143770037
+            },
+            {
+              "stage": "initial",
+              "island": 1,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 8.892277430274195,
+              "valid": false,
+              "message": "pair 0,1 separation -1.727e-03",
+              "side": 31.058524020050825
+            },
+            {
+              "stage": "initial",
+              "island": 2,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 13.619264699572653,
+              "valid": false,
+              "message": "pair 0,3 separation -1.536e-02",
+              "side": 31.084790608242912
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.016457420165629753,
+              "valid": false,
+              "message": "pair 534,558 separation -2.711e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.03546573366821468,
+              "valid": false,
+              "message": "pair 536,559 separation -8.629e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.056595426246424226,
+              "valid": false,
+              "message": "pair 534,558 separation -4.436e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06932759414323188,
+              "valid": false,
+              "message": "pair 512,535 separation -5.537e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0805156510520827,
+              "valid": false,
+              "message": "pair 534,535 separation -2.623e-03",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.051857768389212563,
+              "valid": false,
+              "message": "pair 512,535 separation -6.842e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06636409005697866,
+              "valid": false,
+              "message": "pair 534,535 separation -4.663e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.03643321474263706,
+              "valid": false,
+              "message": "pair 534,535 separation -2.169e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08311572407489132,
+              "valid": false,
+              "message": "pair 512,535 separation -1.531e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.1437162688276855,
+              "valid": false,
+              "message": "pair 534,535 separation -3.193e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.09418736619794557,
+              "valid": false,
+              "message": "pair 512,535 separation -1.394e-02",
+              "side": 30.80024012563516
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.10681941107738614,
+              "valid": false,
+              "message": "pair 533,557 separation -1.718e-02",
+              "side": 30.80024012563516
+            }
+          ],
+          "population": 1,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=2.136e-09"
+        }
+      },
+      "soft_replica": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 76.67498212699866,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "generation": 0,
+              "replica": 0,
+              "temperature": 1.0,
+              "value": 1.0431886905119383,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.9313752792642185,
+              "valid": false,
+              "message": "pair 0,1 separation -2.434e-02",
+              "side": 30.87285163267955,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 1,
+              "temperature": 1.0,
+              "value": 0.7834027892495836,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.7674001042419715,
+              "valid": false,
+              "message": "pair 0,1 separation -2.849e-02",
+              "side": 30.87098695170639,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 2,
+              "temperature": 1.0,
+              "value": 0.7794068516190482,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.764077486598103,
+              "valid": false,
+              "message": "pair 0,1 separation -7.069e-03",
+              "side": 30.863877688989014,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 3,
+              "temperature": 1.0,
+              "value": 0.829798130030126,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.812883013391353,
+              "valid": false,
+              "message": "pair 0,1 separation -8.978e-03",
+              "side": 30.881094683396984,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 0,
+              "temperature": 0.75,
+              "value": 0.6631470938052799,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.6083485549451007,
+              "valid": false,
+              "message": "pair 0,1 separation -2.612e-03",
+              "side": 30.85547270459124,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 1,
+              "temperature": 0.75,
+              "value": 0.5161689765293276,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5078946914562272,
+              "valid": false,
+              "message": "pair 0,1 separation -3.534e-04",
+              "side": 30.85881570581305,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 2,
+              "temperature": 0.75,
+              "value": 4.787608126415778e-05,
+              "accepted_steps": 3,
+              "lp_attempts": 8,
+              "penalty": 1.34111832898495e-07,
+              "valid": false,
+              "message": "pair 0,2 separation -4.437e-05",
+              "side": 30.86024012563518,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 3,
+              "temperature": 0.75,
+              "value": 0.0006570671609279853,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.567345609382093e-07,
+              "valid": false,
+              "message": "pair 12,13 separation -1.265e-05",
+              "side": 30.890240125635277,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 0,
+              "temperature": 0.5,
+              "value": 4.711388902258547e-05,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 1.0596312231380926e-07,
+              "valid": false,
+              "message": "pair 6,12 separation -1.639e-06",
+              "side": 30.830240125635164,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 1,
+              "temperature": 0.5,
+              "value": 0.27954213885766754,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.27612535453688986,
+              "valid": false,
+              "message": "pair 0,1 separation -2.991e-03",
+              "side": 30.834700295979808,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 2,
+              "temperature": 0.5,
+              "value": 4.7904497033592365e-05,
+              "accepted_steps": 4,
+              "lp_attempts": 8,
+              "penalty": 1.826013058173636e-07,
+              "valid": false,
+              "message": "pair 8,9 separation -3.220e-05",
+              "side": 30.860240123509026,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 3,
+              "temperature": 0.5,
+              "value": 0.0006626927570340194,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.6944110675090895e-07,
+              "valid": false,
+              "message": "pair 6,12 separation -1.271e-05",
+              "side": 30.89024012563516,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 0,
+              "temperature": 0.25,
+              "value": 4.724418347923458e-05,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 8.277658379935519e-08,
+              "valid": false,
+              "message": "pair 7,8 separation -5.900e-06",
+              "side": 30.830240125635164,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 1,
+              "temperature": 0.25,
+              "value": 0.09267737318688034,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.09156534624107271,
+              "valid": false,
+              "message": "pair 0,1 separation -2.484e-03",
+              "side": 30.823679009738065,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 2,
+              "temperature": 0.25,
+              "value": 4.749503517644203e-05,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 2.18027638579668e-07,
+              "valid": false,
+              "message": "pair 0,2 separation -3.067e-06",
+              "side": 30.86024012563516,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 3,
+              "temperature": 0.25,
+              "value": 0.0006554974148414897,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 2.4848714949926923e-07,
+              "valid": false,
+              "message": "pair 16,17 separation -6.539e-05",
+              "side": 30.890240005574473,
+              "state_updated": false,
+              "best_updated": false
+            }
+          ],
+          "replicas": 4,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=2.136e-09"
+        }
+      },
+      "fast_slp": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=2.136e-09",
+        "baseline_side": 30.80024012563516,
+        "candidate_side": 30.80024012563516,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.34993647400006,
+        "details": {
+          "input_side": 30.80024012563516,
+          "output_side": 30.80024012563516,
+          "records": [
+            {
+              "trial": 0,
+              "accepted": 0,
+              "valid": false,
+              "side": 30.889718038790605
+            },
+            {
+              "trial": 1,
+              "accepted": 0,
+              "valid": false,
+              "side": 30.945771488756705
+            },
+            {
+              "trial": 2,
+              "accepted": 0,
+              "valid": false,
+              "side": 31.048725222108878
+            },
+            {
+              "trial": 3,
+              "accepted": 0,
+              "valid": false,
+              "side": 31.022633149421015
+            }
+          ],
+          "broadphase": {
+            "valid": true,
+            "expected": 5728,
+            "observed": 5728,
+            "missing": []
+          }
+        }
+      }
+    },
+    "983": {
+      "fixed_container": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 11.375027606000003,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "trial": 0,
+              "container": 31.81877679382271,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0006747865683312829,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=3.000e-10",
+              "side": 31.82127679382271,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "container": 31.816276793822713,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.435314901180242,
+              "valid": false,
+              "message": "pair 0,1 separation -1.898e-02",
+              "side": 31.938108870120196,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "container": 31.81377679382271,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 5.942702211944798,
+              "valid": false,
+              "message": "pair 0,1 separation -1.609e-02",
+              "side": 31.987522319005286,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "container": 31.81127679382271,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 11.179378150927977,
+              "valid": false,
+              "message": "pair 1,122 separation -1.210e-01",
+              "side": 32.08022976210791,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "buffered_lns": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 6.995281969999269,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "trial": 0,
+              "patch_size": 3,
+              "buffer_size": 11,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.3000252129758236,
+              "valid": false,
+              "message": "pair 0,1 separation -2.304e-03",
+              "side": 31.85895971586364,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "patch_size": 4,
+              "buffer_size": 12,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.34250651270555293,
+              "valid": false,
+              "message": "pair 0,128 separation -2.873e-02",
+              "side": 31.86728777249002,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "patch_size": 5,
+              "buffer_size": 13,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.9246224561145513,
+              "valid": false,
+              "message": "pair 0,1 separation -2.544e-02",
+              "side": 31.937945837672935,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "patch_size": 6,
+              "buffer_size": 14,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.47865873939647446,
+              "valid": false,
+              "message": "pair 0,1 separation -1.008e-02",
+              "side": 31.932534169338894,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "separator_flip": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 12.567950213999211,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "tied_pairs": 5767,
+          "records": [
+            {
+              "trial": 0,
+              "pair": [
+                0,
+                1
+              ],
+              "tied_count": 5767,
+              "accepted_steps": 0,
+              "lp_attempts": 2,
+              "penalty": 0.010419099621886484,
+              "valid": false,
+              "message": "pair 0,1 separation -7.996e-02",
+              "side": 31.858026235375753,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "pair": [
+                0,
+                2
+              ],
+              "tied_count": 5767,
+              "accepted_steps": 0,
+              "lp_attempts": 1,
+              "penalty": 0.004231871743274128,
+              "valid": false,
+              "message": "pair 0,1 separation -3.940e-02",
+              "side": 31.839895129154947,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "pair": [
+                0,
+                128
+              ],
+              "tied_count": 5767,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.23116958313049493,
+              "valid": false,
+              "message": "pair 0,128 separation -8.670e-02",
+              "side": 31.885733675588305,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "pair": [
+                1,
+                2
+              ],
+              "tied_count": 5767,
+              "accepted_steps": 0,
+              "lp_attempts": 2,
+              "penalty": 0.0037319605438282423,
+              "valid": false,
+              "message": "pair 0,1 separation -1.590e-02",
+              "side": 31.82127679382271,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "strip_construction": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 0.6413575549995585,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "width": 1,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 2,
+              "declared_count": 986,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-7.105e-15",
+              "side": 31.91421356537265
+            },
+            {
+              "width": 3,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 4,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 5,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 6,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 7,
+              "declared_count": 986,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=-3.553e-15",
+              "side": 31.949747471305418
+            },
+            {
+              "width": 8,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            }
+          ]
+        }
+      },
+      "beam_repair": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 10.129253678000168,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "level": 0,
+              "branch": 0,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.022368934828781266,
+              "valid": false,
+              "message": "pair 1,122 separation -3.511e-02",
+              "side": 31.835765281024013
+            },
+            {
+              "level": 0,
+              "branch": 1,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04981099269850704,
+              "valid": false,
+              "message": "pair 502,525 separation -1.105e-01",
+              "side": 31.82127679382271
+            },
+            {
+              "level": 0,
+              "branch": 2,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0723480595640717,
+              "valid": false,
+              "message": "pair 86,92 separation -1.149e-01",
+              "side": 31.82127679382271
+            },
+            {
+              "level": 0,
+              "branch": 3,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.21957584859775778,
+              "valid": false,
+              "message": "pair 741,742 separation -1.866e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "level": 0,
+              "branch": 4,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.17611724873742843,
+              "valid": false,
+              "message": "pair 512,535 separation -1.055e-02",
+              "side": 31.82127679382271
+            }
+          ]
+        }
+      },
+      "island": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 26.52495659699889,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "stage": "initial",
+              "island": 0,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 4.031783435757589,
+              "valid": false,
+              "message": "pair 0,128 separation -1.083e-02",
+              "side": 32.00306030348683
+            },
+            {
+              "stage": "initial",
+              "island": 1,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 8.164321373323354,
+              "valid": false,
+              "message": "pair 0,1 separation -3.225e-02",
+              "side": 32.00395392651011
+            },
+            {
+              "stage": "initial",
+              "island": 2,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 14.671426745125444,
+              "valid": false,
+              "message": "pair 0,1 separation -7.365e-02",
+              "side": 32.12797044278901
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04351098191539762,
+              "valid": false,
+              "message": "pair 597,598 separation -7.749e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.09356641728626017,
+              "valid": false,
+              "message": "pair 575,598 separation -8.487e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.05613974883894863,
+              "valid": false,
+              "message": "pair 575,598 separation -5.664e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06678341313076808,
+              "valid": false,
+              "message": "pair 576,599 separation -5.434e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0797538677465728,
+              "valid": false,
+              "message": "pair 575,598 separation -1.185e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06713710925078703,
+              "valid": false,
+              "message": "pair 575,598 separation -9.054e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11459071734229503,
+              "valid": false,
+              "message": "pair 575,598 separation -4.694e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.05808213684411619,
+              "valid": false,
+              "message": "pair 575,598 separation -5.706e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08033072603631648,
+              "valid": false,
+              "message": "pair 575,598 separation -5.324e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.15438516736686014,
+              "valid": false,
+              "message": "pair 597,598 separation -1.104e-01",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.22730208197103197,
+              "valid": false,
+              "message": "pair 574,598 separation -8.925e-02",
+              "side": 31.82127679382271
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08047302425291185,
+              "valid": false,
+              "message": "pair 575,598 separation -8.455e-02",
+              "side": 31.82127679382271
+            }
+          ],
+          "population": 1,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=3.000e-10"
+        }
+      },
+      "soft_replica": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 79.3161752879987,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "generation": 0,
+              "replica": 0,
+              "temperature": 1.0,
+              "value": 1.1551555372050184,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 1.0310780577934302,
+              "valid": false,
+              "message": "pair 0,1 separation -1.193e-02",
+              "side": 31.888704225485764,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 1,
+              "temperature": 1.0,
+              "value": 0.8971774379761981,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.8791259677616416,
+              "valid": false,
+              "message": "pair 0,1 separation -2.183e-02",
+              "side": 31.894922510939697,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 2,
+              "temperature": 1.0,
+              "value": 0.8912318430420908,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.8734160999513186,
+              "valid": false,
+              "message": "pair 0,1 separation -2.356e-02",
+              "side": 31.884613671882494,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 3,
+              "temperature": 1.0,
+              "value": 0.9608609378352918,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.9415585351551785,
+              "valid": false,
+              "message": "pair 0,128 separation -2.675e-03",
+              "side": 31.88294760165066,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 0,
+              "temperature": 0.75,
+              "value": 0.606920421709718,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5564881373955493,
+              "valid": false,
+              "message": "pair 0,1 separation -1.555e-02",
+              "side": 31.866903404359423,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 1,
+              "temperature": 0.75,
+              "value": 0.5371799246278907,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.528777785567245,
+              "valid": false,
+              "message": "pair 0,1 separation -1.668e-02",
+              "side": 31.863234598402933,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 2,
+              "temperature": 0.75,
+              "value": 0.5837138833753996,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5747449241699976,
+              "valid": false,
+              "message": "pair 0,1 separation -1.494e-02",
+              "side": 31.874028701848207,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 3,
+              "temperature": 0.75,
+              "value": 0.00048054728841438933,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.949245097669068e-07,
+              "valid": false,
+              "message": "pair 122,124 separation -2.116e-06",
+              "side": 31.911276790343127,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 0,
+              "temperature": 0.5,
+              "value": 0.0003451047806804399,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 1.215341087035452e-07,
+              "valid": false,
+              "message": "pair 2,147 separation -2.269e-05",
+              "side": 31.851276793822763,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 1,
+              "temperature": 0.5,
+              "value": 0.29824719544476164,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.29482987743050293,
+              "valid": false,
+              "message": "pair 0,128 separation -3.628e-03",
+              "side": 31.86121902727011,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 2,
+              "temperature": 0.5,
+              "value": 0.00034606590693704527,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 1.750665885269855e-07,
+              "valid": false,
+              "message": "pair 122,128 separation -2.480e-05",
+              "side": 31.881276793822767,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 3,
+              "temperature": 0.5,
+              "value": 0.0004743723832838776,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 2.8843521126558474e-07,
+              "valid": false,
+              "message": "pair 2,147 separation -1.068e-06",
+              "side": 31.91127679382271,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 0,
+              "temperature": 0.25,
+              "value": 0.00034660062877878476,
+              "accepted_steps": 4,
+              "lp_attempts": 8,
+              "penalty": 1.1281380619677204e-07,
+              "valid": false,
+              "message": "pair 122,128 separation -2.009e-05",
+              "side": 31.85127679382376,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 1,
+              "temperature": 0.25,
+              "value": 0.09693079769203437,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.09598154398956224,
+              "valid": false,
+              "message": "pair 0,1 separation -6.281e-03",
+              "side": 31.8445593749585,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 2,
+              "temperature": 0.25,
+              "value": 0.0003453496378631787,
+              "accepted_steps": 7,
+              "lp_attempts": 8,
+              "penalty": 1.8955330756526167e-07,
+              "valid": false,
+              "message": "pair 122,128 separation -1.577e-08",
+              "side": 31.88127679382311,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 3,
+              "temperature": 0.25,
+              "value": 0.0004713355554427441,
+              "accepted_steps": 8,
+              "lp_attempts": 8,
+              "penalty": 2.479641884214215e-07,
+              "valid": false,
+              "message": "pair 122,128 separation -2.464e-05",
+              "side": 31.911276786299453,
+              "state_updated": false,
+              "best_updated": false
+            }
+          ],
+          "replicas": 4,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=3.000e-10"
+        }
+      },
+      "fast_slp": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=3.000e-10",
+        "baseline_side": 31.82127679382271,
+        "candidate_side": 31.82127679382271,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.619676688000254,
+        "details": {
+          "input_side": 31.82127679382271,
+          "output_side": 31.82127679382271,
+          "records": [
+            {
+              "trial": 0,
+              "accepted": 0,
+              "valid": false,
+              "side": 31.920388710972375
+            },
+            {
+              "trial": 1,
+              "accepted": 0,
+              "valid": false,
+              "side": 31.972611600960715
+            },
+            {
+              "trial": 2,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.00709444744657
+            },
+            {
+              "trial": 3,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.05231163183837
+            }
+          ],
+          "broadphase": {
+            "valid": true,
+            "expected": 6108,
+            "observed": 6108,
+            "missing": []
+          }
+        }
+      }
+    },
+    "1000": {
+      "fixed_container": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.91750778000096,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "trial": 0,
+              "container": 31.9975,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0004875000000004988,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "container": 31.995,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.279443623159634,
+              "valid": false,
+              "message": "pair 0,1 separation -5.503e-02",
+              "side": 32.12318051316035,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "container": 31.9925,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 6.587911228140681,
+              "valid": false,
+              "message": "pair 1,33 separation -3.845e-02",
+              "side": 32.18918829752274,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "container": 31.99,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 9.63170544089761,
+              "valid": false,
+              "message": "pair 0,32 separation -1.058e-01",
+              "side": 32.26196357697701,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "buffered_lns": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 7.62602997400063,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "trial": 0,
+              "patch_size": 3,
+              "buffer_size": 11,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.3037672356107241,
+              "valid": false,
+              "message": "pair 32,33 separation -3.656e-04",
+              "side": 32.04569845558967,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "patch_size": 4,
+              "buffer_size": 12,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.4412005188516896,
+              "valid": false,
+              "message": "pair 0,1 separation -4.897e-03",
+              "side": 32.03760829825026,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "patch_size": 5,
+              "buffer_size": 13,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.430494313811441,
+              "valid": false,
+              "message": "pair 0,1 separation -6.065e-05",
+              "side": 32.05252750547456,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "patch_size": 6,
+              "buffer_size": 14,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.5765542712997718,
+              "valid": false,
+              "message": "pair 32,33 separation -3.113e-03",
+              "side": 32.047516761121656,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "separator_flip": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 8.380861817999175,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "tied_pairs": 5683,
+          "records": [
+            {
+              "trial": 0,
+              "pair": [
+                0,
+                1
+              ],
+              "tied_count": 5683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.13836271293942348,
+              "valid": false,
+              "message": "pair 1,33 separation -5.079e-02",
+              "side": 32.055614687847196,
+              "accepted": false
+            },
+            {
+              "trial": 1,
+              "pair": [
+                0,
+                2
+              ],
+              "tied_count": 5683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04507566618191609,
+              "valid": false,
+              "message": "pair 0,1 separation -5.204e-02",
+              "side": 32.04826191175836,
+              "accepted": false
+            },
+            {
+              "trial": 2,
+              "pair": [
+                0,
+                32
+              ],
+              "tied_count": 5683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.24511004044963594,
+              "valid": false,
+              "message": "pair 0,32 separation -9.766e-02",
+              "side": 32.06115555613855,
+              "accepted": false
+            },
+            {
+              "trial": 3,
+              "pair": [
+                0,
+                33
+              ],
+              "tied_count": 5683,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.015518004037706944,
+              "valid": false,
+              "message": "pair 0,1 separation -6.174e-02",
+              "side": 32.00575395778333,
+              "accepted": false
+            }
+          ]
+        }
+      },
+      "strip_construction": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 0.637230673999511,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "width": 1,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 2,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 3,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 4,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 5,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 6,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 7,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            },
+            {
+              "width": 8,
+              "declared_count": 1020,
+              "valid": true,
+              "message": "ok; wall=0.000e+00; pair=0.000e+00",
+              "side": 32.0
+            }
+          ]
+        }
+      },
+      "beam_repair": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 9.587653710999803,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "level": 0,
+              "branch": 0,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.06189173738337864,
+              "valid": false,
+              "message": "pair 560,592 separation -6.941e-02",
+              "side": 32.0
+            },
+            {
+              "level": 0,
+              "branch": 1,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.05118990925199386,
+              "valid": false,
+              "message": "pair 679,712 separation -1.994e-03",
+              "side": 32.0
+            },
+            {
+              "level": 0,
+              "branch": 2,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.1142790059809762,
+              "valid": false,
+              "message": "pair 467,499 separation -1.926e-02",
+              "side": 32.0
+            },
+            {
+              "level": 0,
+              "branch": 3,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07953724918771676,
+              "valid": false,
+              "message": "pair 780,812 separation -5.404e-02",
+              "side": 32.0
+            },
+            {
+              "level": 0,
+              "branch": 4,
+              "parent": "root",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.18205076813719465,
+              "valid": false,
+              "message": "pair 365,397 separation -6.622e-03",
+              "side": 32.0
+            }
+          ]
+        }
+      },
+      "island": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 28.935439213999416,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "stage": "initial",
+              "island": 0,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 3.6514810334403798,
+              "valid": false,
+              "message": "pair 1,33 separation -2.909e-02",
+              "side": 32.12279993858391
+            },
+            {
+              "stage": "initial",
+              "island": 1,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 9.069788106115533,
+              "valid": false,
+              "message": "pair 0,1 separation -5.546e-02",
+              "side": 32.222391563140725
+            },
+            {
+              "stage": "initial",
+              "island": 2,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 14.73469730393456,
+              "valid": false,
+              "message": "pair 0,1 separation -5.632e-02",
+              "side": 32.334711874387104
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04524277657765801,
+              "valid": false,
+              "message": "pair 463,495 separation -1.490e-01",
+              "side": 32.0
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0685765682711913,
+              "valid": false,
+              "message": "pair 464,496 separation -5.949e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 0,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07978570076491487,
+              "valid": false,
+              "message": "pair 464,496 separation -5.127e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.04600568229403116,
+              "valid": false,
+              "message": "pair 430,463 separation -2.598e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.061707077829447586,
+              "valid": false,
+              "message": "pair 462,463 separation -6.820e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 1,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.057303592981652475,
+              "valid": false,
+              "message": "pair 431,463 separation -9.817e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.0675997367917502,
+              "valid": false,
+              "message": "pair 462,463 separation -1.237e-01",
+              "side": 32.0
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.08231210080496179,
+              "valid": false,
+              "message": "pair 432,464 separation -8.549e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 2,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11309108660830405,
+              "valid": false,
+              "message": "pair 431,463 separation -8.560e-03",
+              "side": 32.0
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.1103717175927976,
+              "valid": false,
+              "message": "pair 464,465 separation -1.091e-01",
+              "side": 32.0
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11447969306924391,
+              "valid": false,
+              "message": "pair 431,463 separation -4.968e-02",
+              "side": 32.0
+            },
+            {
+              "generation": 3,
+              "parent": "incumbent",
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.07082478853528179,
+              "valid": false,
+              "message": "pair 462,463 separation -3.044e-02",
+              "side": 32.0
+            }
+          ],
+          "population": 1,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=0.000e+00"
+        }
+      },
+      "soft_replica": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 95.25562611799978,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "generation": 0,
+              "replica": 0,
+              "temperature": 1.0,
+              "value": 1.0936842318588327,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.9765028754027167,
+              "valid": false,
+              "message": "pair 0,1 separation -1.838e-02",
+              "side": 32.06380984446586,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 1,
+              "temperature": 1.0,
+              "value": 1.0779590712507852,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 1.0562152705253263,
+              "valid": false,
+              "message": "pair 0,1 separation -2.465e-02",
+              "side": 32.07101274999987,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 2,
+              "temperature": 1.0,
+              "value": 1.063855025491068,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 1.0429940102325579,
+              "valid": false,
+              "message": "pair 0,1 separation -3.758e-02",
+              "side": 32.082340126225645,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 0,
+              "replica": 3,
+              "temperature": 1.0,
+              "value": 1.0741720604380107,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 1.0525015950929943,
+              "valid": false,
+              "message": "pair 0,1 separation -1.268e-02",
+              "side": 32.07289181730349,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 0,
+              "temperature": 0.75,
+              "value": 0.7252824328163524,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.6653961306129881,
+              "valid": false,
+              "message": "pair 0,1 separation -2.395e-03",
+              "side": 32.04486621914976,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 1,
+              "temperature": 0.75,
+              "value": 0.682267130280407,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.6715743543988981,
+              "valid": false,
+              "message": "pair 0,1 separation -1.839e-02",
+              "side": 32.06383023063557,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 2,
+              "temperature": 0.75,
+              "value": 0.6206883196031882,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.6115149346026746,
+              "valid": false,
+              "message": "pair 0,1 separation -3.506e-02",
+              "side": 32.06302767821319,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 1,
+              "replica": 3,
+              "temperature": 0.75,
+              "value": 0.0006156756778782847,
+              "accepted_steps": 5,
+              "lp_attempts": 8,
+              "penalty": 1.7446670207081892e-07,
+              "valid": false,
+              "message": "pair 3,36 separation -1.639e-06",
+              "side": 32.09,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 0,
+              "temperature": 0.5,
+              "value": 1.9473485554073427e-07,
+              "accepted_steps": 3,
+              "lp_attempts": 8,
+              "penalty": 1.693845914654776e-07,
+              "valid": false,
+              "message": "pair 1,33 separation -9.811e-12",
+              "side": 32.03000000001234,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 1,
+              "temperature": 0.5,
+              "value": 0.3500087883709365,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.3459334707210193,
+              "valid": false,
+              "message": "pair 0,1 separation -2.355e-02",
+              "side": 32.041047741258794,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 2,
+              "temperature": 0.5,
+              "value": 2.6948379613433996e-07,
+              "accepted_steps": 6,
+              "lp_attempts": 8,
+              "penalty": 2.0410500424130058e-07,
+              "valid": false,
+              "message": "pair 0,1 separation -7.581e-06",
+              "side": 32.06000000000002,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 2,
+              "replica": 3,
+              "temperature": 0.5,
+              "value": 0.0006202833024558549,
+              "accepted_steps": 5,
+              "lp_attempts": 8,
+              "penalty": 2.126159071138349e-07,
+              "valid": false,
+              "message": "pair 2,33 separation -2.185e-06",
+              "side": 32.09,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 0,
+              "temperature": 0.25,
+              "value": 1.776754166174716e-07,
+              "accepted_steps": 3,
+              "lp_attempts": 8,
+              "penalty": 1.5693948783026275e-07,
+              "valid": false,
+              "message": "pair 3,35 separation -5.357e-06",
+              "side": 32.030000000000214,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 1,
+              "temperature": 0.25,
+              "value": 0.11517668218100967,
+              "accepted_steps": 0,
+              "lp_attempts": 0,
+              "penalty": 0.11398969268634722,
+              "valid": false,
+              "message": "pair 0,1 separation -1.165e-02",
+              "side": 32.02550362683084,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 2,
+              "temperature": 0.25,
+              "value": 1.8511434976673612e-07,
+              "accepted_steps": 4,
+              "lp_attempts": 8,
+              "penalty": 1.3940297704460302e-07,
+              "valid": false,
+              "message": "pair 0,1 separation -2.315e-05",
+              "side": 32.06,
+              "state_updated": false,
+              "best_updated": false
+            },
+            {
+              "generation": 3,
+              "replica": 3,
+              "temperature": 0.25,
+              "value": 0.0006187764376720016,
+              "accepted_steps": 4,
+              "lp_attempts": 8,
+              "penalty": 1.5581895197878205e-07,
+              "valid": false,
+              "message": "pair 0,1 separation -1.037e-06",
+              "side": 32.08999591731148,
+              "state_updated": false,
+              "best_updated": false
+            }
+          ],
+          "replicas": 4,
+          "returned_valid": true,
+          "returned_message": "ok; wall=0.000e+00; pair=0.000e+00"
+        }
+      },
+      "fast_slp": {
+        "valid": true,
+        "message": "ok; wall=0.000e+00; pair=0.000e+00",
+        "baseline_side": 32.0,
+        "candidate_side": 32.0,
+        "side_gain": 0.0,
+        "score_gain": 0.0,
+        "strict_gain_vs_baseline": false,
+        "selected_for_n": false,
+        "elapsed_seconds": 8.487510065000606,
+        "details": {
+          "input_side": 32.0,
+          "output_side": 32.0,
+          "records": [
+            {
+              "trial": 0,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.133553061900535
+            },
+            {
+              "trial": 1,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.14444101422143
+            },
+            {
+              "trial": 2,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.183536834009914
+            },
+            {
+              "trial": 3,
+              "accepted": 0,
+              "valid": false,
+              "side": 32.26723649377413
+            }
+          ],
+          "broadphase": {
+            "valid": true,
+            "expected": 5683,
+            "observed": 5683,
+            "missing": []
+          }
+        }
+      }
+    }
+  },
+  "winners_by_n": {
+    "802": {
+      "source": "incumbent<-data/variants/public_record_refresh_20261029/submission.csv",
+      "side": 28.807219028190268,
+      "side_gain_vs_incumbent": 0.0
+    },
+    "857": {
+      "source": "incumbent<-data/variants/public_record_refresh_20261029/submission.csv",
+      "side": 29.77554968401262,
+      "side_gain_vs_incumbent": 0.0
+    },
+    "919": {
+      "source": "incumbent<-data/variants/public_record_refresh_20261029/submission.csv",
+      "side": 30.80024012563516,
+      "side_gain_vs_incumbent": 0.0
+    },
+    "983": {
+      "source": "incumbent<-data/variants/public_record_refresh_20261029/submission.csv",
+      "side": 31.82127679382271,
+      "side_gain_vs_incumbent": 0.0
+    },
+    "1000": {
+      "source": "incumbent<-data/variants/public_record_refresh_20261029/submission.csv",
+      "side": 32.0,
+      "side_gain_vs_incumbent": 0.0
+    }
+  },
+  "winner_counts": {
+    "fixed_container": 0,
+    "buffered_lns": 0,
+    "separator_flip": 0,
+    "strip_construction": 0,
+    "beam_repair": 0,
+    "island": 0,
+    "soft_replica": 0,
+    "fast_slp": 0
+  },
+  "strict_improvement_count": 0,
+  "elapsed_seconds": 730.9723413599986
+}

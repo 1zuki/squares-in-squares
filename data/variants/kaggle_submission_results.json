@@ -1,0 +1,106 @@
+{
+  "competition": "squares-in-squares",
+  "checked_utc": "2026-10-29T07:43:40Z",
+  "daily_quota": {
+    "as_of": "2026-10-27",
+    "used": 10,
+    "remaining": 0
+  },
+  "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
+  "submissions": [
+    {
+      "id": null,
+      "variant": "strict per-N public-union refresh + n=130 record",
+      "local_score": 22.287085755423853,
+      "public_score": 22.2870857554,
+      "status": "COMPLETE",
+      "file": "data/variants/public_union_refresh_20261029/submission.csv",
+      "sha256": "a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef",
+      "submitted_at_utc": "2026-10-29T07:01:34Z"
+    },
+    {
+      "id": 57696917,
+      "variant": "public catalogue SVG records + Goebel/diagonal-strip baseline",
+      "local_score": 23.2619312796,
+      "public_score": 23.2619312796,
+      "status": "COMPLETE",
+      "file": "data/submission.records.csv"
+    },
+    {
+      "id": 57697531,
+      "variant": "public rational certificates + catalogue/control",
+      "local_score": 22.3477399461,
+      "public_score": 22.3477399461,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 57700036,
+      "variant": "public neighbour-transfer merged portfolio",
+      "local_score": 22.2872657654,
+      "public_score": 22.2872657654,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 57700085,
+      "variant": "public top-blend whole-layout portfolio",
+      "local_score": 22.2982307206,
+      "public_score": 22.2982307205,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 57700275,
+      "variant": "FTMC/MILP partial-donor portfolio over certificate control",
+      "local_score": 22.3064554966,
+      "public_score": 22.3064554965,
+      "status": "COMPLETE"
+    },
+    {
+      "id": 57700778,
+      "variant": "certificate control + public Fault DP complete layouts",
+      "local_score": 22.3477395501,
+      "public_score": 22.3477395501,
+      "status": "COMPLETE",
+      "file": "data/variants/submission.certificates_plus_fault_dp.csv"
+    },
+    {
+      "id": 57700847,
+      "variant": "certificate control + public CUDA packing-search complete layouts",
+      "local_score": 22.2999958177,
+      "public_score": 22.2999958176,
+      "status": "COMPLETE",
+      "file": "data/variants/submission.certificates_plus_cuda_search.csv"
+    },
+    {
+      "id": 57700871,
+      "variant": "certificate control + public Kirill CPU/CUDA/MPS lab complete layouts",
+      "local_score": 22.2959148948,
+      "public_score": 22.2959148947,
+      "status": "COMPLETE",
+      "file": "data/variants/submission.certificates_plus_kirill_lab.csv"
+    },
+    {
+      "id": 57700885,
+      "variant": "certificate control + public A Square Deal verified packings",
+      "local_score": 22.2972606379,
+      "public_score": 22.2972606378,
+      "status": "COMPLETE",
+      "file": "data/variants/submission.certificates_plus_square_deal.csv"
+    },
+    {
+      "id": 57700902,
+      "variant": "certificate control + public subset-transfer complete layouts",
+      "local_score": 22.3477395292,
+      "public_score": 22.3477395291,
+      "status": "COMPLETE",
+      "file": "data/variants/submission.certificates_plus_subset_transfer.csv"
+    }
+  ],
+  "best_completed_public": {
+    "submission_id": null,
+    "score": 22.2870857554,
+    "local_score": 22.287085755423853,
+    "variant": "strict per-N public-union refresh + n=130 record",
+    "file": "data/variants/public_union_refresh_20261029/submission.csv",
+    "sha256": "a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef"
+  }
+}

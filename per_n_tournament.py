@@ -82,6 +82,7 @@ def main() -> None:
     parser.add_argument("--islands", type=int, default=3)
     parser.add_argument("--generations", type=int, default=2)
     parser.add_argument("--replicas", type=int, default=3)
+    parser.add_argument("--resume", action="store_true", help="resume from the output's per-N checkpoint")
     args = parser.parse_args()
 
     if min(args.trials, args.repair_steps, args.beam_width, args.beam_depth,
@@ -92,6 +93,32 @@ def main() -> None:
 
     targets = parse_targets(args.ns)
     methods = parse_methods(args.methods)
+    input_sha256 = file_sha256(args.input)
+    project_root = Path(__file__).resolve().parent
+    code_hashes = {
+        name: file_sha256(project_root / name)
+        for name in (
+            "per_n_tournament.py",
+            "eight_ideas.py",
+            "search_kernels.py",
+            "slp_submission.py",
+            "build_submission.py",
+            "topology_search.py",
+            "geometry.py",
+        )
+    }
+    budgets = {
+        "trials": args.trials,
+        "repair_steps": args.repair_steps,
+        "beam_width": args.beam_width,
+        "beam_depth": args.beam_depth,
+        "islands": args.islands,
+        "generations": args.generations,
+        "replicas": args.replicas,
+    }
+    checkpoint_path = args.output.with_suffix(args.output.suffix + ".checkpoint.json")
+    if checkpoint_path.exists() and not args.resume:
+        raise FileExistsError(f"checkpoint exists; pass --resume to continue: {checkpoint_path}")
     pinned = read_submission(args.input)
     best_layouts = {n: list(layout) for n, layout in pinned.items()}
     sources = {str(n): f"incumbent<-{args.input}" for n in range(1, 1001)}
@@ -113,9 +140,39 @@ def main() -> None:
         generations=args.generations,
         replicas=args.replicas,
     )
-    started = time.monotonic()
     results: dict[str, dict] = {}
+    elapsed_before = 0.0
+    if args.resume:
+        if not checkpoint_path.is_file():
+            raise FileNotFoundError(f"no tournament checkpoint to resume: {checkpoint_path}")
+        checkpoint = json.loads(checkpoint_path.read_text())
+        expected = {
+            "input_sha256": input_sha256,
+            "code_hashes": code_hashes,
+            "targets": targets,
+            "methods": methods,
+            "seed": args.seed,
+            "budgets": budgets,
+        }
+        for key, value in expected.items():
+            if checkpoint.get(key) != value:
+                raise ValueError(f"checkpoint {key} does not match this run")
+        results = checkpoint["results"]
+        elapsed_before = float(checkpoint.get("elapsed_seconds", 0.0))
+        for raw_n, squares in checkpoint.get("best_layouts_by_n", {}).items():
+            n = int(raw_n)
+            valid, message, checked = validate_packing(squares, gap=1e-12)
+            if not valid:
+                raise ValueError(f"checkpoint n={n} failed validation: {message}")
+            best_layouts[n] = squares
+            best_sides[n] = checked
+            sources[str(n)] = checkpoint["sources_by_n"][str(n)]
+        print(f"resuming {len(results)}/{len(targets)} completed N values", flush=True)
+
+    started = time.monotonic()
     for n in targets:
+        if str(n) in results:
+            continue
         results[str(n)] = {}
         original = np.asarray(pinned[n], dtype=float)
         for method in methods:
@@ -147,6 +204,25 @@ def main() -> None:
                 f"gain={baseline_sides[n] - side:.3e} elapsed={elapsed:.1f}s",
                 flush=True,
             )
+        checkpoint = {
+            "experiment": "per-N algorithm tournament",
+            "input": str(args.input),
+            "input_sha256": input_sha256,
+            "code_hashes": code_hashes,
+            "targets": targets,
+            "methods": methods,
+            "seed": args.seed,
+            "budgets": budgets,
+            "elapsed_seconds": elapsed_before + time.monotonic() - started,
+            "results": results,
+            "best_layouts_by_n": {str(target): best_layouts[target] for target in targets if str(target) in results},
+            "sources_by_n": {str(target): sources[str(target)] for target in targets if str(target) in results},
+        }
+        checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+        temporary_checkpoint = checkpoint_path.with_name(checkpoint_path.name + ".tmp")
+        temporary_checkpoint.write_text(json.dumps(json_safe(checkpoint), indent=2) + "\n")
+        temporary_checkpoint.replace(checkpoint_path)
+        print(f"checkpointed n={n} ({len(results)}/{len(targets)})", flush=True)
 
     winner_counts = {method: 0 for method in methods}
     for n in targets:
@@ -156,19 +232,12 @@ def main() -> None:
     metadata = {
         "experiment": "per-N algorithm tournament",
         "input": str(args.input),
-        "input_sha256": file_sha256(args.input),
+        "input_sha256": input_sha256,
+        "code_hashes": code_hashes,
         "targets": targets,
         "methods": methods,
         "seed": args.seed,
-        "budgets": {
-            "trials": args.trials,
-            "repair_steps": args.repair_steps,
-            "beam_width": args.beam_width,
-            "beam_depth": args.beam_depth,
-            "islands": args.islands,
-            "generations": args.generations,
-            "replicas": args.replicas,
-        },
+        "budgets": budgets,
         "selection_rule": "Keep the smallest exact-valid side per N; incumbent wins ties and invalid candidates.",
         "results": results,
         "winners_by_n": {
@@ -183,11 +252,11 @@ def main() -> None:
         "strict_improvement_count": sum(
             best_sides[n] < baseline_sides[n] - EPS for n in targets
         ),
-        "elapsed_seconds": time.monotonic() - started,
+        "elapsed_seconds": elapsed_before + time.monotonic() - started,
     }
     write_submission(args.output, best_layouts, sources, json_safe(metadata))
     print(
-        f"wrote {args.output}; targets={len(targets)} "
+        f"wrote {args.output}; targets={len(results)}/{len(targets)} "
         f"strict per-N gains={sum(winner_counts.values())} "
         f"elapsed={metadata['elapsed_seconds']:.1f}s",
         flush=True,

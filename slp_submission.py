@@ -71,6 +71,42 @@ def near_pairs(p, radius):
     return list(zip(i.tolist(), j.tolist()))
 
 
+def broadphase_pairs(p, radius=2.2, *, cell_size=None):
+    """Return center pairs within radius using a spatial hash grid."""
+    n = len(p)
+    if n < 2:
+        return []
+    if cell_size is None:
+        cell_size = radius
+    bins = {}
+    for i, (x, y, _angle) in enumerate(p):
+        key = (math.floor(float(x) / cell_size), math.floor(float(y) / cell_size))
+        bins.setdefault(key, []).append(i)
+    pairs = set()
+    r2 = radius * radius
+    reach = math.ceil(radius / cell_size)
+    offsets = [(dx, dy) for dx in range(-reach, reach + 1) for dy in range(-reach, reach + 1)]
+    for key, members in bins.items():
+        for dx, dy in offsets:
+            other = bins.get((key[0] + dx, key[1] + dy), ())
+            for i in members:
+                for j in other:
+                    if i >= j:
+                        continue
+                    delta = p[i, :2] - p[j, :2]
+                    if float(delta @ delta) < r2:
+                        pairs.add((i, j))
+    return sorted(pairs)
+
+
+BROADPHASE_CROSSOVER_N = 800
+
+
+def default_pair_provider(n):
+    """Use vectorized dense pairs for small layouts and hashing for large ones."""
+    return broadphase_pairs if n >= BROADPHASE_CROSSOVER_N else near_pairs
+
+
 def pair_separator(p, i, j, verts):
     best = None
     for owner, other in ((i, j), (j, i)):
@@ -110,10 +146,9 @@ def linear_step(p, L, rho, free_angles, fixed_L=False, pair_provider=None):
                     add([(3 * i + axis, 1.0), (3 * i + 2, derivative), (3 * n, -1.0)], L - value)
 
     # Keep every nearby pair separated by its currently best SAT face.
-    if pair_provider is None:
-        pairs = near_pairs(p, math.sqrt(2.0) + 0.2 + 2.0 * rho)
-    else:
-        pairs = pair_provider(p, math.sqrt(2.0) + 0.2 + 2.0 * rho)
+    radius = math.sqrt(2.0) + 0.2 + 2.0 * rho
+    provider = pair_provider if pair_provider is not None else default_pair_provider(n)
+    pairs = provider(p, radius)
     for i, j in pairs:
         gap, owner, other, axis, angle = pair_separator(p, i, j, verts)
         if gap > NEAR + 3.0 * rho:

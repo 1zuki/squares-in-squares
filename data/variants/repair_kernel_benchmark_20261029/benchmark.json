@@ -1,0 +1,177 @@
+{
+  "method": "matched CPU linear_step timing; near_pairs vs spatial-hash broadphase",
+  "input": "data/public_external/kaggle_neighbour_transfer/submission_merged.csv",
+  "container_slack": 0.25,
+  "rho": 0.04,
+  "repeats_per_path": 5,
+  "results": [
+    {
+      "n": 300,
+      "near_pair_count": 1033,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.12098454700026195,
+        0.12138622100064822,
+        0.12398487899918109,
+        0.12155784800052061,
+        0.12120453399984399
+      ],
+      "spatial_seconds": [
+        0.12277060599990364,
+        0.12216406100014865,
+        0.12842141299915966,
+        0.12480196899923612,
+        0.12093636999998125
+      ],
+      "dense_median_s": 0.12138622100064822,
+      "spatial_median_s": 0.12277060599990364,
+      "spatial_over_dense": 1.0114047952711867
+    },
+    {
+      "n": 600,
+      "near_pair_count": 2125,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.40764924900031474,
+        0.43514172100003634,
+        0.4188808919989242,
+        0.41023951599891006,
+        0.4126546099996631
+      ],
+      "spatial_seconds": [
+        0.4153025630002958,
+        0.4138397380011156,
+        0.40934754200134194,
+        0.4102720379996754,
+        0.41019997200055514
+      ],
+      "dense_median_s": 0.4126546099996631,
+      "spatial_median_s": 0.4102720379996754,
+      "spatial_over_dense": 0.9942262319570605
+    },
+    {
+      "n": 700,
+      "near_pair_count": 2560,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.43986312500055647,
+        0.4594442720008374,
+        0.4287570139986201,
+        0.5594058120004775,
+        0.4240481369997724
+      ],
+      "spatial_seconds": [
+        0.43635542599986366,
+        0.4452065980003681,
+        0.43368175999967207,
+        0.4244761350000772,
+        0.4281674190006015
+      ],
+      "dense_median_s": 0.43986312500055647,
+      "spatial_median_s": 0.43368175999967207,
+      "spatial_over_dense": 0.9859470716012474
+    },
+    {
+      "n": 800,
+      "near_pair_count": 2861,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.4736316430007719,
+        0.5081007950011553,
+        0.5917320709995693,
+        0.5917058979994181,
+        0.5369382870012487
+      ],
+      "spatial_seconds": [
+        0.46223559899954125,
+        0.4718894800007547,
+        0.6009711440001411,
+        0.5722357679987908,
+        0.48854050299996743
+      ],
+      "dense_median_s": 0.5369382870012487,
+      "spatial_median_s": 0.48854050299996743,
+      "spatial_over_dense": 0.9098634141521581
+    },
+    {
+      "n": 900,
+      "near_pair_count": 3422,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.495851429999675,
+        0.46793912099929,
+        0.45422113700078626,
+        0.44984552300047653,
+        0.4501392330003
+      ],
+      "spatial_seconds": [
+        0.448818722001306,
+        0.43726040099863894,
+        0.4358236719999695,
+        0.4351042950002011,
+        0.4522526309992827
+      ],
+      "dense_median_s": 0.45422113700078626,
+      "spatial_median_s": 0.43726040099863894,
+      "spatial_over_dense": 0.9626597385710873
+    },
+    {
+      "n": 983,
+      "near_pair_count": 3551,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.9230142650012567,
+        0.8906082119992789,
+        0.9398387870005536,
+        0.8747203209986765,
+        0.8703734320006333
+      ],
+      "spatial_seconds": [
+        0.8411510819987598,
+        0.8433341439995274,
+        0.8375427840001066,
+        0.8443906449992937,
+        0.8424866540008225
+      ],
+      "dense_median_s": 0.8906082119992789,
+      "spatial_median_s": 0.8424866540008225,
+      "spatial_over_dense": 0.9459677584934559
+    },
+    {
+      "n": 1000,
+      "near_pair_count": 3811,
+      "pair_sets_identical": true,
+      "lp_step_solved": true,
+      "lp_outputs_identical": true,
+      "dense_seconds": [
+        0.7226799740001297,
+        0.6211284839992004,
+        0.5114664739994623,
+        0.5406657009989431,
+        0.5066338679989713
+      ],
+      "spatial_seconds": [
+        0.6376039189999574,
+        0.6854097909999837,
+        0.4989402940009313,
+        0.5027368999999453,
+        0.5022825079995528
+      ],
+      "dense_median_s": 0.5406657009989431,
+      "spatial_median_s": 0.5027368999999453,
+      "spatial_over_dense": 0.9298479616352214
+    }
+  ]
+}

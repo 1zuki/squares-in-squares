@@ -1,0 +1,10 @@
+{
+  "candidate_file": "candidates/public_union.json",
+  "source_file": "data/submission.public_union.csv",
+  "source_sha256": "2705f458eda8ccf2411e6006a92b2326c68a278d156e91db86c4874fc5ee5dff",
+  "source_audit": "data/submission.public_union.audit.json",
+  "source_score": 22.287265762279475,
+  "rows": 500500,
+  "n_values": 1000,
+  "note": "Local candidate portfolio converted from the existing fully audited CSV for merge_submission.py input."
+}
