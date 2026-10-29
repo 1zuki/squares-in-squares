@@ -23,7 +23,7 @@ Lower is better.
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
 | — | Couzo clearance tightening | 547 strict uniform contractions over the Couzo portfolio, all independently gap=0 valid locally | 22.28605090173753 | -0.00000009748564 | local yes / Kaggle no | Kaggle Complete: 26.1695943166; rejected for promotion |
-| — | Positive-clearance re-dilation (prepared) | 276 strict local wins after restoring 1e-12 outward clearance | 22.286050902697255 | -0.00000009652592 | local + high precision / pending | 1,542,866 80-digit near-contact checks, zero negative gaps; ready after Kaggle quota reset |
+| — | Positive-clearance re-dilation (prepared) | 543 strict local wins after restoring 2e-13 outward clearance | 22.286050901929478 | -0.00000009729369 | local + high precision / pending | 1,514,622 80-digit near-contact checks, zero negative gaps; ready after Kaggle quota reset |
 | 1 | Couzo full-catalogue refresh | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
 | 1 | Couzo refreshed-donor transfer beam | 404 targets, 12-size deletion window, 60 refreshed donor layouts | 22.28605099922317 | 0 | yes | No strict gains; exact audited tie |
 | 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
@@ -78,17 +78,16 @@ must retain positive clearance before any retry.
 ### Positive-clearance re-dilation prepared (2026-10-30)
 
 To address that failure mode, I parsed the rejected candidate with high
-precision, applied the existing `merge_submission.normalize` outward factor
-`1 + 1e-12` to every size, and serialized compact float64 decimals. The
-prepared file changes 276 sizes versus Couzo and audits at
-**22.286050902697255**, with zero invalid puzzles/errors and all serialized
-layouts gap=0 valid. Its SHA-256 is
-`359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d`; it is
+precision, applied a `1 + 2e-13` outward dilation to every size, and
+serialized compact float64 decimals. The prepared file changes 543 sizes
+versus Couzo and audits at **22.286050901929478**, with zero invalid
+puzzles/errors and all serialized layouts gap=0 valid. Its SHA-256 is
+`f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9`; it is
 retained at `data/variants/couzo_clearance_redilate_20261030/` and awaits the
 next Kaggle quota window. A full high-precision near-contact audit recomputed
-1,542,866 pairs from the serialized decimal strings at 80-digit precision,
+1,514,622 pairs from the serialized decimal strings at 80-digit precision,
 using an inflated AABB broadphase; it found zero negative gaps, with a minimum
-exact gap of `9.934505195620690280325446970849782735664e-13` at N=795. The
+exact gap of `1.930056432588972304107888791822891981009e-13` at N=447. The
 machine-readable result is in
 `data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json`.
 

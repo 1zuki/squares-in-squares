@@ -68,13 +68,13 @@ The post-Couzo audit-corpus screen found only an older neighbour-transfer
 The final daily slot was spent on clearance tightening, which Kaggle rejected
 by returning 26.1695943166. A positive-clearance re-dilation is prepared locally
 at `data/variants/couzo_clearance_redilate_20261030/submission.csv` with
-score 22.286050902697255 and SHA-256
-359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d. Keep the
+score 22.286050901929478 and SHA-256
+f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9. Keep the
 Couzo refresh as the final auto-selected incumbent and submit the prepared file
 only after the next slot is available. Before upload, a full 80-digit
-near-contact audit recomputed 1,542,866 serialized pairs with an inflated
+near-contact audit recomputed 1,514,622 serialized pairs with an inflated
 broadphase and found zero negative gaps; the minimum exact gap was
-`9.934505195620690280325446970849782735664e-13` at N=795. The detailed result
+`1.930056432588972304107888791822891981009e-13` at N=447. The detailed result
 is retained in
 `data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json`.
 

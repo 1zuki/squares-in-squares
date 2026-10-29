@@ -1,39 +1,39 @@
 {
   "candidate": {
-    "audit_score": 22.286050902697255,
-    "bytes": 29283439,
+    "audit_score": 22.286050901929478,
+    "bytes": 29785707,
     "errors": 0,
     "invalid_puzzles": 0,
-    "measured_gain_vs_couzo": 9.652591614894845e-08,
+    "measured_gain_vs_couzo": -9.729369310207403e-08,
     "path": "data/variants/couzo_clearance_redilate_20261030/submission.csv",
-    "score": 22.286050902697255,
-    "sha256": "359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d",
-    "strict_wins_vs_couzo": 276
+    "score": 22.286050901929478,
+    "sha256": "f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9",
+    "strict_wins_vs_couzo": 543
   },
   "date": "2026-10-30",
   "decision": "READY_AFTER_KAGGLE_QUOTA_RESET; full high-precision near-contact audit clean; do not upload until the daily slot is available.",
   "experiment": "positive-clearance re-dilation of the rejected clearance-tightened candidate",
   "method": {
-    "clearance_factor": "1 + 1e-12",
-    "description": "Parse the rejected candidate at high precision, apply merge_submission.normalize (1e-12 outward dilation) per N, then serialize compact float64 decimals. This restores positive clearance before official verification.",
-    "strict_gate": "audit zero invalid/errors plus serialized gap=0 validation; full 1,000-layout 80-digit mpmath near-contact audit checked 1,542,866 pairs with zero negative gaps (minimum exact gap 9.934505195620690280325446970849782735664e-13)."
+    "clearance_factor": "1 + 2e-13",
+    "description": "Parse the rejected candidate at high precision, apply a 2e-13 outward dilation per N, then serialize compact float64 decimals. This keeps the 547-layout local gain portfolio while restoring positive clearance.",
+    "strict_gate": "audit zero invalid/errors plus serialized gap=0 validation; full 1,000-layout 80-digit mpmath near-contact audit checked 1514622 pairs with zero negative gaps (minimum exact gap 1.930056432588972304107888791822891981009e-13 at N=447)."
   },
   "source": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
   "source_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119",
   "high_precision_validation": {
     "file": "data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json",
     "decimal_digits": 80,
-    "float_filter_threshold": 1e-07,
-    "broadphase_inflation": 1e-08,
-    "broadphase_pairs": 1677923,
-    "checked_pairs": 1542866,
+    "float_filter_threshold": 1e-09,
+    "broadphase_inflation": 1e-09,
+    "broadphase_pairs": 1670504,
+    "checked_pairs": 1514622,
     "negative_pair_count": 0,
-    "global_min_exact_gap": "9.934505195620690280325446970849782735664e-13",
-    "global_min_layout": 795,
+    "global_min_exact_gap": "1.930056432588972304107888791822891981009e-13",
+    "global_min_layout": 447,
     "global_min_pair": [
-      734,
-      735
+      324,
+      344
     ],
-    "elapsed_seconds": 58.785986381997645
+    "elapsed_seconds": 53.585677656999906
   }
 }
