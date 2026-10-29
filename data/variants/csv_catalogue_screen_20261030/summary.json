@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "audit_path": "data/variants/couzo_full_refresh_20261030/audit.json",
+    "errors": 0,
+    "invalid_puzzles": 0,
+    "n147_serialized_side": 12.656854249504036,
+    "path": "data/variants/couzo_full_refresh_20261030/submission.csv",
+    "score": 22.28605099922317
+  },
+  "date": "2026-10-30",
+  "decision": "No candidate promoted or uploaded. All rough survivors were inherited N=147 layouts; normalization made each 2.5011104298755527e-12 worse than the already-serialized Couzo row, so the final Kaggle slot remains reserved.",
+  "exact_validation": {
+    "best_delta_vs_serialized_n147": 2.5011104298755527e-12,
+    "best_normalized_n147_side": 12.656854249506537,
+    "rough_candidates_validated": 57,
+    "score_delta_if_promoted": 2.0628811142309015e-13,
+    "strict_vs_serialized_incumbent": 0,
+    "unique_normalized_geometry_hashes": 3,
+    "valid_candidates": 57,
+    "validator": "merge_submission.normalize then geometry.validate_packing"
+  },
+  "experiment": "complete CSV catalogue screen outside retained JSON candidate stores",
+  "scan": {
+    "complete_groups": 72097,
+    "elapsed_s": 123.44316029548645,
+    "files_seen": 103,
+    "malformed_rows": 0,
+    "prefilter": "float64 bounding side < serialized incumbent side - 1e-12",
+    "rough_survivor_n_counts": {
+      "147": 57
+    },
+    "rough_survivors": 57,
+    "skipped_non_submission_csvs": 24,
+    "submission_schema_files": 79
+  }
+}

@@ -457,6 +457,22 @@ gain estimate is zero. The baseline digest, source-file list, and screen
 parameters are retained in
 `data/variants/raw_catalogue_screen_20261030/summary.json`.
 
+### Complete CSV catalogue screen (2026-10-30)
+
+I also streamed every CSV under `data/public_external`, `data/public_records`,
+and `data/variants` with the submission schema, covering 103 files, 79
+submission-shaped files, and 72,097 complete per-`N` groups. A float64
+bounding-side prefilter found 57 rough survivors, all at `N=147`; they are
+serialized copies or inherited variants of the older neighbour-transfer row.
+After `merge_submission.normalize` and independent geometry validation, all 57
+were valid but their best normalized side was
+`12.656854249506537`, which is `2.5011104298755527e-12` larger than the
+Couzo row already serialized in the incumbent (`12.656854249504036`). The
+score change would therefore be a worsening of `2.0628811142309015e-13`. No
+CSV candidate was promoted or uploaded. Scan and exact-validation evidence are
+retained in `data/variants/csv_catalogue_screen_20261030/summary.json`,
+`scan.json`, and `validation.json`.
+
 ### Current-incumbent per-N tournament (2026-10-30)
 
 I reran all eight existing search branches directly from the Couzo refresh on

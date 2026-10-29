@@ -1,0 +1,1003 @@
+{
+  "base_audit": "data/variants/couzo_full_refresh_20261030/audit.json",
+  "base_score": 22.28605099922317,
+  "complete_groups": 72097,
+  "elapsed_s": 123.44316029548645,
+  "files": [
+    {
+      "bad_rows": false,
+      "bytes": 18691501,
+      "groups": 547,
+      "path": "data/public_external/kaggle_cuda_search/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17959538,
+      "groups": 545,
+      "path": "data/public_external/kaggle_ensemble/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17468251,
+      "groups": 543,
+      "path": "data/public_external/kaggle_fault_dp/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 18835981,
+      "groups": 547,
+      "path": "data/public_external/kaggle_ftmc_milp/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24543172,
+      "groups": 1000,
+      "path": "data/public_external/kaggle_kirill_lab/_frozen_v27/inputs/round29/leader/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 18619791,
+      "groups": 547,
+      "path": "data/public_external/kaggle_kirill_lab/_frozen_v27/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 18155432,
+      "groups": 547,
+      "path": "data/public_external/kaggle_kirill_lab/float64_roundtrip.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 18619791,
+      "groups": 547,
+      "path": "data/public_external/kaggle_kirill_lab/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24577237,
+      "groups": 1000,
+      "path": "data/public_external/kaggle_neighbour_transfer/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/public_external/kaggle_neighbour_transfer/submission_merged.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24744025,
+      "groups": 1000,
+      "path": "data/public_external/kaggle_neighbour_transfer/submission_ours.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 18256386,
+      "groups": 547,
+      "path": "data/public_external/kaggle_square_deal/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17845185,
+      "groups": 543,
+      "path": "data/public_external/kaggle_subset_transfer/candidate.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17492574,
+      "groups": 543,
+      "path": "data/public_external/kaggle_subset_transfer/float64_roundtrip.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17845185,
+      "groups": 543,
+      "path": "data/public_external/kaggle_subset_transfer/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17845185,
+      "groups": 543,
+      "path": "data/public_external/kaggle_subset_transfer/work/subset_transfer_enhanced/frozen_enhanced.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 17648326,
+      "groups": 543,
+      "path": "data/public_external/kaggle_subset_transfer/work/subset_transfer_enhanced/frozen_input.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 627585,
+      "groups": 12,
+      "path": "data/public_external/kaggle_subset_transfer/work/subset_transfer_enhanced/patches.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 34956064,
+      "groups": 1000,
+      "path": "data/public_external/kaggle_top_blend/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24650884,
+      "groups": 1000,
+      "path": "data/variants/couzo_full_refresh_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45193699,
+      "groups": 1000,
+      "path": "data/variants/couzo_transfer_beam12_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45193699,
+      "groups": 1000,
+      "path": "data/variants/couzo_transfer_beam_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24638522,
+      "groups": 1000,
+      "path": "data/variants/issue806_n182_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24638411,
+      "groups": 1000,
+      "path": "data/variants/issue819_n344_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24639489,
+      "groups": 1000,
+      "path": "data/variants/issue844_n232_n307_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24641408,
+      "groups": 1000,
+      "path": "data/variants/issue845_n172_204_260_293_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24637248,
+      "groups": 1000,
+      "path": "data/variants/issue846_n299_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24660948,
+      "groups": 1000,
+      "path": "data/variants/mishapolk_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24666481,
+      "groups": 1000,
+      "path": "data/variants/mishapolk_n507_n654_20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45075154,
+      "groups": 1000,
+      "path": "data/variants/per_n_tournament_large_20261029/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/per_n_tournament_seed20261029/smoke.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/per_n_tournament_seed20261029/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/per_n_tournament_seed20261030/smoke.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/per_n_tournament_seed20261030/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575623,
+      "groups": 1000,
+      "path": "data/variants/public_record_refresh_20261029/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24635270,
+      "groups": 1000,
+      "path": "data/variants/public_union_refresh_20261029/submission.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 30049119,
+      "groups": 1000,
+      "path": "data/variants/submission.certificates_plus_cuda_search.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 30066298,
+      "groups": 1000,
+      "path": "data/variants/submission.certificates_plus_fault_dp.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 30112206,
+      "groups": 1000,
+      "path": "data/variants/submission.certificates_plus_kirill_lab.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 30048651,
+      "groups": 1000,
+      "path": "data/variants/submission.certificates_plus_square_deal.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 30078339,
+      "groups": 1000,
+      "path": "data/variants/submission.certificates_plus_subset_transfer.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_beam_repair.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_buffered_lns.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_fast_slp.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_fixed_container.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_island.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_separator_flip.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_beam_repair.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_buffered_lns.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_fast_slp.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_fixed_container.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_island.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_separator_flip.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_soft_replica.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke2_strip_construction.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_beam_repair.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_buffered_lns.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_fast_slp.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_fixed_container.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_island.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_separator_flip.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_soft_replica.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_smoke_strip_construction.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_soft_replica.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.eight_strip_construction.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_all_new.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_cuda_search.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_fault_dp.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_kirill_lab.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_square_deal.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 24575609,
+      "groups": 1000,
+      "path": "data/variants/submission.neighbour_plus_subset_transfer.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.rigid_rotation.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45073540,
+      "groups": 1000,
+      "path": "data/variants/submission.topology_destroy.pilot.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45073540,
+      "groups": 1000,
+      "path": "data/variants/submission.topology_group.pilot.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45073540,
+      "groups": 1000,
+      "path": "data/variants/submission.topology_seam.pilot.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.transfer_beam.smoke.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.transfer_beam.smoke2.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/submission.transfer_public_targets.csv"
+    },
+    {
+      "bad_rows": false,
+      "bytes": 45074915,
+      "groups": 1000,
+      "path": "data/variants/wide_strip_search_20261029/submission.csv"
+    }
+  ],
+  "files_seen": 103,
+  "malformed_rows": 0,
+  "rough": [
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_kirill_lab/_frozen_v27/inputs/round29/leader/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_kirill_lab/_frozen_v27/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_kirill_lab/float64_roundtrip.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_kirill_lab/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_neighbour_transfer/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_neighbour_transfer/submission_merged.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/public_external/kaggle_top_blend/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/issue806_n182_20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/issue819_n344_20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/issue844_n232_n307_20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/issue845_n172_204_260_293_20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/issue846_n299_20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/per_n_tournament_large_20261029/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/per_n_tournament_seed20261029/smoke.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/per_n_tournament_seed20261029/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/per_n_tournament_seed20261030/smoke.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/per_n_tournament_seed20261030/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/public_record_refresh_20261029/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/public_union_refresh_20261029/submission.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_beam_repair.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_buffered_lns.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_fast_slp.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_fixed_container.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_island.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_separator_flip.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_beam_repair.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_buffered_lns.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_fast_slp.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_fixed_container.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_island.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_separator_flip.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_soft_replica.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke2_strip_construction.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_beam_repair.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_buffered_lns.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_fast_slp.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_fixed_container.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_island.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_separator_flip.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_soft_replica.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_smoke_strip_construction.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_soft_replica.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.eight_strip_construction.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_all_new.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_cuda_search.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_fault_dp.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_kirill_lab.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_square_deal.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.neighbour_plus_subset_transfer.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.rigid_rotation.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.topology_destroy.pilot.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.topology_group.pilot.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.topology_seam.pilot.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.transfer_beam.smoke.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.transfer_beam.smoke2.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/submission.transfer_public_targets.csv",
+      "rough_side": 12.65685424949488
+    },
+    {
+      "bad_rows": false,
+      "base_side": 12.656854249504036,
+      "count": 147,
+      "delta": -9.155343150268891e-12,
+      "n": 147,
+      "path": "data/variants/wide_strip_search_20261029/submission.csv",
+      "rough_side": 12.65685424949488
+    }
+  ],
+  "rough_survivors": 57,
+  "schema_files": 79,
+  "skipped_schema": 24,
+  "total_groups": 72097
+}
