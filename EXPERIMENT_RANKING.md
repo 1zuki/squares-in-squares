@@ -388,6 +388,17 @@ at displayed precision with the completed certificate portfolios. The selected
 records, side-by-side comparison, source catalogue digest, and audit are
 retained in the variant directory.
 
+### Final audited-corpus screen (2026-10-30)
+
+After the Couzo refresh completed, I compared every complete zero-error audit
+file already present in the workspace against the new incumbent. The only
+distinct strict per-size replacement was an older neighbour-transfer layout at
+`N=147`; it lowers that side by `9.155343150268891e-12`, but the complete
+merged audit improves the total score by only `7.531752999057062e-13` to
+`22.286050999222418`. This is below the prior strict score gain and produces
+no displayed Kaggle-score change, so the final daily submission slot remains
+unused.
+
 ### Additional certificate screen (2026-10-30)
 
 I compared all 23 rounded-up side bounds in [issue #607](https://github.com/jlevy/squares/issues/607)

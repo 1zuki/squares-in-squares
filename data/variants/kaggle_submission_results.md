@@ -57,6 +57,13 @@ public score 22.2860509992, tying the prior certificate portfolios at
 displayed precision. It strictly improves 60 serialized per-N layouts over the
 Mishapolk N=507/N=654 incumbent. The submitted file hash is
 a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114.
+## Final slot decision
+
+The post-Couzo audit-corpus screen found only an older neighbour-transfer
+`N=147` replacement. Its complete merge score was `22.286050999222418`, a
+`7.531752999057062e-13` gain over the Couzo incumbent, so it was not uploaded.
+One daily Kaggle slot remains reserved for a materially larger audited gain.
+
 ## Audit record
 
 All seven new source portfolios were generated from the public certificate control with imported complete layouts, then serialized and checked by `audit_submission.py`. Each contains all 1,000 puzzle sizes and reports zero invalid puzzles. The source CSVs, converted candidate JSON, merge logs, `.sources.json`, SHA-256 values, and individual JSON audit reports are retained in `data/public_external/` and `data/variants/.`
