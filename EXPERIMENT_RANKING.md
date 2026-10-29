@@ -6,13 +6,13 @@ Date: 2026-10-27
 
 The pinned incumbent is:
 
-`data/public_external/kaggle_neighbour_transfer/submission_merged.csv`
+`data/variants/issue845_n172_204_260_293_20261030/submission.csv`
 
-Its independently audited score is **22.287265765408524**, with zero invalid
-puzzles and zero audit errors. The completed Kaggle ledger reports the same
-public score to the displayed precision, so local audit ranking is a valid
-screen for these deterministic, complete-file experiments. This is evidence of
-score agreement for the finished uploads, not proof that every future search
+Its independently audited score is **22.28639795912737**, with zero invalid
+puzzles and zero audit errors. The previous Kaggle-complete candidate scored
+`22.2868418214`; the issue #845 upload is the current external-validation
+candidate. Local audit ranking is a valid screen for these deterministic,
+complete-file experiments, but it is not proof that every future search
 candidate will reproduce on Kaggle.
 
 ## Ranking
@@ -21,25 +21,24 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | -0.00042394392735 | yes | Kaggle Complete: 22.2868418214 |
-| 2 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | -0.00018865086855 | yes | Kaggle Complete: 22.2870771145 |
-| 3 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
-| 4 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Previous public incumbent |
-| 4 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 4 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 4 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 4 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 4 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
+| 1 | Issue #845 certificates | 66 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, and N=293 replacements | 22.28639795912737 | -0.00086780628115 | yes | Kaggle pending; full audit passed |
+| 2 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | -0.00042394392735 | yes | Kaggle Complete: 22.2868418214 |
+| 3 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | -0.00018865086855 | yes | Kaggle Complete: 22.2870771145 |
+| 4 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
+| 5 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Previous public incumbent |
+| 5 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 5 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 5 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 5 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 5 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
 
 The negative-result experiments tie the previous public incumbent because
 their candidates were rejected and their complete outputs retained its layouts.
-The refreshed portfolio passed Kaggle validation: public score `22.2870857554`,
-compared with the previous best `22.2872657654` (gain `0.00018000998467`). Its
-submission description carried SHA-256
-`a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef`, matching
-the local candidate. The serialized bytes differ for some files because
-experiment writers use different decimal formatting; audits and layout
-comparisons, rather than byte identity, are the comparison gate.
+The issue #845 portfolio is the current audited candidate; its local gain over
+the previous Kaggle-complete result is `0.00044386235380`. The serialized bytes
+differ for some files because experiment writers use different decimal
+formatting; audits and layout comparisons, rather than byte identity, are the
+comparison gate.
 
 ## Eight-branch expansion
 
@@ -277,6 +276,32 @@ CSV at `data/variants/issue806_n182_20261030/submission.csv` has SHA-256
 `7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.
 Kaggle marked it Complete at public score `22.2868418214`, matching the local
 audit to the displayed precision.
+
+### Issue #845 certificate portfolio (2026-10-30)
+
+Public [issue #845](https://github.com/jlevy/squares/issues/845) reports four
+new certificate packings at N=172, 204, 260, and 293. The pinned files from
+[`evand/square-packing` commit `d2d5dd96`](https://github.com/evand/square-packing/commit/d2d5dd96cfdbded476050f8ba8577773a91c6ac1)
+match the published hashes:
+
+| N | Certificate side | SHA-256 |
+|---:|---:|---|
+| 172 | 13.6179356983814154 | `1e16ad2789538610a42ebec7f735d932fdbe8125a7c991801e644b6f072352b9` |
+| 204 | 14.8076274718815796 | `2b371e81d568ad5c4490257dcfdb87cd1e238232bb60bd1ece4844340af0a2c3` |
+| 260 | 16.633982502121884 | `d6d6f45f600f6552416ea3708d8ee04416cfe88820ee4c3c422d8e131d7cdf87` |
+| 293 | 17.633982502122782 | `236bc05f057a28df402c09453f4ccce35d63b518f4f0305419889612f07c42bc` |
+
+All four certificates parsed and passed local geometry validation. A targeted
+strict merge changed only those four sizes relative to the N=182 + N=344
+portfolio; the 500,500-row output passed `audit_submission.py` at
+`22.28639795912737`, with zero invalid puzzles and zero errors. The local gain
+over the previous Kaggle-complete candidate is `0.00044386235380`. The
+candidate is `data/variants/issue845_n172_204_260_293_20261030/submission.csv`
+with SHA-256
+`cf726c180a8e7886ecd94a26fb5a0dd0ffacccc2fb37547764df32e5321c3f49`.
+The source repository is MIT licensed; the Kaggle description records Evan
+Daniel and issue #845 attribution. Kaggle upload status is pending external
+evaluation.
 
 ### Additional certificate screen (2026-10-30)
 

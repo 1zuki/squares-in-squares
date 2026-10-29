@@ -441,6 +441,20 @@ This is an order of information value and reuse, not a commitment to implement e
 - Which finite-size strip/stack parameters matter most after exact boundary losses are included?
 - Which improvements propagate to many `N` and therefore maximize certified total-score gain?
 
+#### Issue #845 certificate portfolio (2026-10-30)
+
+Evan Daniel's [issue #845](https://github.com/jlevy/squares/issues/845) adds
+public certificates for N=172, 204, 260, and 293. The four files were pinned
+to `evand/square-packing` commit `d2d5dd96`, hash-checked against the issue,
+parsed, and independently geometry-validated. Replacing only those four
+layouts in the current N=182 + N=344 portfolio lowered the complete audited
+score to `22.28639795912737` (zero invalid puzzles and errors), a local gain of
+`0.00044386235380`. The candidate is submitted to Kaggle for external
+validation at `data/variants/issue845_n172_204_260_293_20261030/submission.csv`.
+
+This is a public-record import and does not establish global optimality. Keep
+the strict per-N merge and full-file audit gates for future records.
+
 ## Source notes and limits
 
 The detailed source discussions and links are preserved in `a.md`, `b.md`, `c.md`, and `d.md`. Those notes reference, among others, Griffin Casson’s square-packing source, Gensane–Ryckelynck, Friedman’s survey, Kaggle notebooks, soft-to-rigid packing research, and asymptotic tilted-stack constructions. The Santa 2025 comparison uses the [1st-place genetic/GPU-relaxation writeup](https://www.kaggle.com/competitions/santa-2025/writeups/1st-place-genetic-algorithm-and-gpu-relaxation), the [2nd-place SA/ILS/beam-search writeup](https://www.kaggle.com/competitions/santa-2025/writeups/2nd-place-simulated-annealing-iterated-local-sea), the [3rd-place customized Sparrow writeup](https://www.kaggle.com/competitions/santa-2025/writeups/third-place-solution-a-customized-sparrow-algorit), the [4th-place region-replacement writeup](https://www.kaggle.com/competitions/santa-2025/writeups/4th-place-hybrid-packing-with-sparrow-manual-str), and [Cottaar’s released implementation](https://github.com/jcottaar/packing). The released implementation states that it is under CC BY-SA 4.0; direct code reuse should preserve attribution and license obligations. Use the original papers/code for implementation details and verify that links, competition rules, notebook versions, and leaderboard figures are still current before acting on them.

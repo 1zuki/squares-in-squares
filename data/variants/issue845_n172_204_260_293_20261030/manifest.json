@@ -1,0 +1,20 @@
+{
+  "issue": "https://github.com/jlevy/squares/issues/845",
+  "source_repository": "https://github.com/evand/square-packing",
+  "source_commit": "d2d5dd96cfdbded476050f8ba8577773a91c6ac1",
+  "source_license": "MIT",
+  "credit": "Evan Daniel; preserve the per-layout lineage described in issue #845.",
+  "certificates": {
+    "s172_1028.cert": "1e16ad2789538610a42ebec7f735d932fdbe8125a7c991801e644b6f072352b9",
+    "s204_1028.cert": "2b371e81d568ad5c4490257dcfdb87cd1e238232bb60bd1ece4844340af0a2c3",
+    "s260_1028.cert": "d6d6f45f600f6552416ea3708d8ee04416cfe88820ee4c3c422d8e131d7cdf87",
+    "s293_1028.cert": "236bc05f057a28df402c09453f4ccce35d63b518f4f0305419889612f07c42bc"
+  },
+  "screened_n": [
+    172,
+    204,
+    260,
+    293
+  ],
+  "geometry_validation": "all four imported certificate coordinates passed local geometry.validate_packing before merge"
+}
