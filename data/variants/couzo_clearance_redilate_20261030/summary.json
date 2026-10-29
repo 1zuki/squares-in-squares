@@ -1,0 +1,23 @@
+{
+  "candidate": {
+    "audit_score": 22.286050902697255,
+    "bytes": 29283439,
+    "errors": 0,
+    "invalid_puzzles": 0,
+    "measured_gain_vs_couzo": 9.652591614894845e-08,
+    "path": "data/variants/couzo_clearance_redilate_20261030/submission.csv",
+    "score": 22.286050902697255,
+    "sha256": "359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d",
+    "strict_wins_vs_couzo": 276
+  },
+  "date": "2026-10-30",
+  "decision": "READY_AFTER_KAGGLE_QUOTA_RESET; do not upload until the daily slot is available.",
+  "experiment": "positive-clearance re-dilation of the rejected clearance-tightened candidate",
+  "method": {
+    "clearance_factor": "1 + 1e-12",
+    "description": "Parse the rejected candidate at high precision, apply merge_submission.normalize (1e-12 outward dilation) per N, then serialize compact float64 decimals. This restores positive clearance before official verification.",
+    "strict_gate": "audit zero invalid/errors plus serialized gap=0 validation; representative high-precision SAT sample had no negative gaps."
+  },
+  "source": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
+  "source_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119"
+}

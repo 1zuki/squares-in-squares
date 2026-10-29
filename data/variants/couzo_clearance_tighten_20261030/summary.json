@@ -8,12 +8,17 @@
   },
   "candidate": {
     "changed_puzzles": 547,
+    "downloaded_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119",
     "errors": 0,
     "estimated_score_gain": 9.748566879549644e-08,
     "gap0_validated_puzzles": 1000,
     "invalid_puzzles": 0,
+    "kaggle_score_delta_vs_base": 3.88354331737683,
     "measured_score_gain": 9.748564266942594e-08,
     "path": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
+    "promoted": false,
+    "public_score": 26.1695943166,
+    "public_status": "Complete",
     "score": 22.28605090173753,
     "second_audit_errors": 0,
     "second_audit_invalid_puzzles": 0,
@@ -21,7 +26,7 @@
     "sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119"
   },
   "date": "2026-10-30",
-  "decision": "Material strict full-file improvement; candidate is ready for final Kaggle upload. Preserve Couzo as rollback incumbent until Kaggle completes.",
+  "decision": "Rejected after Kaggle official validation: exact candidate scored 26.1695943166 versus Couzo incumbent 22.2860509992. Preserve Couzo; investigate verifier precision before any retry.",
   "experiment": "uniform clearance tightening of Couzo portfolio",
   "method": {
     "description": "For each N, binary-search a uniform contraction of center coordinates after float64 normalization, retaining only candidates with strict non-overlap (validate_packing gap=0) and side gain >1e-12.",
@@ -32,6 +37,7 @@
       "min_pair_gap": 0.0,
       "valid_puzzles": 1000
     },
+    "official_validation_note": "The uploaded bytes matched the local SHA exactly, but Kaggle scored the gap=0-tightened file materially worse; likely official verifier precision/clearance semantics differ from the local float64 gap=0 gate.",
     "strict_gate": "gap=0 exact-valid after serialization; full audit zero invalid/error; strict side gain >1e-12",
     "workers": 4
   }

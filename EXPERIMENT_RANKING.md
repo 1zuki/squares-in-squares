@@ -22,7 +22,8 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Couzo clearance tightening | 547 strict uniform contractions over the Couzo portfolio, all independently gap=0 valid | 22.28605090173753 | -0.00000009748564 | yes | Ready for final Kaggle validation |
+| — | Couzo clearance tightening | 547 strict uniform contractions over the Couzo portfolio, all independently gap=0 valid locally | 22.28605090173753 | -0.00000009748564 | local yes / Kaggle no | Kaggle Complete: 26.1695943166; rejected for promotion |
+| — | Positive-clearance re-dilation (prepared) | 276 strict local wins after restoring 1e-12 outward clearance | 22.286050902697255 | -0.00000009652592 | local yes / pending | Ready after Kaggle quota reset; not submitted |
 | 1 | Couzo full-catalogue refresh | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
 | 1 | Couzo refreshed-donor transfer beam | 404 targets, 12-size deletion window, 60 refreshed donor layouts | 22.28605099922317 | 0 | yes | No strict gains; exact audited tie |
 | 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
@@ -42,10 +43,12 @@ Lower is better.
 
 The negative-result experiments tie the previous public incumbent because
 their candidates were rejected and their complete outputs retained its layouts.
-The Couzo refresh is now the local-audit and Kaggle-completed leader, with a
+The Couzo refresh remains the local-audit and Kaggle-completed leader, with a
 strict gain of 5.781686e-11 over the Mishapolk N=507/N=654 portfolio. Kaggle
 returned 22.2860509992, a displayed-precision tie with the completed
-certificate portfolios.
+certificate portfolios. The clearance-tightened candidate passed the local
+float64 gate but Kaggle returned 26.1695943166 for the exact uploaded bytes, so
+it is rejected and the Couzo refresh remains the active incumbent.
 The serialized bytes differ for some files because experiment writers use
 different decimal formatting; audits and layout comparisons, rather than byte
 identity, are the comparison gate.
@@ -64,8 +67,25 @@ all-size `gap=0` re-read also passed all 1,000 layouts. The measured gain over
 the Couzo refresh is `9.748564266942594e-08`. The exact candidate SHA-256 is
 `5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119`. The
 variant package is retained under
-`data/variants/couzo_clearance_tighten_20261030/`; it is the candidate selected
-for the final Kaggle slot.
+`data/variants/couzo_clearance_tighten_20261030/`. Kaggle completed the exact
+SHA-256 `5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119`
+with public score **26.1695943166**; a download from the submission details
+matched the local SHA byte-for-byte. This result is rejected for promotion.
+The discrepancy indicates that the local float64 `gap=0` gate is too permissive
+for the official verifier's precision/clearance semantics; future tightening
+must retain positive clearance before any retry.
+
+### Positive-clearance re-dilation prepared (2026-10-30)
+
+To address that failure mode, I parsed the rejected candidate with high
+precision, applied the existing `merge_submission.normalize` outward factor
+`1 + 1e-12` to every size, and serialized compact float64 decimals. The
+prepared file changes 276 sizes versus Couzo and audits at
+**22.286050902697255**, with zero invalid puzzles/errors and all serialized
+layouts gap=0 valid. Its SHA-256 is
+`359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d`; it is
+retained at `data/variants/couzo_clearance_redilate_20261030/` and awaits the
+next Kaggle quota window.
 
 ### Couzo refreshed-donor transfer beam (2026-10-30)
 
