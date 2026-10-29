@@ -6,11 +6,11 @@ submission form showed 10 remaining before the new upload; that candidate then
 completed successfully. The strict per-`N` candidate was submitted for external
 validation. On 2026-10-30, the form showed 9 remaining immediately before the
 N=344 certificate refresh upload, then 8 before the combined N=182 + N=344
-candidate, and 7 after the issue #845 upload.
+candidate, 7 after the issue #845 upload, and 6 after the issue #844 upload.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
-| — | Issue #844 N=232/N=307 certificate refresh (SHA-256 b1e3a375de54) | 22.286193084713283 | — | PENDING (2026-10-30) |
+| — | Issue #844 N=232/N=307 certificate refresh (SHA-256 b1e3a375de54) | 22.286193084713283 | 22.2861930847 | COMPLETE (2026-10-30) |
 | — | Issue #845 N=172/204/260/293 certificate portfolio (SHA-256 cf726c180a8e) | 22.28639795912737 | 22.2863979591 | COMPLETE (2026-10-30) |
 | — | N=182 + N=344 certificates (SHA-256 7af0e96af7f9) | 22.28684182148117 | 22.2868418214 | COMPLETE (2026-10-30) |
 | — | CC0 N=344 certificate refresh (SHA-256 f424eb8c2637) | 22.287077114539976 | 22.2870771145 | COMPLETE (2026-10-30) |
@@ -28,33 +28,32 @@ candidate, and 7 after the issue #845 upload.
 
 ## Best completed public result
 
-The issue #845 certificate portfolio is the best completed result at
-`22.2863979591` (local audit `22.28639795912737`), improving the previous
-Kaggle-complete result by `0.0004438624` and submission `57700036`
-(`22.2872657654`) by `0.0008678063`. Its SHA-256 is
-`cf726c180a8e7886ecd94a26fb5a0dd0ffacccc2fb37547764df32e5321c3f49`.
+The issue #844 certificate portfolio is the best completed result at
+`22.2861930847` (local audit `22.286193084713283`), improving the previous
+Kaggle-complete result by `0.0002048744` and submission `57700036`
+(`22.2872657654`) by `0.0010726807`. Its SHA-256 is
+`b1e3a375de54e5b69c27b94570fb9603fcdd1c52a80f1e6c481589579d0cfc0a`.
 
 ## Latest submitted candidate
 
-The issue #845 portfolio passed the complete local audit with score
-`22.28639795912737`, zero invalid puzzles, and zero errors. It replaces only
-N=172, 204, 260, and 293 relative to the previous Kaggle-complete candidate.
+The issue #844 portfolio passed the complete local audit with score
+`22.286193084713283`, zero invalid puzzles, and zero errors. It replaces only
+N=232 and N=307 relative to the issue #845 candidate.
 The uploaded CSV is
-`data/variants/issue845_n172_204_260_293_20261030/submission.csv`, with
+`data/variants/issue844_n232_n307_20261030/submission.csv`, with
 SHA-256
-`cf726c180a8e7886ecd94a26fb5a0dd0ffacccc2fb37547764df32e5321c3f49`.
-Kaggle marked the upload Complete at public score `22.2863979591`, matching
+`b1e3a375de54e5b69c27b94570fb9603fcdd1c52a80f1e6c481589579d0cfc0a`.
+Kaggle marked the upload Complete at public score `22.2861930847`, matching
 the local audit to displayed precision.
 
 ## Latest completed candidate
 
-The combined N=182 + N=344 candidate passed the complete local audit with score
-`22.28684182148117`, zero invalid puzzles, and zero errors. Kaggle returned
-public score `22.2868418214`, matching the local audit to displayed precision.
-The candidate uses Evan Daniel's N=182 certificate from
-[issue #806](https://github.com/jlevy/squares/issues/806), plus the completed
-N=344 refresh. The submitted file hash is
-`7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.
+The issue #844 portfolio passed the complete local audit with score
+`22.286193084713283`, zero invalid puzzles, and zero errors. Kaggle returned
+public score `22.2861930847`, matching the local audit to displayed precision.
+It layers Francisco Couzo's N=232 and N=307 certificates over the previously
+validated issue #845 portfolio. The submitted file hash is
+`b1e3a375de54e5b69c27b94570fb9603fcdd1c52a80f1e6c481589579d0cfc0a`.
 
 ## Audit record
 
