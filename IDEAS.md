@@ -479,6 +479,12 @@ matching upload Complete at public score `22.2860509992`. The submitted file is
 `f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109`; source
 provenance and the MIT license are recorded in its manifest.
 
+#### Mishapolk 125-certificate portfolio (2026-10-30)
+
+The public [`Mishapolk/square-packing-records`](https://github.com/Mishapolk/square-packing-records/tree/ab8e8337cb91ac24254fe4dc09514ce4bfee2862) registry was screened against the issue #846 audit. 125 declared-side improvements passed independent float geometry validation and a complete merge audit. The resulting 1,000-layout file has local score `22.286050999282253`, zero invalid puzzles, and zero errors, a strict local gain of `2.407407e-12` over issue #846.
+
+Kaggle marked the upload Complete at public score `22.2860509992`, tying issue #846 at displayed precision. The candidate CSV, audit, checksums, and source attribution are retained under `data/variants/mishapolk_20261030/`.
+
 ## Source notes and limits
 
 The detailed source discussions and links are preserved in `a.md`, `b.md`, `c.md`, and `d.md`. Those notes reference, among others, Griffin Casson’s square-packing source, Gensane–Ryckelynck, Friedman’s survey, Kaggle notebooks, soft-to-rigid packing research, and asymptotic tilted-stack constructions. The Santa 2025 comparison uses the [1st-place genetic/GPU-relaxation writeup](https://www.kaggle.com/competitions/santa-2025/writeups/1st-place-genetic-algorithm-and-gpu-relaxation), the [2nd-place SA/ILS/beam-search writeup](https://www.kaggle.com/competitions/santa-2025/writeups/2nd-place-simulated-annealing-iterated-local-sea), the [3rd-place customized Sparrow writeup](https://www.kaggle.com/competitions/santa-2025/writeups/third-place-solution-a-customized-sparrow-algorit), the [4th-place region-replacement writeup](https://www.kaggle.com/competitions/santa-2025/writeups/4th-place-hybrid-packing-with-sparrow-manual-str), and [Cottaar’s released implementation](https://github.com/jcottaar/packing). The released implementation states that it is under CC BY-SA 4.0; direct code reuse should preserve attribution and license obligations. Use the original papers/code for implementation details and verify that links, competition rules, notebook versions, and leaderboard figures are still current before acting on them.
@@ -488,11 +494,12 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in `EXPERIMENT_RANKING.md`. The issue #846 N=299 certificate portfolio is now the best completed and
-Kaggle-validated candidate: local score `22.28605099928466`, public score
-`22.2860509992`. It adds one strict per-size improvement to the issue #844
-portfolio, which already contains the earlier public-union, N=130, N=182,
-N=344, N=172, N=204, N=260, N=293, N=232, and N=307 improvements.
+recorded in `EXPERIMENT_RANKING.md`. The Mishapolk 125-certificate portfolio is now the best local-audit and
+Kaggle-validated candidate: local score `22.286050999282253`, public score
+`22.2860509992`. It is a strict `2.407407e-12` local improvement over the
+issue #846 portfolio, while Kaggle displays both at the same precision. The
+portfolio retains the earlier public-union, N=130, N=182, N=344, N=172,
+N=204, N=260, N=293, N=232, N=307, and N=299 improvements.
 
 #### N=182 certificate refresh (2026-10-30)
 

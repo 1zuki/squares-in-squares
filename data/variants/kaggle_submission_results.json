@@ -1,10 +1,10 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T18:24:00Z",
+  "checked_utc": "2026-10-29T18:46:00Z",
   "daily_quota": {
-    "as_of": "2026-10-27",
-    "used": 10,
-    "remaining": 0,
+    "as_of": "2026-10-30",
+    "used": 7,
+    "remaining": 3,
     "form_observations": [
       {
         "as_of": "2026-10-29T17:13:00Z",
@@ -29,11 +29,33 @@
       {
         "as_of": "2026-10-29T18:24:00Z",
         "remaining_after_issue846_upload": 4
+      },
+      {
+        "as_of": "2026-10-29T18:46:00Z",
+        "remaining_before_mishapolk_upload": 4
+      },
+      {
+        "as_of": "2026-10-29T18:46:00Z",
+        "remaining_after_mishapolk_upload": 3
       }
     ]
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
+    {
+      "id": null,
+      "variant": "Mishapolk 125-certificate portfolio",
+      "local_score": 22.286050999282253,
+      "public_score": 22.2860509992,
+      "status": "COMPLETE",
+      "file": "data/variants/mishapolk_20261030/submission.csv",
+      "sha256": "9dbf43f6d7a0750d5a82f7caef482892cefd88621a8060427db5bb86088408a6",
+      "source": "Mishapolk / Mykhailo Polkovskyi exact certificate registry, square-packing-records commit ab8e8337cb91ac24254fe4dc09514ce4bfee2862 (MIT)",
+      "submitted_at_utc": "2026-10-29T18:35:00Z",
+      "completed_at_utc": "2026-10-29T18:40:00Z",
+      "local_gain_vs_issue846": 2.407407e-12,
+      "external_note": "Kaggle public score ties issue #846 at displayed precision."
+    },
     {
       "id": null,
       "variant": "Issue #846 N=299 certificate",
@@ -182,9 +204,10 @@
   "best_completed_public": {
     "submission_id": null,
     "score": 22.2860509992,
-    "local_score": 22.28605099928466,
-    "variant": "Issue #846 N=299 certificate",
-    "file": "data/variants/issue846_n299_20261030/submission.csv",
-    "sha256": "f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109"
+    "local_score": 22.286050999282253,
+    "variant": "Mishapolk 125-certificate portfolio",
+    "file": "data/variants/mishapolk_20261030/submission.csv",
+    "sha256": "9dbf43f6d7a0750d5a82f7caef482892cefd88621a8060427db5bb86088408a6",
+    "external_note": "Tied with issue #846 N=299 certificate at Kaggle displayed precision; lower local audit score."
   }
 }

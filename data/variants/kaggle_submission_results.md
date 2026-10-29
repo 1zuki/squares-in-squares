@@ -6,11 +6,12 @@ submission form showed 10 remaining before the new upload; that candidate then
 completed successfully. The strict per-`N` candidate was submitted for external
 validation. On 2026-10-30, the form showed 9 remaining immediately before the
 N=344 certificate refresh upload, then 8 before the combined N=182 + N=344
-candidate, 7 after the issue #845 upload, 6 after the issue #844 upload, and
-4 after the issue #846 upload completed.
+candidate, 7 after the issue #845 upload, 6 after the issue #844 upload, 4
+after the issue #846 upload, and 3 after the Mishapolk portfolio upload.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
+| — | Mishapolk 125-certificate portfolio (SHA-256 9dbf43f6d7a0) | 22.286050999282253 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie with issue #846) |
 | — | Issue #846 N=299 certificate (SHA-256 f75e108be03d) | 22.28605099928466 | 22.2860509992 | COMPLETE (2026-10-30) |
 | — | Issue #844 N=232/N=307 certificate refresh (SHA-256 b1e3a375de54) | 22.286193084713283 | 22.2861930847 | COMPLETE (2026-10-30) |
 | — | Issue #845 N=172/204/260/293 certificate portfolio (SHA-256 cf726c180a8e) | 22.28639795912737 | 22.2863979591 | COMPLETE (2026-10-30) |
@@ -30,33 +31,32 @@ candidate, 7 after the issue #845 upload, 6 after the issue #844 upload, and
 
 ## Best completed public result
 
-The issue #846 certificate portfolio is the best completed result at
-`22.2860509992` (local audit `22.28605099928466`), improving the previous
-Kaggle-complete result by `0.0001420854` and submission `57700036`
-(`22.2872657654`) by `0.0012147661`. Its SHA-256 is
-`f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109`.
+The Mishapolk 125-certificate portfolio is the best local-audit result at
+`22.286050999282253`; Kaggle displays `22.2860509992`, tied with issue #846.
+It improves the issue #846 local audit by `2.407407e-12` and submission
+`57700036` (`22.2872657654`) by `0.0012147661`. Its SHA-256 is
+`9dbf43f6d7a0750d5a82f7caef482892cefd88621a8060427db5bb86088408a6`.
 
 ## Latest submitted candidate
 
-The issue #846 portfolio passed the complete local audit with score
-`22.28605099928466`, zero invalid puzzles, and zero errors. It replaces only
-N=299 relative to the issue #844 candidate. The uploaded CSV is
-`data/variants/issue846_n299_20261030/submission.csv`, with SHA-256
-`f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109`.
-Kaggle marked the upload Complete at public score `22.2860509992`, matching the
-local audit to displayed precision.
+The Mishapolk portfolio passed the complete local audit with score
+`22.286050999282253`, zero invalid puzzles, and zero errors. The uploaded CSV is
+`data/variants/mishapolk_20261030/submission.csv`, with SHA-256
+`9dbf43f6d7a0750d5a82f7caef482892cefd88621a8060427db5bb86088408a6`. Kaggle
+marked the upload Complete at public score `22.2860509992`, tying issue #846 at
+displayed precision.
 
 ## Latest completed candidate
 
-The issue #846 portfolio passed the complete local audit with score
-`22.28605099928466`, zero invalid puzzles, and zero errors. Kaggle returned
-public score `22.2860509992`, matching the local audit to displayed precision.
-It layers Evan Daniel's N=299 certificate over the previously validated issue
-#844 portfolio. The submitted file hash is
-`f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109`.
+The Mishapolk portfolio passed the complete local audit with score
+`22.286050999282253`, zero invalid puzzles, and zero errors. Kaggle returned
+public score `22.2860509992`, tying issue #846 at displayed precision. It
+merges 125 independently validated MIT-licensed certificates over the issue
+#846 portfolio. The submitted file hash is
+`9dbf43f6d7a0750d5a82f7caef482892cefd88621a8060427db5bb86088408a6`.
 
 ## Audit record
 
-All five new source portfolios were generated from the public certificate control with imported complete layouts, then serialized and checked by `audit_submission.py`. Each contains all 1,000 puzzle sizes and reports zero invalid puzzles. The source CSVs, converted candidate JSON, merge logs, `.sources.json`, SHA-256 values, and individual JSON audit reports are retained in `data/public_external/` and `data/variants/.`
+All six new source portfolios were generated from the public certificate control with imported complete layouts, then serialized and checked by `audit_submission.py`. Each contains all 1,000 puzzle sizes and reports zero invalid puzzles. The source CSVs, converted candidate JSON, merge logs, `.sources.json`, SHA-256 values, and individual JSON audit reports are retained in `data/public_external/` and `data/variants/.`
 
 Public source artifacts were used with attribution in the submission descriptions.
