@@ -230,6 +230,26 @@ seed replicates. If a routing rule by size band is proposed, hold contiguous
 such a result exists, keep the incumbent as fallback at every `N` and let
 audited candidate merging select any strict per-size gain independently.
 
+### New CC0 N=344 certificate (2026-10-30)
+
+Public [issue #819](https://github.com/jlevy/squares/issues/819) reports an
+Amund Kristiansen CC0 certificate for `N=344`, with exact side
+`9496283772422138783772412642309/500000000000000000000000000000`
+(`18.99256754484427`). The pinned certificate at
+`data/variants/issue819_n344_20261030/s344_amund.cert` matches the published
+SHA-256 `4e2c6880812a688a64c8f378f5feb27a8a1a362f0d9161c0cda201f444526e21`
+and passed local parsing and geometry validation. The current `N=344` layout
+had side `18.992727809382128`; the imported layout measures
+`18.992567544843062` in float64.
+
+The strict per-`N` merge accepted only `N=344`. The complete 1,000-layout
+candidate at `data/variants/issue819_n344_20261030/submission.csv` passed
+`audit_submission.py` with score `22.287077114539976`, zero invalid puzzles,
+and zero errors, improving the previous local best by
+`0.000008640883877`. Its SHA-256 is
+`f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726`.
+Kaggle accepted the upload for evaluation; its public score is still pending.
+
 ## What was implemented
 
 ### Boundary-aware N+K deletion beam

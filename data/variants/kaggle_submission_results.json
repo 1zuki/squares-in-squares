@@ -1,13 +1,28 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T07:43:40Z",
+  "checked_utc": "2026-10-29T17:14:20Z",
   "daily_quota": {
     "as_of": "2026-10-27",
     "used": 10,
-    "remaining": 0
+    "remaining": 0,
+    "latest_form_observation": {
+      "as_of": "2026-10-29T17:13:00Z",
+      "remaining_before_upload": 9
+    }
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
+    {
+      "id": null,
+      "variant": "CC0 N=344 certificate refresh",
+      "local_score": 22.287077114539976,
+      "public_score": null,
+      "status": "PENDING",
+      "file": "data/variants/issue819_n344_20261030/submission.csv",
+      "sha256": "f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726",
+      "source": "Amund Kristiansen CC0 certificate, jlevy/squares issue #819",
+      "submitted_at_utc": "2026-10-29T17:13:36Z"
+    },
     {
       "id": null,
       "variant": "strict per-N public-union refresh + n=130 record",

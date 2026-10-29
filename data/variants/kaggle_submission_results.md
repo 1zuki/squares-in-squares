@@ -4,10 +4,12 @@ Competition: `squares-in-squares`
 Quota history: 10 submissions were used on 2026-10-27. On 2026-10-29, the
 submission form showed 10 remaining before the new upload; that candidate then
 completed successfully. The strict per-`N` candidate was submitted for external
-validation.
+validation. On 2026-10-30, the form showed 9 remaining immediately before the
+N=344 certificate refresh upload.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
+| — | CC0 N=344 certificate refresh (SHA-256 f424eb8c2637) | 22.287077114539976 | — | PENDING (2026-10-30) |
 | — | strict per-`N` public-union refresh + n=130 record (SHA-256 a930b7a9c82b) | 22.287085755423853 | 22.2870857554 | COMPLETE (2026-10-29) |
 | 57700036 | public neighbour-transfer merged portfolio | 22.2872657654 | 22.2872657654 | COMPLETE |
 | 57700871 | certificate control + public Kirill CPU/CUDA/MPS lab complete layouts | 22.2959148948 | 22.2959148947 | COMPLETE |
@@ -25,6 +27,13 @@ validation.
 The 2026-10-29 `submission.csv` is best at `22.2870857554` (local audit
 `22.287085755423853`), improving on submission `57700036` (`22.2872657654`) by
 `0.00018000998467`. Kaggle marked it Complete. Its SHA-256 is `a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef`.
+
+## Candidate awaiting evaluation
+
+The N=344 certificate refresh passed the complete local audit with score
+`22.287077114539976`, zero invalid puzzles, and zero errors. Its upload is
+pending on Kaggle. The submitted file hash is
+`f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726`.
 
 ## Audit record
 
