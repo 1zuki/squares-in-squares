@@ -248,7 +248,32 @@ candidate at `data/variants/issue819_n344_20261030/submission.csv` passed
 and zero errors, improving the previous local best by
 `0.000008640883877`. Its SHA-256 is
 `f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726`.
-Kaggle accepted the upload for evaluation; its public score is still pending.
+Kaggle marked the upload Complete at public score `22.2870771145`, matching
+the local audit.
+
+### New N=182 certificate (2026-10-30)
+
+Public [issue #806](https://github.com/jlevy/squares/issues/806) reports Evan
+Daniel's N=182 certificate at exact side
+`13970916436214678735385725854133/10^30`
+(`13.970916436214678735385725854133`). The pinned file from
+[`evand/square-packing` commit `d99925d`](https://github.com/evand/square-packing/blob/d99925d1298262c4ddb81c95abbb6f45adca8d3d/search/packer/candidates/s182-1024.cert)
+matches the issue's SHA-256
+`9e12e0a42b05c4fcd2181c5255a4a19ab1aeb9a9f8c95f9943a20998a415fe97`. The
+issue records two exact verifiers and an independent clean-room review; the
+pinned source repository is [MIT licensed](https://github.com/evand/square-packing/blob/d99925d1298262c4ddb81c95abbb6f45adca8d3d/LICENSE).
+Evan Daniel credits the start as Francisco Couzo's N=211 arrangement, designed
+by Daniil Ostashev.
+
+Local parsing and geometry validation passed. The incumbent side was
+`13.974090713134416`; the imported side measures `13.97091643621468` from the
+certificate and `13.97091643622765` after CSV serialization. The combined
+strict merge changed only N=182 relative to the N=344 candidate. Its complete
+1,000-layout audit passed at `22.28684182148117`, with zero invalid puzzles
+and zero errors, a gain of `0.000235293058807` over the N=344 candidate. The
+CSV at `data/variants/issue806_n182_20261030/submission.csv` has SHA-256
+`7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc` and is
+pending Kaggle evaluation.
 
 ## What was implemented
 

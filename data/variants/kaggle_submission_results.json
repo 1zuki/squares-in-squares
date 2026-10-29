@@ -1,23 +1,40 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T17:14:20Z",
+  "checked_utc": "2026-10-29T17:22:29Z",
   "daily_quota": {
     "as_of": "2026-10-27",
     "used": 10,
     "remaining": 0,
-    "latest_form_observation": {
-      "as_of": "2026-10-29T17:13:00Z",
-      "remaining_before_upload": 9
-    }
+    "form_observations": [
+      {
+        "as_of": "2026-10-29T17:13:00Z",
+        "remaining_before_upload": 9
+      },
+      {
+        "as_of": "2026-10-29T17:22:00Z",
+        "remaining_before_upload": 8
+      }
+    ]
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
     {
       "id": null,
-      "variant": "CC0 N=344 certificate refresh",
-      "local_score": 22.287077114539976,
+      "variant": "N=182 + N=344 certificate portfolio",
+      "local_score": 22.28684182148117,
       "public_score": null,
       "status": "PENDING",
+      "file": "data/variants/issue806_n182_20261030/submission.csv",
+      "sha256": "7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc",
+      "source": "Evan Daniel N=182 certificate, jlevy/squares issue #806; includes CC0 N=344 certificate refresh",
+      "submitted_at_utc": "2026-10-29T17:22:18Z"
+    },
+    {
+      "id": null,
+      "variant": "CC0 N=344 certificate refresh",
+      "local_score": 22.287077114539976,
+      "public_score": 22.2870771145,
+      "status": "COMPLETE",
       "file": "data/variants/issue819_n344_20261030/submission.csv",
       "sha256": "f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726",
       "source": "Amund Kristiansen CC0 certificate, jlevy/squares issue #819",
@@ -112,10 +129,10 @@
   ],
   "best_completed_public": {
     "submission_id": null,
-    "score": 22.2870857554,
-    "local_score": 22.287085755423853,
-    "variant": "strict per-N public-union refresh + n=130 record",
-    "file": "data/variants/public_union_refresh_20261029/submission.csv",
-    "sha256": "a930b7a9c82b9e8620b83287adc0d99e47813334725bd596b27f464928acd7ef"
+    "score": 22.2870771145,
+    "local_score": 22.287077114539976,
+    "variant": "CC0 N=344 certificate refresh",
+    "file": "data/variants/issue819_n344_20261030/submission.csv",
+    "sha256": "f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726"
   }
 }
