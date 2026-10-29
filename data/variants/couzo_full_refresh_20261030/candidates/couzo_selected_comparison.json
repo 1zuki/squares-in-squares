@@ -1,0 +1,482 @@
+[
+  {
+    "n": 268,
+    "base_side": 16.87436171590557,
+    "candidate_side": 16.874361715889698,
+    "gain": 1.5873524716880638e-11,
+    "declared_side": "16.87436171587382547907159897146955456711178981925913145694178222044226",
+    "source_certificate": "certificates/best/n268.cert"
+  },
+  {
+    "n": 303,
+    "base_side": 17.906978233832714,
+    "candidate_side": 17.906978233815806,
+    "gain": 1.6907364397411584e-11,
+    "declared_side": "17.90697823379890015942571968449623004108917707972306331504053246521781",
+    "source_certificate": "certificates/best/n303.cert"
+  },
+  {
+    "n": 330,
+    "base_side": 18.69238815546433,
+    "candidate_side": 18.692388155446636,
+    "gain": 1.7692514120426495e-11,
+    "declared_side": "18.69238815542894500721400244967954382397283228476709502291691379583487",
+    "source_certificate": "certificates/best/n330.cert"
+  },
+  {
+    "n": 333,
+    "base_side": 18.774735132434316,
+    "candidate_side": 18.77473513241654,
+    "gain": 1.7774226535038906e-11,
+    "declared_side": "18.77473513239876934613025030105400360682209500083509062004759374198413",
+    "source_certificate": "certificates/best/n333.cert"
+  },
+  {
+    "n": 339,
+    "base_side": 18.90735147119424,
+    "candidate_side": 18.90735147117816,
+    "gain": 1.6079582110251067e-11,
+    "declared_side": "18.90735147116025049620921679791209646906452043203121632470478870267348",
+    "source_certificate": "certificates/best/n339.cert"
+  },
+  {
+    "n": 340,
+    "base_side": 18.926898900396687,
+    "candidate_side": 18.92689890037876,
+    "gain": 1.7926993223227328e-11,
+    "declared_side": "18.92689890036083402296273697113907622246264880075195118254547400985066",
+    "source_certificate": "certificates/best/n340.cert"
+  },
+  {
+    "n": 343,
+    "base_side": 18.97717158479339,
+    "candidate_side": 18.977171584775412,
+    "gain": 1.7976731214730535e-11,
+    "declared_side": "18.97717158475743617952064158771261649011531445106650449880168679380011",
+    "source_certificate": "certificates/best/n343.cert"
+  },
+  {
+    "n": 370,
+    "base_side": 19.764174317535748,
+    "candidate_side": 19.764174317516982,
+    "gain": 1.8765433651424246e-11,
+    "declared_side": "19.76417431749821808539466710251243665818597625128416017462750381759047",
+    "source_certificate": "certificates/best/n370.cert"
+  },
+  {
+    "n": 371,
+    "base_side": 19.778174593093635,
+    "candidate_side": 19.778174593074855,
+    "gain": 1.8779644506139448e-11,
+    "declared_side": "19.77817459305607676900434890193281704459141394271616830675319887973635",
+    "source_certificate": "certificates/best/n371.cert"
+  },
+  {
+    "n": 375,
+    "base_side": 19.87001385044727,
+    "candidate_side": 19.870013850428396,
+    "gain": 1.887201506178826e-11,
+    "declared_side": "19.87001385040952668716245510890650754802731296233892269872904643911331",
+    "source_certificate": "certificates/best/n375.cert"
+  },
+  {
+    "n": 379,
+    "base_side": 19.950889681517136,
+    "candidate_side": 19.95088968150297,
+    "gain": 1.4164669437377597e-11,
+    "declared_side": "19.95088968148402097200129941184043707790225006087449327322820268325194",
+    "source_certificate": "certificates/best/n379.cert"
+  },
+  {
+    "n": 380,
+    "base_side": 19.96135002384908,
+    "candidate_side": 19.961350023834946,
+    "gain": 1.4132695014268393e-11,
+    "declared_side": "19.96135002381598487774822453475746326608668688348795688009224509692949",
+    "source_certificate": "certificates/best/n380.cert"
+  },
+  {
+    "n": 403,
+    "base_side": 20.57142857147193,
+    "candidate_side": 20.57142857145236,
+    "gain": 1.957189965651196e-11,
+    "declared_side": "20.57142857143278878461944290456817080404091001765246208269356959245275",
+    "source_certificate": "certificates/best/n403.cert"
+  },
+  {
+    "n": 410,
+    "base_side": 20.774735132432287,
+    "candidate_side": 20.774735132412513,
+    "gain": 1.9774404336203588e-11,
+    "declared_side": "20.77473513239273907473525297536454941006300766656674359112309237977006",
+    "source_certificate": "certificates/best/n410.cert"
+  },
+  {
+    "n": 414,
+    "base_side": 20.84068735812872,
+    "candidate_side": 20.840687358108877,
+    "gain": 1.9841905896100798e-11,
+    "declared_side": "20.84068735808903628566239460773504910653064693428493871595190075546025",
+    "source_certificate": "certificates/best/n414.cert"
+  },
+  {
+    "n": 420,
+    "base_side": 20.966577898747907,
+    "candidate_side": 20.96657789872794,
+    "gain": 1.9966250874858815e-11,
+    "declared_side": "20.96657789870797630397635333237392648269127115276356502695122776471591",
+    "source_certificate": "certificates/best/n420.cert"
+  },
+  {
+    "n": 421,
+    "base_side": 20.97627399795219,
+    "candidate_side": 20.976273997932214,
+    "gain": 1.9976909015895217e-11,
+    "declared_side": "20.97627399791223754078074687026295395387947257924543030166797207751371",
+    "source_certificate": "certificates/best/n421.cert"
+  },
+  {
+    "n": 422,
+    "base_side": 20.983570193624306,
+    "candidate_side": 20.983570193604322,
+    "gain": 1.9984014443252818e-11,
+    "declared_side": "20.98357019358433750148940705572035908146934364309578161813193710807419",
+    "source_certificate": "certificates/best/n422.cert"
+  },
+  {
+    "n": 444,
+    "base_side": 21.57142857147852,
+    "candidate_side": 21.571428571457947,
+    "gain": 2.05737649139337e-11,
+    "declared_side": "21.57142857143737467983773800218687010393871356672115317341307771833082",
+    "source_certificate": "certificates/best/n444.cert"
+  },
+  {
+    "n": 451,
+    "base_side": 21.756097561021644,
+    "candidate_side": 21.756097561000885,
+    "gain": 2.0758506025231327e-11,
+    "declared_side": "21.75609756098012676577983346725703900883195914102066607785795748110179",
+    "source_certificate": "certificates/best/n451.cert"
+  },
+  {
+    "n": 459,
+    "base_side": 21.905182432824805,
+    "candidate_side": 21.905182432803898,
+    "gain": 2.0907719999740948e-11,
+    "declared_side": "21.90518243278299126262473819860652515717925882625443899067074674683956",
+    "source_certificate": "certificates/best/n459.cert"
+  },
+  {
+    "n": 487,
+    "base_side": 22.57142857147636,
+    "candidate_side": 22.57142857145479,
+    "gain": 2.1572077457676642e-11,
+    "declared_side": "22.571428571433218578337318678140616754765095246215591439849506773043",
+    "source_certificate": "certificates/best/n487.cert"
+  },
+  {
+    "n": 488,
+    "base_side": 22.591378145545537,
+    "candidate_side": 22.591378145523944,
+    "gain": 2.1593393739749445e-11,
+    "declared_side": "22.5913781455023528736835765723286614588076696607572131704678666071536",
+    "source_certificate": "certificates/best/n488.cert"
+  },
+  {
+    "n": 499,
+    "base_side": 22.82929984344093,
+    "candidate_side": 22.829299843419097,
+    "gain": 2.1831425556229078e-11,
+    "declared_side": "22.82929984339726561503384405288839521983755153401870010006347098040911",
+    "source_certificate": "certificates/best/n499.cert"
+  },
+  {
+    "n": 506,
+    "base_side": 22.952939819409433,
+    "candidate_side": 22.952939819387478,
+    "gain": 2.1955770534987096e-11,
+    "declared_side": "22.95293981936552311744818157158222477148614856253817179575185593489108",
+    "source_certificate": "certificates/best/n506.cert"
+  },
+  {
+    "n": 507,
+    "base_side": 22.973697163678455,
+    "candidate_side": 22.97369716366279,
+    "gain": 1.566391460983141e-11,
+    "declared_side": "22.97369716364081928861980674911383097694504911693239448418654276380986",
+    "source_certificate": "certificates/best/n507.cert"
+  },
+  {
+    "n": 536,
+    "base_side": 23.65685424956608,
+    "candidate_side": 23.65685424954342,
+    "gain": 2.2659207843389595e-11,
+    "declared_side": "23.65685424952076351816705688576953055588690489408892938484216681019527",
+    "source_certificate": "certificates/best/n536.cert"
+  },
+  {
+    "n": 544,
+    "base_side": 23.8244849387612,
+    "candidate_side": 23.824484938738372,
+    "gain": 2.282618538629322e-11,
+    "declared_side": "23.82448493871554681479313823069195634682508773884661982370770658127428",
+    "source_certificate": "certificates/best/n544.cert"
+  },
+  {
+    "n": 548,
+    "base_side": 23.888388276450506,
+    "candidate_side": 23.888388276427616,
+    "gain": 2.2890134232511627e-11,
+    "declared_side": "23.88838827640472762336850826654629983739619729951890118176972774620306",
+    "source_certificate": "certificates/best/n548.cert"
+  },
+  {
+    "n": 552,
+    "base_side": 23.94665226382532,
+    "candidate_side": 23.946652263802374,
+    "gain": 2.2946977651372436e-11,
+    "declared_side": "23.94665226377943004820071908297057478369811440973334820122700332746286",
+    "source_certificate": "certificates/best/n552.cert"
+  },
+  {
+    "n": 583,
+    "base_side": 24.65685424954479,
+    "candidate_side": 24.656854249521132,
+    "gain": 2.3657520387132536e-11,
+    "declared_side": "24.6568542494974748218614829912271282859514434834258994019960006705345",
+    "source_certificate": "certificates/best/n583.cert"
+  },
+  {
+    "n": 587,
+    "base_side": 24.756097561037766,
+    "candidate_side": 24.75609756101401,
+    "gain": 2.375699637013895e-11,
+    "declared_side": "24.75609756099025143753671915417171616230436708690428545811441451224237",
+    "source_certificate": "certificates/best/n587.cert"
+  },
+  {
+    "n": 591,
+    "base_side": 24.819590560342,
+    "candidate_side": 24.819590560318325,
+    "gain": 2.3675283955526538e-11,
+    "declared_side": "24.81959056029465033538351260316752531055362081876321497328510721911553",
+    "source_certificate": "certificates/best/n591.cert"
+  },
+  {
+    "n": 592,
+    "base_side": 24.824721479697065,
+    "candidate_side": 24.82472147967324,
+    "gain": 2.382449793003616e-11,
+    "declared_side": "24.82472147964941777182158107765473206610828258772782208888249587700897",
+    "source_certificate": "certificates/best/n592.cert"
+  },
+  {
+    "n": 630,
+    "base_side": 25.604601475785437,
+    "candidate_side": 25.60460147576083,
+    "gain": 2.460609493937227e-11,
+    "declared_side": "25.60460147573622371462756675606384438319267834996912539455239466214735",
+    "source_certificate": "certificates/best/n630.cert"
+  },
+  {
+    "n": 642,
+    "base_side": 25.833072972452772,
+    "candidate_side": 25.833072972428084,
+    "gain": 2.468780735398468e-11,
+    "declared_side": "25.83307297240339796635762927396412170352408071217000302630308120266579",
+    "source_certificate": "certificates/best/n642.cert"
+  },
+  {
+    "n": 643,
+    "base_side": 25.851666732018973,
+    "candidate_side": 25.851666731994122,
+    "gain": 2.4851232183209504e-11,
+    "declared_side": "25.8516667319692726116397077709016500726022627135389771621636821549507",
+    "source_certificate": "certificates/best/n643.cert"
+  },
+  {
+    "n": 647,
+    "base_side": 25.899276594130544,
+    "candidate_side": 25.89927659410577,
+    "gain": 2.4773072482275893e-11,
+    "declared_side": "25.89927659408099715571039439258276151435375222308223398906986441545794",
+    "source_certificate": "certificates/best/n647.cert"
+  },
+  {
+    "n": 679,
+    "base_side": 26.53553390598931,
+    "candidate_side": 26.535533905963774,
+    "gain": 2.5536905923218e-11,
+    "declared_side": "26.53553390593823891339322110549151343925819669029720789490811039755709",
+    "source_certificate": "certificates/best/n679.cert"
+  },
+  {
+    "n": 680,
+    "base_side": 26.57142857148522,
+    "candidate_side": 26.57142857145965,
+    "gain": 2.5572433060006006e-11,
+    "declared_side": "26.57142857143407802355230787953066667840520221223627838838715242120656",
+    "source_certificate": "certificates/best/n680.cert"
+  },
+  {
+    "n": 681,
+    "base_side": 26.591378145554394,
+    "candidate_side": 26.5913781455288,
+    "gain": 2.559374934207881e-11,
+    "declared_side": "26.59137814550320867210909773025874443851744966424480848669139510367624",
+    "source_certificate": "certificates/best/n681.cert"
+  },
+  {
+    "n": 684,
+    "base_side": 26.65685424954923,
+    "candidate_side": 26.656854249523573,
+    "gain": 2.5657698188297218e-11,
+    "declared_side": "26.6568542494979175947892602638482711613165168625499859398407020785206",
+    "source_certificate": "certificates/best/n684.cert"
+  },
+  {
+    "n": 691,
+    "base_side": 26.786715807024915,
+    "candidate_side": 26.786715806999126,
+    "gain": 2.5789148594412836e-11,
+    "declared_side": "26.78671580697333761414663490585292357689440723646886086572534385022884",
+    "source_certificate": "certificates/best/n691.cert"
+  },
+  {
+    "n": 695,
+    "base_side": 26.85166673202158,
+    "candidate_side": 26.851666731995728,
+    "gain": 2.5853097440631245e-11,
+    "declared_side": "26.85166673196987591482406737050345544828092574693083607507112390600971",
+    "source_certificate": "certificates/best/n695.cert"
+  },
+  {
+    "n": 749,
+    "base_side": 27.846045890625554,
+    "candidate_side": 27.846045890598706,
+    "gain": 2.6847857270695386e-11,
+    "declared_side": "27.84604589057185864878139953198303805885337133085807257692829925740816",
+    "source_certificate": "certificates/best/n749.cert"
+  },
+  {
+    "n": 759,
+    "base_side": 27.97565913373734,
+    "candidate_side": 27.975659133710366,
+    "gain": 2.6975754963132204e-11,
+    "declared_side": "27.97565913368339171782472442013567428986118563895213753560103541105389",
+    "source_certificate": "certificates/best/n759.cert"
+  },
+  {
+    "n": 788,
+    "base_side": 28.571428571492547,
+    "candidate_side": 28.571428571464974,
+    "gain": 2.7572610861170688e-11,
+    "declared_side": "28.57142857143740204727359239249040791403784645258214875869740314705343",
+    "source_certificate": "certificates/best/n788.cert"
+  },
+  {
+    "n": 803,
+    "base_side": 28.827585222408985,
+    "candidate_side": 28.827585222381156,
+    "gain": 2.7828406246044324e-11,
+    "declared_side": "28.82758522235332737664839862893828767383235978479645789569863678096355",
+    "source_certificate": "certificates/best/n803.cert"
+  },
+  {
+    "n": 814,
+    "base_side": 28.961440808879864,
+    "candidate_side": 28.9614408088519,
+    "gain": 2.7963409365838743e-11,
+    "declared_side": "28.96144080882393818189142825303910368857721446326942893258476121845911",
+    "source_certificate": "certificates/best/n814.cert"
+  },
+  {
+    "n": 845,
+    "base_side": 29.57142857150367,
+    "candidate_side": 29.571428571475096,
+    "gain": 2.857447611859243e-11,
+    "declared_side": "29.57142857144652120514603696410604110283978872573305070709683435214452",
+    "source_certificate": "certificates/best/n845.cert"
+  },
+  {
+    "n": 847,
+    "base_side": 29.60660171786162,
+    "candidate_side": 29.60660171783301,
+    "gain": 2.8610003255380434e-11,
+    "declared_side": "29.60660171780439882871674340901129849747521869594852047143587400318606",
+    "source_certificate": "certificates/best/n847.cert"
+  },
+  {
+    "n": 914,
+    "base_side": 30.746670724641,
+    "candidate_side": 30.746670724611253,
+    "gain": 2.9746871632596594e-11,
+    "declared_side": "30.74667072458150689010540058719364849473971585600320400616847662944887",
+    "source_certificate": "certificates/best/n914.cert"
+  },
+  {
+    "n": 932,
+    "base_side": 30.960209722069965,
+    "candidate_side": 30.960209722040112,
+    "gain": 2.985345304296061e-11,
+    "declared_side": "30.96020972201026075763626919645794964438263849552754864629773345014475",
+    "source_certificate": "certificates/best/n932.cert"
+  },
+  {
+    "n": 933,
+    "base_side": 30.97170963360313,
+    "candidate_side": 30.971709633573155,
+    "gain": 2.9974245308039826e-11,
+    "declared_side": "30.97170963354318092020159348332262390662733156150183666889176108668832",
+    "source_certificate": "certificates/best/n933.cert"
+  },
+  {
+    "n": 935,
+    "base_side": 30.99417405817851,
+    "candidate_side": 30.994174058148513,
+    "gain": 2.999556159011263e-11,
+    "declared_side": "30.99417405811851718427049488129661099041488223925664730437810386023557",
+    "source_certificate": "certificates/best/n935.cert"
+  },
+  {
+    "n": 964,
+    "base_side": 31.535533906000403,
+    "candidate_side": 31.535533905969864,
+    "gain": 3.0539126782969106e-11,
+    "declared_side": "31.53553390593932630578743086016402230598032474517822265625",
+    "source_certificate": "certificates/best/n964.cert"
+  },
+  {
+    "n": 972,
+    "base_side": 31.69238815550543,
+    "candidate_side": 31.692388155474735,
+    "gain": 3.069544618483633e-11,
+    "declared_side": "31.69238815544403903722911019714626956894773236773788605990589741861946",
+    "source_certificate": "certificates/best/n972.cert"
+  },
+  {
+    "n": 975,
+    "base_side": 31.72792206142604,
+    "candidate_side": 31.727922061395308,
+    "gain": 3.073097332162433e-11,
+    "declared_side": "31.72792206136457712645942065829434381333990583812509959541254595988382",
+    "source_certificate": "certificates/best/n975.cert"
+  },
+  {
+    "n": 994,
+    "base_side": 31.960209722065457,
+    "candidate_side": 31.960209722034605,
+    "gain": 3.085176558670355e-11,
+    "declared_side": "31.96020972200375321240207696074911333685365799194756353093983238852327",
+    "source_certificate": "certificates/best/n994.cert"
+  },
+  {
+    "n": 998,
+    "base_side": 31.996875920320896,
+    "candidate_side": 31.9968759202899,
+    "gain": 3.099742684753437e-11,
+    "declared_side": "31.9968759202589005901957044309127976231156288095766550204940499393697",
+    "source_certificate": "certificates/best/n998.cert"
+  }
+]

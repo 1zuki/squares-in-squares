@@ -500,13 +500,13 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in EXPERIMENT_RANKING.md. The Mishapolk N=507/N=654 refresh is now
-the best local-audit and Kaggle-validated candidate: local score
-22.286050999280988, public score 22.2860509992. It is a strict
-1.264766e-12 local improvement over the 125-certificate portfolio, while
-Kaggle displays the certificate portfolios at the same precision. It retains
-the earlier public-union, N=130, N=182, N=344, N=172, N=204, N=260, N=293,
-N=232, N=307, and N=299 improvements.
+recorded in EXPERIMENT_RANKING.md. The Couzo full-catalogue refresh is now the
+best local-audit candidate at 22.28605099922317 and is pending Kaggle
+validation. It is a strict 5.781686240879935e-11 improvement over the
+completed Mishapolk N=507/N=654 portfolio. That completed candidate remains at
+public score 22.2860509992 and retains the earlier public-union, N=130, N=182,
+N=344, N=172, N=204, N=260, N=293, N=232, N=307, N=299, N=507, and N=654
+improvements.
 
 #### N=182 certificate refresh (2026-10-30)
 
@@ -602,6 +602,17 @@ A subsequent higher-budget eight-method tournament on `N=802, 857, 919, 983,
 strict gain. The full file remained numerically identical to the n=130-start
 portfolio and passed the complete audit; detailed timings and provenance are
 in `EXPERIMENT_RANKING.md` and `data/variants/per_n_tournament_large_20261029/`.
+
+#### Couzo full-catalogue refresh (2026-10-30)
+
+A complete parsed best-certificate catalogue from the pinned [Francisco Couzo
+repository](https://github.com/franciscouzo/square-packing/tree/712c6a6e9ef58a9521784e6b7e236af813422de7) was compared with the Mishapolk N=507/N=654
+incumbent. Strict serialized-side screening accepted 60 per-size replacements.
+The complete audit passed at `22.28605099922317` with zero invalid puzzles and
+zero errors, a strict local gain of `5.781686240879935e-11`. The candidate
+was submitted to Kaggle; its public result is pending. Provenance and the
+selected records are retained under
+`data/variants/couzo_full_refresh_20261030/`.
 
 #### Current certified-row screen (2026-10-29)
 

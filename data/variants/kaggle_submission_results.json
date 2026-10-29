@@ -1,10 +1,10 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T19:07:00Z",
+  "checked_utc": "2026-10-29T19:22:58Z",
   "daily_quota": {
     "as_of": "2026-10-30",
-    "used": 8,
-    "remaining": 2,
+    "used": 9,
+    "remaining": 1,
     "form_observations": [
       {
         "as_of": "2026-10-29T17:13:00Z",
@@ -45,11 +45,32 @@
       {
         "as_of": "2026-10-29T19:07:00Z",
         "remaining_after_mishapolk_n507_n654_upload": 2
+      },
+      {
+        "as_of": "2026-10-29T19:22:58Z",
+        "remaining_before_couzo_refresh_upload": 2
+      },
+      {
+        "as_of": "2026-10-29T19:22:58Z",
+        "remaining_after_couzo_refresh_upload": 1
       }
     ]
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
+    {
+      "id": null,
+      "variant": "Couzo full-catalogue refresh",
+      "local_score": 22.28605099922317,
+      "public_score": null,
+      "status": "PENDING",
+      "file": "data/variants/couzo_full_refresh_20261030/submission.csv",
+      "sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114",
+      "source": "Francisco Couzo square-packing best-certificate catalogue, commit 712c6a6e9ef58a9521784e6b7e236af813422de7 (MIT); 60 strict serialized replacements",
+      "submitted_at_utc": "2026-10-29T19:22:58Z",
+      "local_gain_vs_previous": 5.781686240879935e-11,
+      "external_note": "Submitted after two independent complete audits; Kaggle evaluation pending."
+    },
     {
       "id": null,
       "variant": "Mishapolk N=507/N=654 certificate refresh",

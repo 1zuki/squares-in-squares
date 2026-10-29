@@ -4,17 +4,16 @@ Date: 2026-10-27
 
 ## Baseline and interpretation
 
-The pinned incumbent is:
+The current completed incumbent is:
 
 data/variants/mishapolk_n507_n654_20261030/submission.csv
 
 Its independently audited score is **22.286050999280988**, with zero invalid
-puzzles and zero audit errors. Kaggle marked the upload Complete at
-22.2860509992; this ties the prior Mishapolk and issue #846 uploads at
-Kaggle's displayed precision while improving the local audit by
-1.264766e-12. Local audit ranking is a valid screen for these deterministic,
-complete-file experiments, but it is not proof that every future search
-candidate will reproduce on Kaggle.
+puzzles and zero audit errors. A Couzo full-catalogue refresh has now passed
+the same gate at **22.28605099922317** and is pending Kaggle evaluation. Local
+audit ranking is a valid screen for these deterministic, complete-file
+experiments, but it is not proof that every future search candidate will
+reproduce on Kaggle.
 
 ## Ranking
 
@@ -22,14 +21,15 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
-| 2 | Mishapolk 125-certificate portfolio | 125 public certificates merged over the issue #846 incumbent | 22.286050999282253 | +0.00000000000126 | yes | Kaggle Complete: 22.2860509992 |
-| 3 | Issue #846 N=299 certificate | 69 sizes improve; issue #844 portfolio plus the N=299 replacement | 22.28605099928466 | +0.00000000000367 | yes | Kaggle Complete: 22.2860509992 |
-| 4 | Issue #844 N=232/N=307 refresh | 68 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, N=293, N=232, and N=307 replacements | 22.286193084713283 | +0.00014208543229 | yes | Kaggle Complete: 22.2861930847 |
-| 5 | Issue #845 certificates | 66 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, and N=293 replacements | 22.28639795912737 | +0.00034695984638 | yes | Kaggle Complete: 22.2863979591 |
-| 6 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | +0.00079082220018 | yes | Kaggle Complete: 22.2868418214 |
-| 7 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | +0.00102611525899 | yes | Kaggle Complete: 22.2870771145 |
-| 8 | Strict per-N union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | +0.00103475614286 | yes | Kaggle Complete: 22.2870857554 |
+| 1 | Couzo full-catalogue refresh (submitted) | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Pending |
+| 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
+| 3 | Mishapolk 125-certificate portfolio | 125 public certificates merged over the issue #846 incumbent | 22.286050999282253 | +0.00000000000126 | yes | Kaggle Complete: 22.2860509992 |
+| 4 | Issue #846 N=299 certificate | 69 sizes improve; issue #844 portfolio plus the N=299 replacement | 22.28605099928466 | +0.00000000000367 | yes | Kaggle Complete: 22.2860509992 |
+| 5 | Issue #844 N=232/N=307 refresh | 68 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, N=293, N=232, and N=307 replacements | 22.286193084713283 | +0.00014208543229 | yes | Kaggle Complete: 22.2861930847 |
+| 6 | Issue #845 certificates | 66 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, and N=293 replacements | 22.28639795912737 | +0.00034695984638 | yes | Kaggle Complete: 22.2863979591 |
+| 7 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | +0.00079082220018 | yes | Kaggle Complete: 22.2868418214 |
+| 8 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | +0.00102611525899 | yes | Kaggle Complete: 22.2870771145 |
+| 9 | Strict per-N union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | +0.00103475614286 | yes | Kaggle Complete: 22.2870857554 |
 | 9 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | +0.00121476612754 | yes | Previous public incumbent |
 | 9 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | +0.00121476612754 | yes | No accepted improvements |
 | 9 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | +0.00121476612754 | yes | No accepted improvements |
@@ -39,10 +39,10 @@ Lower is better.
 
 The negative-result experiments tie the previous public incumbent because
 their candidates were rejected and their complete outputs retained its layouts.
-The N=507/N=654 refresh is now the local-audit leader, with a strict gain of
-1.264766e-12 over the 125-certificate portfolio and 3.673506e-12 over
-issue #846. Kaggle displays all three certificate portfolios as
-22.2860509992; the external results are therefore a displayed-precision tie.
+The Couzo refresh is now the local-audit leader, with a strict gain of
+5.781686e-11 over the completed Mishapolk N=507/N=654 portfolio. Kaggle
+evaluation is pending; the completed certificate portfolios remain a
+displayed-precision tie at 22.2860509992.
 The serialized bytes differ for some files because experiment writers use
 different decimal formatting; audits and layout comparisons, rather than byte
 identity, are the comparison gate.
@@ -367,6 +367,24 @@ The complete 500,500-row audit passed at `22.286050999282253`, with zero invalid
 After the first 125-certificate portfolio, the complete 531-record public registry was screened again. 178 declarations were strictly below the current measured sides; after independent geometry validation and serialization, only N=507 and N=654 produced strict measured improvements. Replacing those two layouts lowered the complete 500,500-row audit to 22.286050999280988, with zero invalid puzzles and zero errors.
 
 The local gain over the 125-certificate portfolio is 1.264766e-12. The candidate is data/variants/mishapolk_n507_n654_20261030/submission.csv with SHA-256 1b07f3159185f05b275f857dcc587212ae23277d6ab623f5acf74bc8c8417336a. Kaggle marked the upload Complete at public score 22.2860509992, tied with the prior certificate portfolios at displayed precision. The source certificates and their hashes are retained in the candidate manifest.
+
+### Couzo full-catalogue refresh (2026-10-30)
+
+The parsed best-certificate catalogue from the public [Francisco Couzo
+square-packing repository](https://github.com/franciscouzo/square-packing/tree/712c6a6e9ef58a9521784e6b7e236af813422de7), pinned at commit
+`712c6a6e9ef58a9521784e6b7e236af813422de7` (MIT), was compared against the
+Mishapolk N=507/N=654 incumbent. After independent geometry validation and
+CSV serialization, 60 sizes had a measured side strictly smaller by more than
+`1e-12`; every other size retained the incumbent layout.
+
+The complete 500,500-row candidate passed `audit_submission.py` twice at
+`22.28605099922317`, with zero invalid puzzles and zero errors. This is a
+strict local gain of `5.781686240879935e-11`. The candidate is
+`data/variants/couzo_full_refresh_20261030/submission.csv` with SHA-256
+`a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114`. It was
+submitted to Kaggle for external validation; the result is pending. The
+selected records, side-by-side comparison, source catalogue digest, and audit
+are retained in the variant directory.
 
 ### Additional certificate screen (2026-10-30)
 
