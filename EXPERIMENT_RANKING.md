@@ -409,6 +409,18 @@ change is below `1e-12`, far below Kaggle's displayed precision of `1e-10`, so
 this certificate was not imported or submitted. The other displayed bounds
 cannot clear the strict per-size merge gate.
 
+### Raw candidate-catalogue screen (2026-10-30)
+
+I screened the retained raw JSON candidate stores against the Couzo incumbent,
+including the Couzo catalogue, Casson records, and the imported Kaggle search
+outputs. The pass inspected 34 JSON files containing 7,775 candidate records.
+After the same high-precision normalization and float64 bounding-side
+measurement used by the merge pipeline, zero records were even rough strict
+survivors; therefore zero candidates needed geometry validation and the score
+gain estimate is zero. The baseline digest, source-file list, and screen
+parameters are retained in
+`data/variants/raw_catalogue_screen_20261030/summary.json`.
+
 ### Current-incumbent per-N tournament (2026-10-30)
 
 I reran all eight existing search branches directly from the Couzo refresh on
