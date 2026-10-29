@@ -23,6 +23,7 @@ Lower is better.
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
 | 1 | Couzo full-catalogue refresh | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
+| 1 | Couzo refreshed-donor transfer beam | 404 targets, 12-size deletion window, 60 refreshed donor layouts | 22.28605099922317 | 0 | yes | No strict gains; exact audited tie |
 | 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
 | 3 | Mishapolk 125-certificate portfolio | 125 public certificates merged over the issue #846 incumbent | 22.286050999282253 | +0.00000000000126 | yes | Kaggle Complete: 22.2860509992 |
 | 4 | Issue #846 N=299 certificate | 69 sizes improve; issue #844 portfolio plus the N=299 replacement | 22.28605099928466 | +0.00000000000367 | yes | Kaggle Complete: 22.2860509992 |
@@ -47,6 +48,21 @@ certificate portfolios.
 The serialized bytes differ for some files because experiment writers use
 different decimal formatting; audits and layout comparisons, rather than byte
 identity, are the comparison gate.
+
+### Couzo refreshed-donor transfer beam (2026-10-30)
+
+The Couzo refresh changed 60 layouts relative to the prior Mishapolk
+portfolio. I reran the boundary-aware `N+K -> N` deletion beam using those
+current layouts as donors, targeting every size within 12 below each refreshed
+donor (404 target sizes total). The run used `max_offset=12`, `beam_width=8`,
+and `pool_limit=96` and took 119.6 seconds.
+
+The complete output at
+`data/variants/couzo_transfer_beam12_20261030/submission.csv` passed the
+independent audit at **22.28605099922317**, with zero invalid puzzles and zero
+errors. It accepted zero strict per-`N` replacements, so the Couzo CSV remains
+the incumbent and the final Kaggle slot stays reserved. Compact provenance is
+in `data/variants/couzo_transfer_beam12_20261030/summary.json`.
 
 ## Eight-branch expansion
 
