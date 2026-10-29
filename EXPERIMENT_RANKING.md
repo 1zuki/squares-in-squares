@@ -303,6 +303,32 @@ The source repository is MIT licensed; the Kaggle description records Evan
 Daniel and issue #845 attribution. Kaggle marked the upload Complete at public
 score `22.2863979591`, matching the local audit to displayed precision.
 
+### Issue #844 N=232 and N=307 certificate refresh (2026-10-30)
+
+Public [issue #844](https://github.com/jlevy/squares/issues/844) reports
+independently checked certificates at N=232, N=260, and N=307. The N=260
+record is weaker than the issue #845 N=260 certificate, so only N=232 and
+N=307 were screened further. The pinned files from
+[`franciscouzo/square-packing` commit `712c6a6`](https://github.com/franciscouzo/square-packing/commit/712c6a6e9ef58a9521784e6b7e236af813422de7)
+match the published hashes:
+
+| N | Certificate side | SHA-256 |
+|---:|---:|---|
+| 232 | 15.7616617594813299 | `23b035c34a5a93a3bf23eccaddc49e8d6e5e4003ec5e97c036153b2ca5ddbe54` |
+| 307 | 17.9792512836880252 | `1fd01ff42e7679f1e5b2c8eb8af59e51d3cca0392772b81bb4d78d67a26214e9` |
+
+Both certificates parsed and passed local geometry validation. A targeted
+strict merge changed only N=232 and N=307 relative to the issue #845
+portfolio; the complete audit passed at `22.286193084713283`, with zero
+invalid puzzles and zero errors. This is a local gain of `0.00020487441409`
+over the previous Kaggle-complete candidate. The candidate is
+`data/variants/issue844_n232_n307_20261030/submission.csv` with SHA-256
+`b1e3a375de54e5b69c27b94570fb9603fcdd1c52a80f1e6c481589579d0cfc0a`.
+Kaggle upload status is pending external evaluation. The source repository has
+no repository-wide LICENSE file at the pinned commit; its verifier license is
+MIT, and the candidate record preserves the issue's Francisco Couzo and
+starting-source credits.
+
 ### Additional certificate screen (2026-10-30)
 
 I compared all 23 rounded-up side bounds in [issue #607](https://github.com/jlevy/squares/issues/607)

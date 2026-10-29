@@ -1,6 +1,6 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T18:06:00Z",
+  "checked_utc": "2026-10-29T18:02:09Z",
   "daily_quota": {
     "as_of": "2026-10-27",
     "used": 10,
@@ -17,11 +17,26 @@
       {
         "as_of": "2026-10-29T17:52:00Z",
         "remaining_after_issue845_upload": 7
+      },
+      {
+        "as_of": "2026-10-29T18:02:00Z",
+        "remaining_after_issue844_upload": 6
       }
     ]
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
+    {
+      "id": null,
+      "variant": "Issue #844 N=232/N=307 certificate refresh",
+      "local_score": 22.286193084713283,
+      "public_score": null,
+      "status": "PENDING",
+      "file": "data/variants/issue844_n232_n307_20261030/submission.csv",
+      "sha256": "b1e3a375de54e5b69c27b94570fb9603fcdd1c52a80f1e6c481589579d0cfc0a",
+      "source": "Francisco Couzo certificates, jlevy/squares issue #844; franciscouzo/square-packing commit 712c6a6",
+      "submitted_at_utc": "2026-10-29T18:00:00Z"
+    },
     {
       "id": null,
       "variant": "Issue #845 N=172/204/260/293 certificate portfolio",

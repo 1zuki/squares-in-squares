@@ -1,0 +1,15 @@
+{
+  "issue": "https://github.com/jlevy/squares/issues/844",
+  "source_repository": "https://github.com/franciscouzo/square-packing",
+  "source_commit": "712c6a6e9ef58a9521784e6b7e236af813422de7",
+  "source_license": "No repository-wide LICENSE file found at the pinned commit; BOUND_VERIFIER_LICENSE.txt is MIT for Evan Daniel's verifier. Preserve Francisco Couzo attribution and the issue #844 lineage for the certificate data.",
+  "credit": "Francisco Couzo for refinements; starting-source credits are listed in issue #844.",
+  "certificates": {
+    "n307.cert": "1fd01ff42e7679f1e5b2c8eb8af59e51d3cca0392772b81bb4d78d67a26214e9",
+    "n232.cert": "23b035c34a5a93a3bf23eccaddc49e8d6e5e4003ec5e97c036153b2ca5ddbe54"
+  },
+  "screened_n": [
+    232,
+    307
+  ]
+}

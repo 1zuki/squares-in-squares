@@ -455,6 +455,17 @@ validation at `data/variants/issue845_n172_204_260_293_20261030/submission.csv`.
 This is a public-record import and does not establish global optimality. Keep
 the strict per-N merge and full-file audit gates for future records.
 
+#### Issue #844 N=232 and N=307 refresh (2026-10-30)
+
+Issue #844's N=232 and N=307 certificates were hash-checked against
+`franciscouzo/square-packing` commit `712c6a6`, parsed, and independently
+geometry-validated. The N=260 record was screened but rejected because the
+issue #845 N=260 certificate is strictly smaller. Replacing only N=232 and
+N=307 lowered the complete audited score to `22.286193084713283` (zero invalid
+puzzles and errors), a further local gain of `0.00020487441409`. The candidate
+is submitted to Kaggle at
+`data/variants/issue844_n232_n307_20261030/submission.csv`.
+
 ## Source notes and limits
 
 The detailed source discussions and links are preserved in `a.md`, `b.md`, `c.md`, and `d.md`. Those notes reference, among others, Griffin Casson’s square-packing source, Gensane–Ryckelynck, Friedman’s survey, Kaggle notebooks, soft-to-rigid packing research, and asymptotic tilted-stack constructions. The Santa 2025 comparison uses the [1st-place genetic/GPU-relaxation writeup](https://www.kaggle.com/competitions/santa-2025/writeups/1st-place-genetic-algorithm-and-gpu-relaxation), the [2nd-place SA/ILS/beam-search writeup](https://www.kaggle.com/competitions/santa-2025/writeups/2nd-place-simulated-annealing-iterated-local-sea), the [3rd-place customized Sparrow writeup](https://www.kaggle.com/competitions/santa-2025/writeups/third-place-solution-a-customized-sparrow-algorit), the [4th-place region-replacement writeup](https://www.kaggle.com/competitions/santa-2025/writeups/4th-place-hybrid-packing-with-sparrow-manual-str), and [Cottaar’s released implementation](https://github.com/jcottaar/packing). The released implementation states that it is under CC BY-SA 4.0; direct code reuse should preserve attribution and license obligations. Use the original papers/code for implementation details and verify that links, competition rules, notebook versions, and leaderboard figures are still current before acting on them.
