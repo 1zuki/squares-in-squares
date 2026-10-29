@@ -10,7 +10,7 @@ candidate.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
-| — | N=182 + N=344 certificates (SHA-256 7af0e96af7f9) | 22.28684182148117 | — | PENDING (2026-10-30) |
+| — | N=182 + N=344 certificates (SHA-256 7af0e96af7f9) | 22.28684182148117 | 22.2868418214 | COMPLETE (2026-10-30) |
 | — | CC0 N=344 certificate refresh (SHA-256 f424eb8c2637) | 22.287077114539976 | 22.2870771145 | COMPLETE (2026-10-30) |
 | — | strict per-`N` public-union refresh + n=130 record (SHA-256 a930b7a9c82b) | 22.287085755423853 | 22.2870857554 | COMPLETE (2026-10-29) |
 | 57700036 | public neighbour-transfer merged portfolio | 22.2872657654 | 22.2872657654 | COMPLETE |
@@ -26,17 +26,18 @@ candidate.
 
 ## Best completed public result
 
-The 2026-10-30 N=344 refresh is the best completed result at `22.2870771145`
-(local audit `22.287077114539976`), improving the previous completed result by
-`0.0000086409`. It is `0.0001886509` better than submission `57700036`
+The combined N=182 + N=344 candidate is the best completed result at
+`22.2868418214` (local audit `22.28684182148117`), improving the prior best by
+`0.0002352931`. It is `0.0004239439` better than submission `57700036`
 (`22.2872657654`). Kaggle marked it Complete. Its SHA-256 is
-`f424eb8c2637a344403d608a4447949b9b6b299d49cef4b5b1dabc36e5eda726`.
+`7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.
 
-## Candidate awaiting evaluation
+## Latest completed candidate
 
 The combined N=182 + N=344 candidate passed the complete local audit with score
-`22.28684182148117`, zero invalid puzzles, and zero errors. Its upload is
-pending on Kaggle. The candidate uses Evan Daniel's N=182 certificate from
+`22.28684182148117`, zero invalid puzzles, and zero errors. Kaggle returned
+public score `22.2868418214`, matching the local audit to displayed precision.
+The candidate uses Evan Daniel's N=182 certificate from
 [issue #806](https://github.com/jlevy/squares/issues/806), plus the completed
 N=344 refresh. The submitted file hash is
 `7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.

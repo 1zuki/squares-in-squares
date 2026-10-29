@@ -21,13 +21,15 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
-| 2 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Previous public incumbent |
-| 2 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 2 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 2 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 2 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
-| 2 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
+| 1 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | -0.00042394392735 | yes | Kaggle Complete: 22.2868418214 |
+| 2 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | -0.00018865086855 | yes | Kaggle Complete: 22.2870771145 |
+| 3 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
+| 4 | Incumbent neighbour-transfer portfolio | 1,000 sizes | 22.287265765408524 | 0 | yes | Previous public incumbent |
+| 4 | Boundary-aware deletion beam | 89 hard target sizes, 5,666 deduplicated public donors | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 4 | Contact-group kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 4 | Seam/fault-line kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 4 | Destroy/reinsert kick + SLP repair | 11 target sizes, 1 deterministic trial each | 22.287265765408524 | 0 | yes | No accepted improvements |
+| 4 | Rigid whole-layout rotation | All 1,000 sizes, 360 coarse + 41 fine angles | 22.287265765408524 | 0 | yes | No envelope improvements |
 
 The negative-result experiments tie the previous public incumbent because
 their candidates were rejected and their complete outputs retained its layouts.
@@ -272,8 +274,19 @@ strict merge changed only N=182 relative to the N=344 candidate. Its complete
 1,000-layout audit passed at `22.28684182148117`, with zero invalid puzzles
 and zero errors, a gain of `0.000235293058807` over the N=344 candidate. The
 CSV at `data/variants/issue806_n182_20261030/submission.csv` has SHA-256
-`7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc` and is
-pending Kaggle evaluation.
+`7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.
+Kaggle marked it Complete at public score `22.2868418214`, matching the local
+audit to the displayed precision.
+
+### Additional certificate screen (2026-10-30)
+
+I compared all 23 rounded-up side bounds in [issue #607](https://github.com/jlevy/squares/issues/607)
+with the audited candidate's sides. Only N=342 remains a possible smaller
+layout: its reported bound is `18.964706723173`, versus the current measured
+side `18.964706723190364`, a difference of about `1.7e-11`. The implied score
+change is below `1e-12`, far below Kaggle's displayed precision of `1e-10`, so
+this certificate was not imported or submitted. The other displayed bounds
+cannot clear the strict per-size merge gate.
 
 ## What was implemented
 

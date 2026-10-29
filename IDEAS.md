@@ -450,21 +450,24 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in `EXPERIMENT_RANKING.md`. The N=344 certificate refresh is now the
-best completed and Kaggle-validated candidate: local score
-`22.287077114539976`, public score `22.2870771145`. It adds one strict
-improvement to the previous public-union portfolio using the CC0 certificate
-in [issue #819](https://github.com/jlevy/squares/issues/819). The earlier
-N=130 refresh and 59 public-union improvements remain in that portfolio.
+recorded in `EXPERIMENT_RANKING.md`. The combined N=182 + N=344 certificate
+portfolio is now the best completed and Kaggle-validated candidate: local
+score `22.28684182148117`, public score `22.2868418214`. It adds two strict
+per-size improvements to the previous public-union portfolio: the CC0 N=344
+certificate from [issue #819](https://github.com/jlevy/squares/issues/819)
+and Evan Daniel's N=182 certificate from
+[issue #806](https://github.com/jlevy/squares/issues/806). The earlier N=130
+refresh and 59 public-union improvements remain in that portfolio.
 
-#### N=182 certificate refresh submitted for evaluation (2026-10-30)
+#### N=182 certificate refresh (2026-10-30)
 
 The pinned N=182 certificate from Evan Daniel's
 [issue #806](https://github.com/jlevy/squares/issues/806) matches the published
 SHA-256 and passes local parsing and geometry validation. Merging it over the
 N=344 candidate changed only N=182 and produced an audited score of
-`22.28684182148117`, with zero invalid puzzles and zero errors. Kaggle has the
-combined candidate pending evaluation. The submitted SHA-256 is
+`22.28684182148117`, with zero invalid puzzles and zero errors. Kaggle marked
+the combined candidate Complete at public score `22.2868418214`, matching the
+local audit to displayed precision. The submitted SHA-256 is
 `7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc`.
 
 The eight-branch expansion is now implemented in `eight_ideas.py` with shared
