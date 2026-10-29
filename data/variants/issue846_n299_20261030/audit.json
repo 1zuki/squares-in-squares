@@ -1,0 +1,6008 @@
+{
+  "path": "data/variants/issue846_n299_20261030/submission.csv",
+  "score": 22.28605099928466,
+  "invalid_puzzles": 0,
+  "errors": [],
+  "puzzles": {
+    "1": {
+      "valid": true,
+      "side": 1.0,
+      "message": "ok; wall=0.000e+00; pair=inf",
+      "score": 0.0
+    },
+    "2": {
+      "valid": true,
+      "side": 2.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.4142135623730949
+    },
+    "3": {
+      "valid": true,
+      "side": 2.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.15470053837925168
+    },
+    "4": {
+      "valid": true,
+      "side": 2.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "5": {
+      "valid": true,
+      "side": 2.7071067811882545,
+      "message": "ok; wall=0.000e+00; pair=1.207e-12",
+      "score": 0.21065495701751713
+    },
+    "6": {
+      "valid": true,
+      "side": 3.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.22474487139158916
+    },
+    "7": {
+      "valid": true,
+      "side": 3.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.1338934190276817
+    },
+    "8": {
+      "valid": true,
+      "side": 3.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.06066017177982119
+    },
+    "9": {
+      "valid": true,
+      "side": 3.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "10": {
+      "valid": true,
+      "side": 3.707106781189254,
+      "message": "ok; wall=0.000e+00; pair=1.207e-12",
+      "score": 0.17229009580134869
+    },
+    "11": {
+      "valid": true,
+      "side": 3.877083590025691,
+      "message": "ok; wall=0.000e+00; pair=9.996e-13",
+      "score": 0.16898468626902896
+    },
+    "12": {
+      "valid": true,
+      "side": 4.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.15470053837925168
+    },
+    "13": {
+      "valid": true,
+      "side": 4.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.1094003924504583
+    },
+    "14": {
+      "valid": true,
+      "side": 4.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.06904496764969759
+    },
+    "15": {
+      "valid": true,
+      "side": 4.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03279555898864439
+    },
+    "16": {
+      "valid": true,
+      "side": 4.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "17": {
+      "valid": true,
+      "side": 4.675530093608225,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.1339826136294553
+    },
+    "18": {
+      "valid": true,
+      "side": 4.822875655536118,
+      "message": "ok; wall=0.000e+00; pair=9.988e-13",
+      "score": 0.13676269361636817
+    },
+    "19": {
+      "valid": true,
+      "side": 4.885618083168012,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.12083765796127666
+    },
+    "20": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.1180339887498949
+    },
+    "21": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.09108945117996203
+    },
+    "22": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.06600358177805221
+    },
+    "23": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0425720702853738
+    },
+    "24": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0206207261596576
+    },
+    "25": {
+      "valid": true,
+      "side": 5.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "26": {
+      "valid": true,
+      "side": 5.621320343564264,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.10243162015347229
+    },
+    "27": {
+      "valid": true,
+      "side": 5.707106781191254,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.09833321213823631
+    },
+    "28": {
+      "valid": true,
+      "side": 5.824444616678884,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.10071657005723234
+    },
+    "29": {
+      "valid": true,
+      "side": 5.9338334626818625,
+      "message": "ok; wall=0.000e+00; pair=9.990e-13",
+      "score": 0.1018852115390152
+    },
+    "30": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.09544511501033215
+    },
+    "31": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0776318121606494
+    },
+    "32": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.06066017177982119
+    },
+    "33": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.044465935734187
+    },
+    "34": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.028991510855052915
+    },
+    "35": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014185105674219933
+    },
+    "36": {
+      "valid": true,
+      "side": 6.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "37": {
+      "valid": true,
+      "side": 6.598619609249959,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.08480638137396568
+    },
+    "38": {
+      "valid": true,
+      "side": 6.7071067811922545,
+      "message": "ok; wall=0.000e+00; pair=9.988e-13",
+      "score": 0.08803639372078198
+    },
+    "39": {
+      "valid": true,
+      "side": 6.810722083074459,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.09058835324225023
+    },
+    "40": {
+      "valid": true,
+      "side": 6.828427124752017,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.07966912753455513
+    },
+    "41": {
+      "valid": true,
+      "side": 6.926693094474729,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.08176771801194826
+    },
+    "42": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.08012344973464325
+    },
+    "43": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0674899923282326
+    },
+    "44": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.05528970602217265
+    },
+    "45": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0434983894999017
+    },
+    "46": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.032093693084279895
+    },
+    "47": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02105494048526202
+    },
+    "48": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01036297108184514
+    },
+    "49": {
+      "valid": true,
+      "side": 7.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "50": {
+      "valid": true,
+      "side": 7.571428571435143,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.07076169722627279
+    },
+    "51": {
+      "valid": true,
+      "side": 7.690355937295182,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.07686522580810018
+    },
+    "52": {
+      "valid": true,
+      "side": 7.7071067811932545,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.06878341096417318
+    },
+    "53": {
+      "valid": true,
+      "side": 7.822875655539116,
+      "message": "ok; wall=0.000e+00; pair=9.992e-13",
+      "score": 0.0745546117453233
+    },
+    "54": {
+      "valid": true,
+      "side": 7.846667192850334,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.06779615577334264
+    },
+    "55": {
+      "valid": true,
+      "side": 7.945771007510857,
+      "message": "ok; wall=0.000e+00; pair=9.988e-13",
+      "score": 0.0714075440856472
+    },
+    "56": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.06904496764969759
+    },
+    "57": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.05962588565203508
+    },
+    "58": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.05045146287778035
+    },
+    "59": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.04151128784659108
+    },
+    "60": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03279555898864439
+    },
+    "61": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0242950394631678
+    },
+    "62": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016001016001524038
+    },
+    "63": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00790526135793912
+    },
+    "64": {
+      "valid": true,
+      "side": 8.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "65": {
+      "valid": true,
+      "side": 8.535533905940273,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.05870268260049172
+    },
+    "66": {
+      "valid": true,
+      "side": 8.656854249500034,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.06558509676173152
+    },
+    "67": {
+      "valid": true,
+      "side": 8.707106781194252,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.06374239740951904
+    },
+    "68": {
+      "valid": true,
+      "side": 8.79879523722608,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.06701065121366856
+    },
+    "69": {
+      "valid": true,
+      "side": 8.827194655737564,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.0626693589851095
+    },
+    "70": {
+      "valid": true,
+      "side": 8.88096037156346,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.061477791445765595
+    },
+    "71": {
+      "valid": true,
+      "side": 8.944071557578258,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.0614660074107205
+    },
+    "72": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.060660171779821415
+    },
+    "73": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.053370324765175114
+    },
+    "74": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.046228748694373545
+    },
+    "75": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03923048454132627
+    },
+    "76": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.032370802417527766
+    },
+    "77": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.025645188136741437
+    },
+    "78": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019049330730136038
+    },
+    "79": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012579110833421447
+    },
+    "80": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0062305898749053235
+    },
+    "81": {
+      "valid": true,
+      "side": 9.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "82": {
+      "valid": true,
+      "side": 9.535533905941271,
+      "message": "ok; wall=0.000e+00; pair=9.956e-13",
+      "score": 0.05302356117153684
+    },
+    "83": {
+      "valid": true,
+      "side": 9.634757648639715,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.05755204348294729
+    },
+    "84": {
+      "valid": true,
+      "side": 9.697934799023619,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.05813143574457347
+    },
+    "85": {
+      "valid": true,
+      "side": 9.742640687128027,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.056737752310674905
+    },
+    "86": {
+      "valid": true,
+      "side": 9.820535407505563,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.058975567333884094
+    },
+    "87": {
+      "valid": true,
+      "side": 9.838815269957095,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.054831717887450226
+    },
+    "88": {
+      "valid": true,
+      "side": 9.882451030490127,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.05347281952486771
+    },
+    "89": {
+      "valid": true,
+      "side": 9.94974746831478,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.0546711223012315
+    },
+    "90": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.05409255338945984
+    },
+    "91": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.04828483672191841
+    },
+    "92": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0425720702853738
+    },
+    "93": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.036951694730425366
+    },
+    "94": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03142124625879328
+    },
+    "95": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0259783520851542
+    },
+    "96": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0206207261596576
+    },
+    "97": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015346165133619083
+    },
+    "98": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010152544552210818
+    },
+    "99": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005037815259212097
+    },
+    "100": {
+      "valid": true,
+      "side": 10.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "101": {
+      "valid": true,
+      "side": 10.535533905942271,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04832480551308693
+    },
+    "102": {
+      "valid": true,
+      "side": 10.605828696441183,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.05013352250127423
+    },
+    "103": {
+      "valid": true,
+      "side": 10.679232047370984,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.05225600045850398
+    },
+    "104": {
+      "valid": true,
+      "side": 10.707106781196252,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04991820022002558
+    },
+    "105": {
+      "valid": true,
+      "side": 10.789303783757948,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.05292823496332666
+    },
+    "106": {
+      "valid": true,
+      "side": 10.82290804414267,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.051213757286848516
+    },
+    "107": {
+      "valid": true,
+      "side": 10.846667192853335,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04858689598658161
+    },
+    "108": {
+      "valid": true,
+      "side": 10.90482101233026,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04931689115559368
+    },
+    "109": {
+      "valid": true,
+      "side": 10.949747468315783,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.048795594168661305
+    },
+    "110": {
+      "valid": true,
+      "side": 10.99678339664159,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04850215707348293
+    },
+    "111": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.04407379532774902
+    },
+    "112": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.039402300775374766
+    },
+    "113": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03479295522195702
+    },
+    "114": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.030244392739863457
+    },
+    "115": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0257552890643451
+    },
+    "116": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.021324359973785345
+    },
+    "117": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016950359746253252
+    },
+    "118": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012632079688155828
+    },
+    "119": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008368346731032483
+    },
+    "120": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004158022092804581
+    },
+    "121": {
+      "valid": true,
+      "side": 11.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "122": {
+      "valid": true,
+      "side": 11.535533905943272,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04437816817334195
+    },
+    "123": {
+      "valid": true,
+      "side": 11.591378145508287,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04515936977525148
+    },
+    "124": {
+      "valid": true,
+      "side": 11.656854249503036,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.046816414082043734
+    },
+    "125": {
+      "valid": true,
+      "side": 11.707106781197256,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.047115463304232774
+    },
+    "126": {
+      "valid": true,
+      "side": 11.742640687130027,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04611757779124526
+    },
+    "127": {
+      "valid": true,
+      "side": 11.810878787599991,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.04804601741015513
+    },
+    "128": {
+      "valid": true,
+      "side": 11.825091968224513,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.045200339860766325
+    },
+    "129": {
+      "valid": true,
+      "side": 11.870013850415337,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.045096445269589
+    },
+    "130": {
+      "valid": true,
+      "side": 11.90243064599525,
+      "message": "ok; wall=0.000e+00; pair=1.211e-12",
+      "score": 0.043912224731587735
+    },
+    "131": {
+      "valid": true,
+      "side": 11.94965958804681,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.044046605779496595
+    },
+    "132": {
+      "valid": true,
+      "side": 11.985680198856794,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04321955702580649
+    },
+    "133": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.04053196342894383
+    },
+    "134": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.036642110697632235
+    },
+    "135": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03279555898864461
+    },
+    "136": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.028991510855052915
+    },
+    "137": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.025229189260113083
+    },
+    "138": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0215078369104984
+    },
+    "139": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017826715615965272
+    },
+    "140": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014185105674219933
+    },
+    "141": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010582305279822846
+    },
+    "142": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0070176299560269495
+    },
+    "143": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0034904120085088586
+    },
+    "144": {
+      "valid": true,
+      "side": 12.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "145": {
+      "valid": true,
+      "side": 12.535533905944272,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.041019428441969374
+    },
+    "146": {
+      "valid": true,
+      "side": 12.583782190163443,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04144122414688689
+    },
+    "147": {
+      "valid": true,
+      "side": 12.65685424949488,
+      "message": "ok; wall=0.000e+00; pair=2.025e-13",
+      "score": 0.043919744005675554
+    },
+    "148": {
+      "valid": true,
+      "side": 12.656854249504036,
+      "message": "ok; wall=0.000e+00; pair=9.961e-13",
+      "score": 0.040387010544985724
+    },
+    "149": {
+      "valid": true,
+      "side": 12.707106781198252,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.04100674926015668
+    },
+    "150": {
+      "valid": true,
+      "side": 12.7781745930638,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04333358657341302
+    },
+    "151": {
+      "valid": true,
+      "side": 12.82287565554412,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04351082167394704
+    },
+    "152": {
+      "valid": true,
+      "side": 12.83071880098844,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.04070871901276907
+    },
+    "153": {
+      "valid": true,
+      "side": 12.870013850416335,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04047895114566269
+    },
+    "154": {
+      "valid": true,
+      "side": 12.921100940773602,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.04121198585653141
+    },
+    "155": {
+      "valid": true,
+      "side": 12.952260944662516,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.04035063437418729
+    },
+    "156": {
+      "valid": true,
+      "side": 12.979165853846256,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.039164933053214224
+    },
+    "157": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.03751294980790876
+    },
+    "158": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.034224469428449034
+    },
+    "159": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.030967061433587295
+    },
+    "160": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.027740239554723267
+    },
+    "161": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.024543528110830826
+    },
+    "162": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.021376461713902062
+    },
+    "163": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018238584984344497
+    },
+    "164": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015129452275939537
+    },
+    "165": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012048627409979806
+    },
+    "166": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008995683418232758
+    },
+    "167": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0059702022943779465
+    },
+    "168": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002971774753597334
+    },
+    "169": {
+      "valid": true,
+      "side": 13.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "170": {
+      "valid": true,
+      "side": 13.535533905945272,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.0381280611216519
+    },
+    "171": {
+      "valid": true,
+      "side": 13.571428571441144,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03783308179635991
+    },
+    "172": {
+      "valid": true,
+      "side": 13.617935698394035,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03835786244321526
+    },
+    "173": {
+      "valid": true,
+      "side": 13.656854249505036,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.03831140147310297
+    },
+    "174": {
+      "valid": true,
+      "side": 13.707106781199256,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.03913308339542754
+    },
+    "175": {
+      "valid": true,
+      "side": 13.76417431749936,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.04047377846415712
+    },
+    "176": {
+      "valid": true,
+      "side": 13.795872318449204,
+      "message": "ok; wall=0.000e+00; pair=9.956e-13",
+      "score": 0.03990300308969208
+    },
+    "177": {
+      "valid": true,
+      "side": 13.82297973418227,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.03899878123617029
+    },
+    "178": {
+      "valid": true,
+      "side": 13.846667192856335,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.037851584802519156
+    },
+    "179": {
+      "valid": true,
+      "side": 13.88379549052378,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.03772359702085515
+    },
+    "180": {
+      "valid": true,
+      "side": 13.916993522490747,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03731145195711849
+    },
+    "181": {
+      "valid": true,
+      "side": 13.950819531035874,
+      "message": "ok; wall=0.000e+00; pair=9.956e-13",
+      "score": 0.036956249276960396
+    },
+    "182": {
+      "valid": true,
+      "side": 13.97091643622765,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.035593226148309176
+    },
+    "183": {
+      "valid": true,
+      "side": 13.999580178749252,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.034878745256546884
+    },
+    "184": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.032093693084279895
+    },
+    "185": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.029300470931330702
+    },
+    "186": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.026529805149473118
+    },
+    "187": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02378139377798294
+    },
+    "188": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02105494048526202
+    },
+    "189": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018350154434631172
+    },
+    "190": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015666750154016418
+    },
+    "191": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013004447409390218
+    },
+    "192": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01036297108184514
+    },
+    "193": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0077420510481724936
+    },
+    "194": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0051414220648333675
+    },
+    "195": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002560823655206157
+    },
+    "196": {
+      "valid": true,
+      "side": 14.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "197": {
+      "valid": true,
+      "side": 14.535533905946274,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.035613910797909654
+    },
+    "198": {
+      "valid": true,
+      "side": 14.571428571442143,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03554633658535811
+    },
+    "199": {
+      "valid": true,
+      "side": 14.617572173606424,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03621221767224414
+    },
+    "200": {
+      "valid": true,
+      "side": 14.656854249506036,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03639610306885843
+    },
+    "201": {
+      "valid": true,
+      "side": 14.707106781200252,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.03735932900838579
+    },
+    "202": {
+      "valid": true,
+      "side": 14.727922061371585,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.03625298013601452
+    },
+    "203": {
+      "valid": true,
+      "side": 14.7781745930658,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03722451812549621
+    },
+    "204": {
+      "valid": true,
+      "side": 14.807627471894385,
+      "message": "ok; wall=0.000e+00; pair=1.997e-12",
+      "score": 0.03674129202998677
+    },
+    "205": {
+      "valid": true,
+      "side": 14.824451146137912,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.035384579861876375
+    },
+    "206": {
+      "valid": true,
+      "side": 14.86015866340576,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.0353563138406392
+    },
+    "207": {
+      "valid": true,
+      "side": 14.88096037156946,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03429824416145166
+    },
+    "208": {
+      "valid": true,
+      "side": 14.92451877204328,
+      "message": "ok; wall=0.000e+00; pair=9.956e-13",
+      "score": 0.03482918642744037
+    },
+    "209": {
+      "valid": true,
+      "side": 14.946223226460395,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.0338518785913724
+    },
+    "210": {
+      "valid": true,
+      "side": 14.973001116601598,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03323523905613768
+    },
+    "211": {
+      "valid": true,
+      "side": 14.993549626313415,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03219852419454616
+    },
+    "212": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.030204229615167666
+    },
+    "213": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.027783064741297547
+    },
+    "214": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.025378890536994936
+    },
+    "215": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.022991509205710248
+    },
+    "216": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0206207261596576
+    },
+    "217": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018266349953196093
+    },
+    "218": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015928192217894654
+    },
+    "219": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013606067599228888
+    },
+    "220": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011299793694863114
+    },
+    "221": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00900919099446873
+    },
+    "222": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006734082821036491
+    },
+    "223": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00447429527363763
+    },
+    "224": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0022296571715914038
+    },
+    "225": {
+      "valid": true,
+      "side": 15.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "226": {
+      "valid": true,
+      "side": 15.535533905947272,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.03340834338215326
+    },
+    "227": {
+      "valid": true,
+      "side": 15.563625652339711,
+      "message": "ok; wall=0.000e+00; pair=9.939e-13",
+      "score": 0.032994115847318595
+    },
+    "228": {
+      "valid": true,
+      "side": 15.604601475744278,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.033439978686411465
+    },
+    "229": {
+      "valid": true,
+      "side": 15.65016151389108,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.034191782850561125
+    },
+    "230": {
+      "valid": true,
+      "side": 15.682926829282978,
+      "message": "ok; wall=0.000e+00; pair=9.930e-13",
+      "score": 0.03410157169240979
+    },
+    "231": {
+      "valid": true,
+      "side": 15.707106781201254,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.0334517529605447
+    },
+    "232": {
+      "valid": true,
+      "side": 15.76166175949609,
+      "message": "ok; wall=0.000e+00; pair=3.210e-12",
+      "score": 0.034803790790464806
+    },
+    "233": {
+      "valid": true,
+      "side": 15.7781745930668,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.033662585738590156
+    },
+    "234": {
+      "valid": true,
+      "side": 15.822875655547117,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.034373740112653595
+    },
+    "235": {
+      "valid": true,
+      "side": 15.826605633443394,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03241391558408835
+    },
+    "236": {
+      "valid": true,
+      "side": 15.861934390622219,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.032523982182192324
+    },
+    "237": {
+      "valid": true,
+      "side": 15.902603638274499,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03298511039395802
+    },
+    "238": {
+      "valid": true,
+      "side": 15.92410678533642,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03220653124973549
+    },
+    "239": {
+      "valid": true,
+      "side": 15.948443327315449,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.031619039842953
+    },
+    "240": {
+      "valid": true,
+      "side": 15.969685337545751,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.030838755941457796
+    },
+    "241": {
+      "valid": true,
+      "side": 15.987117095165226,
+      "message": "ok; wall=0.000e+00; pair=9.956e-13",
+      "score": 0.02982074138966828
+    },
+    "242": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.028518954453160106
+    },
+    "243": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.026400478559334584
+    },
+    "244": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0242950394631678
+    },
+    "245": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.022202503999903866
+    },
+    "246": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02012274090134114
+    },
+    "247": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01805562076124434
+    },
+    "248": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016001016001524038
+    },
+    "249": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013958800839164676
+    },
+    "250": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011928851253881323
+    },
+    "251": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009911044956484982
+    },
+    "252": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00790526135793912
+    },
+    "253": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005911381539090321
+    },
+    "254": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003929288221053762
+    },
+    "255": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.001958865736239268
+    },
+    "256": {
+      "valid": true,
+      "side": 16.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "257": {
+      "valid": true,
+      "side": 16.53553390594827,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.03145826571393129
+    },
+    "258": {
+      "valid": true,
+      "side": 16.56344800214935,
+      "message": "ok; wall=0.000e+00; pair=9.939e-13",
+      "score": 0.03119523057737439
+    },
+    "259": {
+      "valid": true,
+      "side": 16.59137814551329,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.030938075591501635
+    },
+    "260": {
+      "valid": true,
+      "side": 16.633982502136313,
+      "message": "ok; wall=0.000e+00; pair=2.203e-12",
+      "score": 0.031595802407007545
+    },
+    "261": {
+      "valid": true,
+      "side": 16.678779875358586,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03239055644510658
+    },
+    "262": {
+      "valid": true,
+      "side": 16.707106781202256,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.032168503978367013
+    },
+    "263": {
+      "valid": true,
+      "side": 16.73316600791511,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03181121834290623
+    },
+    "264": {
+      "valid": true,
+      "side": 16.774735132403606,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.032413579115477154
+    },
+    "265": {
+      "valid": true,
+      "side": 16.778174593067803,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03067507219090171
+    },
+    "266": {
+      "valid": true,
+      "side": 16.8230287507723,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.031486073638511636
+    },
+    "267": {
+      "valid": true,
+      "side": 16.8388152699641,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.03051875903304735
+    },
+    "268": {
+      "valid": true,
+      "side": 16.87436171590557,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.030765697349746324
+    },
+    "269": {
+      "valid": true,
+      "side": 16.901513582205034,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.030503470571763946
+    },
+    "270": {
+      "valid": true,
+      "side": 16.92816225221268,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.030215146960482553
+    },
+    "271": {
+      "valid": true,
+      "side": 16.948947733729607,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.029575252372442407
+    },
+    "272": {
+      "valid": true,
+      "side": 16.965586474853637,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.0286897799466459
+    },
+    "273": {
+      "valid": true,
+      "side": 16.98392596266639,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.02791396054141959
+    },
+    "274": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02700755866130078
+    },
+    "275": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02513857156439614
+    },
+    "276": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.023279751229038137
+    },
+    "277": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.021431005814386506
+    },
+    "278": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019592244636914335
+    },
+    "279": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01776337815172435
+    },
+    "280": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015944317934234675
+    },
+    "281": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014134976662218968
+    },
+    "282": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012335268098203178
+    },
+    "283": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010545107072198912
+    },
+    "284": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008764409464775191
+    },
+    "285": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006993092190456851
+    },
+    "286": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005231073181440449
+    },
+    "287": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003478271371623931
+    },
+    "288": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0017346066809424965
+    },
+    "289": {
+      "valid": true,
+      "side": 17.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "290": {
+      "valid": true,
+      "side": 17.535533905949272,
+      "message": "ok; wall=0.000e+00; pair=9.974e-13",
+      "score": 0.029722006955905655
+    },
+    "291": {
+      "valid": true,
+      "side": 17.535533905949272,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.02795120253815786
+    },
+    "292": {
+      "valid": true,
+      "side": 17.59137814551429,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02945753945596641
+    },
+    "293": {
+      "valid": true,
+      "side": 17.633982502138416,
+      "message": "ok; wall=0.000e+00; pair=2.202e-12",
+      "score": 0.030188257565752386
+    },
+    "294": {
+      "valid": true,
+      "side": 17.656854249509035,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02976865176166532
+    },
+    "295": {
+      "valid": true,
+      "side": 17.704232790752734,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.03078028484458617
+    },
+    "296": {
+      "valid": true,
+      "side": 17.707106781203255,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.0292046761497744
+    },
+    "297": {
+      "valid": true,
+      "side": 17.740417287560543,
+      "message": "ok; wall=0.000e+00; pair=9.939e-13",
+      "score": 0.029403419031492906
+    },
+    "298": {
+      "valid": true,
+      "side": 17.7781745930688,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.029862002649936548
+    },
+    "299": {
+      "valid": true,
+      "side": 17.801238549405387,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.029472206061418982
+    },
+    "300": {
+      "valid": true,
+      "side": 17.82412338849537,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.02907624364169048
+    },
+    "301": {
+      "valid": true,
+      "side": 17.846667192860338,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.028664795792123554
+    },
+    "302": {
+      "valid": true,
+      "side": 17.870013850421334,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.028303745379942846
+    },
+    "303": {
+      "valid": true,
+      "side": 17.906978233832714,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.028729020481448764
+    },
+    "304": {
+      "valid": true,
+      "side": 17.926898901532223,
+      "message": "ok; wall=0.000e+00; pair=2.000e-12",
+      "score": 0.028178166879595512
+    },
+    "305": {
+      "valid": true,
+      "side": 17.95046648215466,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02784072078386801
+    },
+    "306": {
+      "valid": true,
+      "side": 17.963433717508387,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02690115561797546
+    },
+    "307": {
+      "valid": true,
+      "side": 17.979251283704986,
+      "message": "ok; wall=0.000e+00; pair=1.210e-12",
+      "score": 0.026130070176556774
+    },
+    "308": {
+      "valid": true,
+      "side": 17.997149121287904,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02548274424601793
+    },
+    "309": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.023984223179433606
+    },
+    "310": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02233130164471664
+    },
+    "311": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02068635882273684
+    },
+    "312": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019049330730136038
+    },
+    "313": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017420154099598628
+    },
+    "314": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015798766369580663
+    },
+    "315": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014185105674219933
+    },
+    "316": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012579110833421447
+    },
+    "317": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010980721343114785
+    },
+    "318": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009389877365679755
+    },
+    "319": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007806519720537697
+    },
+    "320": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0062305898749053235
+    },
+    "321": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004662029934705547
+    },
+    "322": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0031007826356350687
+    },
+    "323": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0015467913343829576
+    },
+    "324": {
+      "valid": true,
+      "side": 18.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "325": {
+      "valid": true,
+      "side": 18.53553390595027,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.02816642947700032
+    },
+    "326": {
+      "valid": true,
+      "side": 18.53553390595027,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.026588275930527372
+    },
+    "327": {
+      "valid": true,
+      "side": 18.58378219108696,
+      "message": "ok; wall=0.000e+00; pair=6.000e-11",
+      "score": 0.027685503431167158
+    },
+    "328": {
+      "valid": true,
+      "side": 18.614368938529687,
+      "message": "ok; wall=0.000e+00; pair=2.203e-12",
+      "score": 0.027806584401027346
+    },
+    "329": {
+      "valid": true,
+      "side": 18.656854249510037,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.028585670581116274
+    },
+    "330": {
+      "valid": true,
+      "side": 18.69238815546433,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.028982102142169675
+    },
+    "331": {
+      "valid": true,
+      "side": 18.707106781204253,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.028235581590559722
+    },
+    "332": {
+      "valid": true,
+      "side": 18.74041728756154,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.028514017733596297
+    },
+    "333": {
+      "valid": true,
+      "side": 18.774735132434316,
+      "message": "ok; wall=0.000e+00; pair=2.604e-12",
+      "score": 0.02884914756617163
+    },
+    "334": {
+      "valid": true,
+      "side": 18.793115198862406,
+      "message": "ok; wall=0.000e+00; pair=6.610e-11",
+      "score": 0.028313512152101428
+    },
+    "335": {
+      "valid": true,
+      "side": 18.80369543990848,
+      "message": "ok; wall=0.000e+00; pair=6.133e-11",
+      "score": 0.027355629101855294
+    },
+    "336": {
+      "valid": true,
+      "side": 18.825571499879487,
+      "message": "ok; wall=0.000e+00; pair=9.921e-13",
+      "score": 0.02701912379763205
+    },
+    "337": {
+      "valid": true,
+      "side": 18.858391767654087,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02728205838739317
+    },
+    "338": {
+      "valid": true,
+      "side": 18.88402541308909,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.027155571207260865
+    },
+    "339": {
+      "valid": true,
+      "side": 18.90735147119472,
+      "message": "ok; wall=0.000e+00; pair=2.201e-12",
+      "score": 0.02690637116941952
+    },
+    "340": {
+      "valid": true,
+      "side": 18.926898900396687,
+      "message": "ok; wall=0.000e+00; pair=2.212e-12",
+      "score": 0.026455210887618374
+    },
+    "341": {
+      "valid": true,
+      "side": 18.951882408737887,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02630197238335863
+    },
+    "342": {
+      "valid": true,
+      "side": 18.964706723190364,
+      "message": "ok; wall=0.000e+00; pair=2.212e-12",
+      "score": 0.025493891988022543
+    },
+    "343": {
+      "valid": true,
+      "side": 18.97717158479339,
+      "message": "ok; wall=0.000e+00; pair=2.204e-12",
+      "score": 0.024670951036016353
+    },
+    "344": {
+      "valid": true,
+      "side": 18.992567544861057,
+      "message": "ok; wall=0.000e+00; pair=2.217e-12",
+      "score": 0.024010614307993672
+    },
+    "345": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.02292561391051451
+    },
+    "346": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.021446328083893684
+    },
+    "347": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019973441480536147
+    },
+    "348": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01850690809590505
+    },
+    "349": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017046682387159562
+    },
+    "350": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015592719267212507
+    },
+    "351": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014144974098885266
+    },
+    "352": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01270340268914949
+    },
+    "353": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011267961283464079
+    },
+    "354": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009838606560194307
+    },
+    "355": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008415295625122887
+    },
+    "356": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006997986006042067
+    },
+    "357": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005586635647429894
+    },
+    "358": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004181202905210846
+    },
+    "359": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0027816465415930747
+    },
+    "360": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0013879257199866935
+    },
+    "361": {
+      "valid": true,
+      "side": 19.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "362": {
+      "valid": true,
+      "side": 19.535533905951276,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.02676486652698462
+    },
+    "363": {
+      "valid": true,
+      "side": 19.535533905951276,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.02534961448763906
+    },
+    "364": {
+      "valid": true,
+      "side": 19.571428572302867,
+      "message": "ok; wall=0.000e+00; pair=5.999e-11",
+      "score": 0.025821590266559946
+    },
+    "365": {
+      "valid": true,
+      "side": 19.61436893853069,
+      "message": "ok; wall=0.000e+00; pair=2.203e-12",
+      "score": 0.02666299289373808
+    },
+    "366": {
+      "valid": true,
+      "side": 19.65685424951104,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02748023126784771
+    },
+    "367": {
+      "valid": true,
+      "side": 19.692388155443812,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.027934294363065826
+    },
+    "368": {
+      "valid": true,
+      "side": 19.692388155443812,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.02653669440421158
+    },
+    "369": {
+      "valid": true,
+      "side": 19.707106781205248,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02591100065376084
+    },
+    "370": {
+      "valid": true,
+      "side": 19.764174317535748,
+      "message": "ok; wall=0.000e+00; pair=2.604e-12",
+      "score": 0.02749049637735479
+    },
+    "371": {
+      "valid": true,
+      "side": 19.778174593093635,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.02683166200145215
+    },
+    "372": {
+      "valid": true,
+      "side": 19.803695439909475,
+      "message": "ok; wall=0.000e+00; pair=6.133e-11",
+      "score": 0.026773777416966293
+    },
+    "373": {
+      "valid": true,
+      "side": 19.803695439909475,
+      "message": "ok; wall=0.000e+00; pair=6.133e-11",
+      "score": 0.02539648132092731
+    },
+    "374": {
+      "valid": true,
+      "side": 19.832356217051583,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.025506726343355934
+    },
+    "375": {
+      "valid": true,
+      "side": 19.87001385044727,
+      "message": "ok; wall=0.000e+00; pair=2.224e-12",
+      "score": 0.026083103089239668
+    },
+    "376": {
+      "valid": true,
+      "side": 19.88787005933989,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.025638586101864425
+    },
+    "377": {
+      "valid": true,
+      "side": 19.909958292677253,
+      "message": "ok; wall=0.000e+00; pair=5.441e-11",
+      "score": 0.02541502138918239
+    },
+    "378": {
+      "valid": true,
+      "side": 19.92689890196772,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02492908497651669
+    },
+    "379": {
+      "valid": true,
+      "side": 19.950889681521193,
+      "message": "ok; wall=0.000e+00; pair=2.200e-12",
+      "score": 0.024808366260410608
+    },
+    "380": {
+      "valid": true,
+      "side": 19.961350023852958,
+      "message": "ok; wall=0.000e+00; pair=2.192e-12",
+      "score": 0.023995650143380454
+    },
+    "381": {
+      "valid": true,
+      "side": 19.974739840501748,
+      "message": "ok; wall=0.000e+00; pair=2.192e-12",
+      "score": 0.02333692198332149
+    },
+    "382": {
+      "valid": true,
+      "side": 19.987621153984502,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.02265566333278546
+    },
+    "383": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.021952260615192065
+    },
+    "384": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0206207261596576
+    },
+    "385": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019294382875251204
+    },
+    "386": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017973197118575257
+    },
+    "387": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01665713555069792
+    },
+    "388": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015346165133619083
+    },
+    "389": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014040253126787583
+    },
+    "390": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01273936708366663
+    },
+    "391": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01144347484834718
+    },
+    "392": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010152544552210818
+    },
+    "393": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008866544610636629
+    },
+    "394": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007585443719756668
+    },
+    "395": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006309210853255198
+    },
+    "396": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005037815259212097
+    },
+    "397": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003771226456991128
+    },
+    "398": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002509414234171059
+    },
+    "399": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0012523486435178643
+    },
+    "400": {
+      "valid": true,
+      "side": 20.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "401": {
+      "valid": true,
+      "side": 20.53553390595227,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.02549562593375554
+    },
+    "402": {
+      "valid": true,
+      "side": 20.53553390595227,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.02421933965711176
+    },
+    "403": {
+      "valid": true,
+      "side": 20.57142857147193,
+      "message": "ok; wall=0.000e+00; pair=2.199e-12",
+      "score": 0.024735847426265112
+    },
+    "404": {
+      "valid": true,
+      "side": 20.591378146101405,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.024459352652405952
+    },
+    "405": {
+      "valid": true,
+      "side": 20.63853358777132,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.025536979070428734
+    },
+    "406": {
+      "valid": true,
+      "side": 20.656854249512037,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.025182463016611756
+    },
+    "407": {
+      "valid": true,
+      "side": 20.692388155444814,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.025683600863385392
+    },
+    "408": {
+      "valid": true,
+      "side": 20.707106781206257,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.025154545078350354
+    },
+    "409": {
+      "valid": true,
+      "side": 20.740417288333518,
+      "message": "ok; wall=0.000e+00; pair=4.000e-11",
+      "score": 0.025547631504556634
+    },
+    "410": {
+      "valid": true,
+      "side": 20.774735132432287,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.02599103764297017
+    },
+    "411": {
+      "valid": true,
+      "side": 20.79311519894547,
+      "message": "ok; wall=0.000e+00; pair=5.912e-11",
+      "score": 0.025648735035700865
+    },
+    "412": {
+      "valid": true,
+      "side": 20.803695439910484,
+      "message": "ok; wall=0.000e+00; pair=6.134e-11",
+      "score": 0.02492451054783973
+    },
+    "413": {
+      "valid": true,
+      "side": 20.824484939300095,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.02470591421275925
+    },
+    "414": {
+      "valid": true,
+      "side": 20.84068735812872,
+      "message": "ok; wall=0.000e+00; pair=2.611e-12",
+      "score": 0.024263903898377848
+    },
+    "415": {
+      "valid": true,
+      "side": 20.867146448911488,
+      "message": "ok; wall=0.000e+00; pair=1.099e-11",
+      "score": 0.024327932383477746
+    },
+    "416": {
+      "valid": true,
+      "side": 20.88624136924791,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.024032233725038266
+    },
+    "417": {
+      "valid": true,
+      "side": 20.90474003539649,
+      "message": "ok; wall=0.000e+00; pair=6.513e-11",
+      "score": 0.023709523899510865
+    },
+    "418": {
+      "valid": true,
+      "side": 20.929314204460884,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.023686219620906
+    },
+    "419": {
+      "valid": true,
+      "side": 20.949965580226976,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.023472793006988013
+    },
+    "420": {
+      "valid": true,
+      "side": 20.966577898747907,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.023064245043459275
+    },
+    "421": {
+      "valid": true,
+      "side": 20.97627399795219,
+      "message": "ok; wall=0.000e+00; pair=2.634e-12",
+      "score": 0.022321040953923843
+    },
+    "422": {
+      "valid": true,
+      "side": 20.983570193624306,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.021464214912969126
+    },
+    "423": {
+      "valid": true,
+      "side": 20.99647672846801,
+      "message": "ok; wall=0.000e+00; pair=5.004e-11",
+      "score": 0.02088363316124231
+    },
+    "424": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019850155475127362
+    },
+    "425": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018649625152598492
+    },
+    "426": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017453324534169257
+    },
+    "427": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016261228841237152
+    },
+    "428": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015073313497946605
+    },
+    "429": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013889554129061787
+    },
+    "430": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012709926557865403
+    },
+    "431": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011534406804084796
+    },
+    "432": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01036297108184514
+    },
+    "433": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009195595797646616
+    },
+    "434": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008032257548370447
+    },
+    "435": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006872933119306701
+    },
+    "436": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005717599482208957
+    },
+    "437": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00456623379337362
+    },
+    "438": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00341881339174277
+    },
+    "439": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0022753157970301086
+    },
+    "440": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.001135718707871991
+    },
+    "441": {
+      "valid": true,
+      "side": 21.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "442": {
+      "valid": true,
+      "side": 21.535533905953272,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.024340887978144155
+    },
+    "443": {
+      "valid": true,
+      "side": 21.535533905953272,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.023184093833868546
+    },
+    "444": {
+      "valid": true,
+      "side": 21.57142857147852,
+      "message": "ok; wall=0.000e+00; pair=2.217e-12",
+      "score": 0.023734695421137264
+    },
+    "445": {
+      "valid": true,
+      "side": 21.59137814590959,
+      "message": "ok; wall=0.000e+00; pair=2.000e-11",
+      "score": 0.02352948530080945
+    },
+    "446": {
+      "valid": true,
+      "side": 21.638533587772322,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.024614261694202
+    },
+    "447": {
+      "valid": true,
+      "side": 21.656854249513035,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.024334056581880814
+    },
+    "448": {
+      "valid": true,
+      "side": 21.69238815544581,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.024869007185584602
+    },
+    "449": {
+      "valid": true,
+      "side": 21.707106781207248,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.0244217063985952
+    },
+    "450": {
+      "valid": true,
+      "side": 21.733166008314107,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.024511270742125113
+    },
+    "451": {
+      "valid": true,
+      "side": 21.756097561021644,
+      "message": "ok; wall=0.000e+00; pair=2.187e-12",
+      "score": 0.024454623266621178
+    },
+    "452": {
+      "valid": true,
+      "side": 21.7781745930728,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.024359165750251988
+    },
+    "453": {
+      "valid": true,
+      "side": 21.80369543991148,
+      "message": "ok; wall=0.000e+00; pair=6.133e-11",
+      "score": 0.02442697581524156
+    },
+    "454": {
+      "valid": true,
+      "side": 21.80369544091148,
+      "message": "ok; wall=0.000e+00; pair=1.448e-11",
+      "score": 0.02329813036689732
+    },
+    "455": {
+      "valid": true,
+      "side": 21.82506149653376,
+      "message": "ok; wall=0.000e+00; pair=1.020e-11",
+      "score": 0.023174664525236643
+    },
+    "456": {
+      "valid": true,
+      "side": 21.8569020514807,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.023543217327382182
+    },
+    "457": {
+      "valid": true,
+      "side": 21.86760599718842,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02292346316045646
+    },
+    "458": {
+      "valid": true,
+      "side": 21.88969868370711,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.022838447700786135
+    },
+    "459": {
+      "valid": true,
+      "side": 21.905182432824805,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.022446356589493455
+    },
+    "460": {
+      "valid": true,
+      "side": 21.92608386840479,
+      "message": "ok; wall=0.000e+00; pair=2.456e-10",
+      "score": 0.022308931658392206
+    },
+    "461": {
+      "valid": true,
+      "side": 21.936079022915038,
+      "message": "ok; wall=0.000e+00; pair=7.589e-10",
+      "score": 0.0216650555257194
+    },
+    "462": {
+      "valid": true,
+      "side": 21.96515887778373,
+      "message": "ok; wall=0.000e+00; pair=1.020e-11",
+      "score": 0.021911675733577773
+    },
+    "463": {
+      "valid": true,
+      "side": 21.970140077379757,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021038998859275404
+    },
+    "464": {
+      "valid": true,
+      "side": 21.98626853264782,
+      "message": "ok; wall=0.000e+00; pair=2.196e-12",
+      "score": 0.020686892605377816
+    },
+    "465": {
+      "valid": true,
+      "side": 21.993542565686937,
+      "message": "ok; wall=0.000e+00; pair=1.517e-08",
+      "score": 0.01992611432659186
+    },
+    "466": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.019130320146574897
+    },
+    "467": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018038589442044506
+    },
+    "468": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016950359746253252
+    },
+    "469": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015865612387142347
+    },
+    "470": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014784328831773497
+    },
+    "471": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013706490685001071
+    },
+    "472": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012632079688155828
+    },
+    "473": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011561077717746171
+    },
+    "474": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010493466784175842
+    },
+    "475": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009429229030471609
+    },
+    "476": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008368346731032483
+    },
+    "477": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007310802290386276
+    },
+    "478": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0062565782419661264
+    },
+    "479": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005205657246898365
+    },
+    "480": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004158022092804581
+    },
+    "481": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0031136556926170122
+    },
+    "482": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002072541083409263
+    },
+    "483": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0010346614252381148
+    },
+    "484": {
+      "valid": true,
+      "side": 22.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "485": {
+      "valid": true,
+      "side": 22.53553390595427,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.023285882222311427
+    },
+    "486": {
+      "valid": true,
+      "side": 22.53553390595427,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.022232576866250353
+    },
+    "487": {
+      "valid": true,
+      "side": 22.57142857147636,
+      "message": "ok; wall=0.000e+00; pair=2.189e-12",
+      "score": 0.022809060000053005
+    },
+    "488": {
+      "valid": true,
+      "side": 22.591378145545537,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.02266363726780707
+    },
+    "489": {
+      "valid": true,
+      "side": 22.60660171781982,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.022305867519648137
+    },
+    "490": {
+      "valid": true,
+      "side": 22.656854249514037,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.023532343470417993
+    },
+    "491": {
+      "valid": true,
+      "side": 22.69238815544681,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.024093141326978484
+    },
+    "492": {
+      "valid": true,
+      "side": 22.707106781208253,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.023715433788320972
+    },
+    "493": {
+      "valid": true,
+      "side": 22.707106781208253,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.022676655810200508
+    },
+    "494": {
+      "valid": true,
+      "side": 22.73664914903795,
+      "message": "ok; wall=0.000e+00; pair=1.224e-09",
+      "score": 0.022970207581871627
+    },
+    "495": {
+      "valid": true,
+      "side": 22.76924216049079,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02340132886634283
+    },
+    "496": {
+      "valid": true,
+      "side": 22.781136541152485,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02290322724672267
+    },
+    "497": {
+      "valid": true,
+      "side": 22.802428720958233,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.022828716181076736
+    },
+    "498": {
+      "valid": true,
+      "side": 22.823386929601547,
+      "message": "ok; wall=0.000e+00; pair=2.114e-13",
+      "score": 0.022740423456362846
+    },
+    "499": {
+      "valid": true,
+      "side": 22.82929984344093,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.021979817892615605
+    },
+    "500": {
+      "valid": true,
+      "side": 22.854529575877912,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.022085634508848928
+    },
+    "501": {
+      "valid": true,
+      "side": 22.86375890540775,
+      "message": "ok; wall=0.000e+00; pair=1.020e-11",
+      "score": 0.02147741548627846
+    },
+    "502": {
+      "valid": true,
+      "side": 22.892026846068955,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021721160455919097
+    },
+    "503": {
+      "valid": true,
+      "side": 22.899376436154025,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021032729797369143
+    },
+    "504": {
+      "valid": true,
+      "side": 22.922091223576185,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021031094607142364
+    },
+    "505": {
+      "valid": true,
+      "side": 22.93915555780394,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02077902468549775
+    },
+    "506": {
+      "valid": true,
+      "side": 22.952939819409433,
+      "message": "ok; wall=0.000e+00; pair=2.972e-12",
+      "score": 0.020382636082483918
+    },
+    "507": {
+      "valid": true,
+      "side": 22.973697163684765,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.020297710902641652
+    },
+    "508": {
+      "valid": true,
+      "side": 22.982319747631387,
+      "message": "ok; wall=0.000e+00; pair=1.950e-10",
+      "score": 0.01967555147716049
+    },
+    "509": {
+      "valid": true,
+      "side": 22.99059353389837,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.019040142229590273
+    },
+    "510": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.018457118371109527
+    },
+    "511": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017460096968760386
+    },
+    "512": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01646599795566206
+    },
+    "513": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01547480708320026
+    },
+    "514": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014486510199831049
+    },
+    "515": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013501093250233076
+    },
+    "516": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012518542274467359
+    },
+    "517": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011538843407147725
+    },
+    "518": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010561982876617693
+    },
+    "519": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00958794700413823
+    },
+    "520": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008616722203083738
+    },
+    "521": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007648294978144232
+    },
+    "522": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00668265192453954
+    },
+    "523": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005719779727239915
+    },
+    "524": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004759665160193549
+    },
+    "525": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003802295085564955
+    },
+    "526": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0028476564529789083
+    },
+    "527": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0018957362987737092
+    },
+    "528": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0009465217452626629
+    },
+    "529": {
+      "valid": true,
+      "side": 23.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "530": {
+      "valid": true,
+      "side": 23.535533905955276,
+      "message": "ok; wall=0.000e+00; pair=9.979e-13",
+      "score": 0.022318264735605498
+    },
+    "531": {
+      "valid": true,
+      "side": 23.535533905955276,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.021355176189524316
+    },
+    "532": {
+      "valid": true,
+      "side": 23.569758018032992,
+      "message": "ok; wall=0.000e+00; pair=5.737e-11",
+      "score": 0.02187860783537343
+    },
+    "533": {
+      "valid": true,
+      "side": 23.58378219105542,
+      "message": "ok; wall=0.000e+00; pair=4.000e-11",
+      "score": 0.021527001821561864
+    },
+    "534": {
+      "valid": true,
+      "side": 23.606601717820816,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02155756515284657
+    },
+    "535": {
+      "valid": true,
+      "side": 23.65685424951504,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02277499830808738
+    },
+    "536": {
+      "valid": true,
+      "side": 23.65685424956608,
+      "message": "ok; wall=0.000e+00; pair=2.198e-12",
+      "score": 0.02182047173901802
+    },
+    "537": {
+      "valid": true,
+      "side": 23.69238815785256,
+      "message": "ok; wall=0.000e+00; pair=1.076e-10",
+      "score": 0.022402014011080995
+    },
+    "538": {
+      "valid": true,
+      "side": 23.707106781209248,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.022085949229684987
+    },
+    "539": {
+      "valid": true,
+      "side": 23.73664905600181,
+      "message": "ok; wall=0.000e+00; pair=9.850e-10",
+      "score": 0.02240985323508693
+    },
+    "540": {
+      "valid": true,
+      "side": 23.756097562577146,
+      "message": "ok; wall=0.000e+00; pair=5.449e-11",
+      "score": 0.022299669230443353
+    },
+    "541": {
+      "valid": true,
+      "side": 23.778174594199367,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.022303573847849423
+    },
+    "542": {
+      "valid": true,
+      "side": 23.79144761035824,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.021930178827937574
+    },
+    "543": {
+      "valid": true,
+      "side": 23.80242871816625,
+      "message": "ok; wall=0.000e+00; pair=5.261e-11",
+      "score": 0.021459985779017643
+    },
+    "544": {
+      "valid": true,
+      "side": 23.8244849387612,
+      "message": "ok; wall=0.000e+00; pair=2.020e-10",
+      "score": 0.021466364686639094
+    },
+    "545": {
+      "valid": true,
+      "side": 23.83885421788041,
+      "message": "ok; wall=0.000e+00; pair=3.199e-10",
+      "score": 0.02114432160384161
+    },
+    "546": {
+      "valid": true,
+      "side": 23.860292677769078,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021126260583258283
+    },
+    "547": {
+      "valid": true,
+      "side": 23.871333367316367,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.020664511588764256
+    },
+    "548": {
+      "valid": true,
+      "side": 23.888388276450506,
+      "message": "ok; wall=0.000e+00; pair=2.648e-12",
+      "score": 0.020461372724839277
+    },
+    "549": {
+      "valid": true,
+      "side": 23.90852978893065,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.02039118598579348
+    },
+    "550": {
+      "valid": true,
+      "side": 23.91192068297216,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.019607723809640376
+    },
+    "551": {
+      "valid": true,
+      "side": 23.933983054517228,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01962195838893588
+    },
+    "552": {
+      "valid": true,
+      "side": 23.94665226382532,
+      "message": "ok; wall=0.000e+00; pair=2.616e-12",
+      "score": 0.019237206469503887
+    },
+    "553": {
+      "valid": true,
+      "side": 23.969573199763293,
+      "message": "ok; wall=0.000e+00; pair=1.512e-08",
+      "score": 0.019289934191248692
+    },
+    "554": {
+      "valid": true,
+      "side": 23.97972695338501,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.018800973572624002
+    },
+    "555": {
+      "valid": true,
+      "side": 23.98985330858865,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.01831256088361033
+    },
+    "556": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.017826715615965272
+    },
+    "557": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016912636656885915
+    },
+    "558": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016001016001524038
+    },
+    "559": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015091842650752474
+    },
+    "560": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014185105674219933
+    },
+    "561": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013280794209797886
+    },
+    "562": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012378897463034777
+    },
+    "563": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011479404706614904
+    },
+    "564": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010582305279822846
+    },
+    "565": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009687588588010998
+    },
+    "566": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00879524410207666
+    },
+    "567": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007905261357939342
+    },
+    "568": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0070176299560269495
+    },
+    "569": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0061323395607644215
+    },
+    "570": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00524937990006924
+    },
+    "571": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004368740764849388
+    },
+    "572": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0034904120085088586
+    },
+    "573": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002614383546456267
+    },
+    "574": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0017406453556187973
+    },
+    "575": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0008691874739588101
+    },
+    "576": {
+      "valid": true,
+      "side": 24.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "577": {
+      "valid": true,
+      "side": 24.53553390595627,
+      "message": "ok; wall=0.000e+00; pair=9.983e-13",
+      "score": 0.021427641309153644
+    },
+    "578": {
+      "valid": true,
+      "side": 24.53553390595627,
+      "message": "ok; wall=0.000e+00; pair=9.965e-13",
+      "score": 0.020543670878478748
+    },
+    "579": {
+      "valid": true,
+      "side": 24.563448003076463,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.02082206180362811
+    },
+    "580": {
+      "valid": true,
+      "side": 24.58378219106542,
+      "message": "ok; wall=0.000e+00; pair=4.000e-11",
+      "score": 0.020785994338427427
+    },
+    "581": {
+      "valid": true,
+      "side": 24.60660171782181,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02085385618913782
+    },
+    "582": {
+      "valid": true,
+      "side": 24.63853358777532,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.021300075518542183
+    },
+    "583": {
+      "valid": true,
+      "side": 24.65685424954479,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.021182563299592783
+    },
+    "584": {
+      "valid": true,
+      "side": 24.677669529687364,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.021169230987624577
+    },
+    "585": {
+      "valid": true,
+      "side": 24.707106781210253,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.021513144024882136
+    },
+    "586": {
+      "valid": true,
+      "side": 24.707106781210253,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.020641173619261766
+    },
+    "587": {
+      "valid": true,
+      "side": 24.756097561037766,
+      "message": "ok; wall=0.000e+00; pair=2.592e-12",
+      "score": 0.021793498251578836
+    },
+    "588": {
+      "valid": true,
+      "side": 24.763025489470273,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.021209959449659088
+    },
+    "589": {
+      "valid": true,
+      "side": 24.778174593075804,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02096689762819537
+    },
+    "590": {
+      "valid": true,
+      "side": 24.80242871817625,
+      "message": "ok; wall=0.000e+00; pair=5.261e-11",
+      "score": 0.021099831039803618
+    },
+    "591": {
+      "valid": true,
+      "side": 24.819590560342,
+      "message": "ok; wall=0.000e+00; pair=2.601e-12",
+      "score": 0.02094153451201053
+    },
+    "592": {
+      "valid": true,
+      "side": 24.824721479697065,
+      "message": "ok; wall=0.000e+00; pair=2.204e-12",
+      "score": 0.02028976784993719
+    },
+    "593": {
+      "valid": true,
+      "side": 24.846689480402283,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.020331244477937993
+    },
+    "594": {
+      "valid": true,
+      "side": 24.86150851575185,
+      "message": "ok; wall=0.000e+00; pair=2.220e-11",
+      "score": 0.020080050399757576
+    },
+    "595": {
+      "valid": true,
+      "side": 24.871333379957477,
+      "message": "ok; wall=0.000e+00; pair=4.987e-10",
+      "score": 0.019625259961344232
+    },
+    "596": {
+      "valid": true,
+      "side": 24.888197386791234,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.019460287171897406
+    },
+    "597": {
+      "valid": true,
+      "side": 24.901085701944332,
+      "message": "ok; wall=0.000e+00; pair=1.122e-11",
+      "score": 0.019133593614758304
+    },
+    "598": {
+      "valid": true,
+      "side": 24.908450782673306,
+      "message": "ok; wall=0.000e+00; pair=1.974e-10",
+      "score": 0.018582299238753652
+    },
+    "599": {
+      "valid": true,
+      "side": 24.927147618950926,
+      "message": "ok; wall=0.000e+00; pair=1.507e-08",
+      "score": 0.0184956404640908
+    },
+    "600": {
+      "valid": true,
+      "side": 24.944860664476337,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01836967221317276
+    },
+    "601": {
+      "valid": true,
+      "side": 24.95826203951842,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.018068743640369922
+    },
+    "602": {
+      "valid": true,
+      "side": 24.977849178942844,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.018021132356108804
+    },
+    "603": {
+      "valid": true,
+      "side": 24.990355569402087,
+      "message": "ok; wall=0.000e+00; pair=2.414e-12",
+      "score": 0.017685951393450194
+    },
+    "604": {
+      "valid": true,
+      "side": 24.99679902448201,
+      "message": "ok; wall=0.000e+00; pair=1.044e-09",
+      "score": 0.017105327617281674
+    },
+    "605": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.016394535227177043
+    },
+    "606": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015555579627984484
+    },
+    "607": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014718698085248727
+    },
+    "608": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013883882067265985
+    },
+    "609": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013051123091384564
+    },
+    "610": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012220412723645158
+    },
+    "611": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011391742578418684
+    },
+    "612": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01056510431805413
+    },
+    "613": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009740489652524165
+    },
+    "614": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008917890339077195
+    },
+    "615": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008097298181889645
+    },
+    "616": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007278705031725341
+    },
+    "617": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006462102785593116
+    },
+    "618": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005647483386412189
+    },
+    "619": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004834838822675991
+    },
+    "620": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004024161128123538
+    },
+    "621": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0032154423814101385
+    },
+    "622": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002408674705781877
+    },
+    "623": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0016038502687549805
+    },
+    "624": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0008009612817945211
+    },
+    "625": {
+      "valid": true,
+      "side": 25.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "626": {
+      "valid": true,
+      "side": 25.52081528019583,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02001692381333453
+    },
+    "627": {
+      "valid": true,
+      "side": 25.535533905957273,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.0197909938961649
+    },
+    "628": {
+      "valid": true,
+      "side": 25.535533906914253,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.018978734949326226
+    },
+    "629": {
+      "valid": true,
+      "side": 25.58378219107542,
+      "message": "ok; wall=0.000e+00; pair=4.000e-11",
+      "score": 0.020092198832176056
+    },
+    "630": {
+      "valid": true,
+      "side": 25.604601475785437,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.02011174048214648
+    },
+    "631": {
+      "valid": true,
+      "side": 25.627416997994153,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.02021136213900654
+    },
+    "632": {
+      "valid": true,
+      "side": 25.656854249517036,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.020574864361915468
+    },
+    "633": {
+      "valid": true,
+      "side": 25.656854250710687,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01976840449332462
+    },
+    "634": {
+      "valid": true,
+      "side": 25.707106781211248,
+      "message": "ok; wall=0.000e+00; pair=9.805e-13",
+      "score": 0.02095963630298958
+    },
+    "635": {
+      "valid": true,
+      "side": 25.707106781211248,
+      "message": "ok; wall=0.000e+00; pair=9.805e-13",
+      "score": 0.02015541432997714
+    },
+    "636": {
+      "valid": true,
+      "side": 25.727922061382582,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.020178469400613963
+    },
+    "637": {
+      "valid": true,
+      "side": 25.75748341821183,
+      "message": "ok; wall=0.000e+00; pair=1.654e-10",
+      "score": 0.020548650453584782
+    },
+    "638": {
+      "valid": true,
+      "side": 25.77628744508378,
+      "message": "ok; wall=0.000e+00; pair=2.997e-09",
+      "score": 0.020492992340601646
+    },
+    "639": {
+      "valid": true,
+      "side": 25.781136879375627,
+      "message": "ok; wall=0.000e+00; pair=3.350e-10",
+      "score": 0.01988601252760369
+    },
+    "640": {
+      "valid": true,
+      "side": 25.80242872058819,
+      "message": "ok; wall=0.000e+00; pair=1.444e-10",
+      "score": 0.019930549015037435
+    },
+    "641": {
+      "valid": true,
+      "side": 25.817882055269756,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.019745030856261447
+    },
+    "642": {
+      "valid": true,
+      "side": 25.833072972452772,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.01955006507900392
+    },
+    "643": {
+      "valid": true,
+      "side": 25.851666732018973,
+      "message": "ok; wall=0.000e+00; pair=2.599e-12",
+      "score": 0.019490215686660983
+    },
+    "644": {
+      "valid": true,
+      "side": 25.860712881079596,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01905484671701929
+    },
+    "645": {
+      "valid": true,
+      "side": 25.871333365837515,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.018682756472958584
+    },
+    "646": {
+      "valid": true,
+      "side": 25.891094314140044,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01867148107349559
+    },
+    "647": {
+      "valid": true,
+      "side": 25.899276594130544,
+      "message": "ok; wall=0.000e+00; pair=2.213e-12",
+      "score": 0.018205628472755198
+    },
+    "648": {
+      "valid": true,
+      "side": 25.908832802696285,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.017795075967500296
+    },
+    "649": {
+      "valid": true,
+      "side": 25.92259320537997,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.017550791099793184
+    },
+    "650": {
+      "valid": true,
+      "side": 25.941936417670615,
+      "message": "ok; wall=0.000e+00; pair=1.025e-11",
+      "score": 0.017526461646813596
+    },
+    "651": {
+      "valid": true,
+      "side": 25.958517020889346,
+      "message": "ok; wall=0.000e+00; pair=5.481e-09",
+      "score": 0.017394496033291684
+    },
+    "652": {
+      "valid": true,
+      "side": 25.976434825465475,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01731570152384676
+    },
+    "653": {
+      "valid": true,
+      "side": 25.98917197983613,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.017034891080231374
+    },
+    "654": {
+      "valid": true,
+      "side": 25.99480164252277,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.01647718124460895
+    },
+    "655": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015904064713932575
+    },
+    "656": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015129452275939537
+    },
+    "657": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014356609033131518
+    },
+    "658": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013585528261085722
+    },
+    "659": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012816203271105664
+    },
+    "660": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012048627409979806
+    },
+    "661": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0112827940597382
+    },
+    "662": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010518696637413338
+    },
+    "663": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009756328594802577
+    },
+    "664": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008995683418232758
+    },
+    "665": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008236754628325738
+    },
+    "666": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00747953577976701
+    },
+    "667": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006724020461076341
+    },
+    "668": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0059702022943779465
+    },
+    "669": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005218074935176897
+    },
+    "670": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00446763207213241
+    },
+    "671": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003718867426837802
+    },
+    "672": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002971774753597334
+    },
+    "673": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002226347839209719
+    },
+    "674": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0014825805027489647
+    },
+    "675": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.000740466595351208
+    },
+    "676": {
+      "valid": true,
+      "side": 26.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "677": {
+      "valid": true,
+      "side": 26.520815280196828,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01927773188729187
+    },
+    "678": {
+      "valid": true,
+      "side": 26.53553390595827,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.019091040188326636
+    },
+    "679": {
+      "valid": true,
+      "side": 26.53553390598931,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.01834032845582212
+    },
+    "680": {
+      "valid": true,
+      "side": 26.57142857148522,
+      "message": "ok; wall=0.000e+00; pair=2.208e-12",
+      "score": 0.018967770899393166
+    },
+    "681": {
+      "valid": true,
+      "side": 26.591378145554394,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.01898382458810377
+    },
+    "682": {
+      "valid": true,
+      "side": 26.621146060736532,
+      "message": "ok; wall=0.000e+00; pair=5.275e-10",
+      "score": 0.019376367334537736
+    },
+    "683": {
+      "valid": true,
+      "side": 26.639606561689465,
+      "message": "ok; wall=0.000e+00; pair=2.644e-09",
+      "score": 0.01933621625021731
+    },
+    "684": {
+      "valid": true,
+      "side": 26.65685424954923,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.01925029672348999
+    },
+    "685": {
+      "valid": true,
+      "side": 26.69238815944895,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.019863727589898517
+    },
+    "686": {
+      "valid": true,
+      "side": 26.707106781212254,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01968207517635978
+    },
+    "687": {
+      "valid": true,
+      "side": 26.727922061383584,
+      "message": "ok; wall=0.000e+00; pair=9.930e-13",
+      "score": 0.01973383069906598
+    },
+    "688": {
+      "valid": true,
+      "side": 26.727922061383584,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.018992475580570156
+    },
+    "689": {
+      "valid": true,
+      "side": 26.76097894564093,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.0195121020208453
+    },
+    "690": {
+      "valid": true,
+      "side": 26.77682737481837,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.019376396655898187
+    },
+    "691": {
+      "valid": true,
+      "side": 26.786715807024915,
+      "message": "ok; wall=0.000e+00; pair=2.213e-12",
+      "score": 0.019014693740158073
+    },
+    "692": {
+      "valid": true,
+      "side": 26.80242875148209,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.0188754617793101
+    },
+    "693": {
+      "valid": true,
+      "side": 26.814909292520074,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.018614173562830016
+    },
+    "694": {
+      "valid": true,
+      "side": 26.830336701686548,
+      "message": "ok; wall=0.000e+00; pair=6.764e-11",
+      "score": 0.0184656535697465
+    },
+    "695": {
+      "valid": true,
+      "side": 26.85166673202158,
+      "message": "ok; wall=0.000e+00; pair=2.604e-12",
+      "score": 0.0185417748803125
+    },
+    "696": {
+      "valid": true,
+      "side": 26.861508513742994,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.0181828525923311
+    },
+    "697": {
+      "valid": true,
+      "side": 26.871333367495918,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.017824329527331262
+    },
+    "698": {
+      "valid": true,
+      "side": 26.888196949104618,
+      "message": "ok; wall=0.000e+00; pair=5.134e-11",
+      "score": 0.017733263655590026
+    },
+    "699": {
+      "valid": true,
+      "side": 26.899870071135304,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01744652880415476
+    },
+    "700": {
+      "valid": true,
+      "side": 26.907569197351577,
+      "message": "ok; wall=0.000e+00; pair=1.022e-11",
+      "score": 0.017010521163630443
+    },
+    "701": {
+      "valid": true,
+      "side": 26.918030589662884,
+      "message": "ok; wall=0.000e+00; pair=1.121e-11",
+      "score": 0.016679983810431898
+    },
+    "702": {
+      "valid": true,
+      "side": 26.93623967942395,
+      "message": "ok; wall=0.000e+00; pair=6.991e-11",
+      "score": 0.016642852507537498
+    },
+    "703": {
+      "valid": true,
+      "side": 26.95841919374853,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01675603683657867
+    },
+    "704": {
+      "valid": true,
+      "side": 26.96503436964709,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.01628297117223787
+    },
+    "705": {
+      "valid": true,
+      "side": 26.985117261579926,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01631831280258811
+    },
+    "706": {
+      "valid": true,
+      "side": 26.99367959575035,
+      "message": "ok; wall=0.000e+00; pair=1.506e-08",
+      "score": 0.01592053326636833
+    },
+    "707": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.015439509500212
+    },
+    "708": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014722137803818924
+    },
+    "709": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014006284354717513
+    },
+    "710": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01329194380508203
+    },
+    "711": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012579110833421447
+    },
+    "712": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01186778014441292
+    },
+    "713": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01115794646873658
+    },
+    "714": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010449604562911663
+    },
+    "715": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00974274920913376
+    },
+    "716": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009037375215113386
+    },
+    "717": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00833347741391588
+    },
+    "718": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00763105066380243
+    },
+    "719": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006930089848071974
+    },
+    "720": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0062305898749053235
+    },
+    "721": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0055325456772092885
+    },
+    "722": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004835952212462358
+    },
+    "723": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004140804462562375
+    },
+    "724": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003447097433674662
+    },
+    "725": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002754826156080137
+    },
+    "726": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002063985684027436
+    },
+    "727": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0013745710955834767
+    },
+    "728": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0006865774924866841
+    },
+    "729": {
+      "valid": true,
+      "side": 27.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "730": {
+      "valid": true,
+      "side": 27.520815280197827,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.018591072105807127
+    },
+    "731": {
+      "valid": true,
+      "side": 27.535533905959277,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.018438510988837864
+    },
+    "732": {
+      "valid": true,
+      "side": 27.535533906934248,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.0177426185548335
+    },
+    "733": {
+      "valid": true,
+      "side": 27.571428572461528,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.018373950356379787
+    },
+    "734": {
+      "valid": true,
+      "side": 27.591378146029623,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.018416350888184052
+    },
+    "735": {
+      "valid": true,
+      "side": 27.617572174125247,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.01868949612446147
+    },
+    "736": {
+      "valid": true,
+      "side": 27.63949977168464,
+      "message": "ok; wall=0.000e+00; pair=2.196e-09",
+      "score": 0.018805478370004014
+    },
+    "737": {
+      "valid": true,
+      "side": 27.640050187817426,
+      "message": "ok; wall=0.000e+00; pair=2.384e-09",
+      "score": 0.01813433441296808
+    },
+    "738": {
+      "valid": true,
+      "side": 27.691283624211493,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.0193302365310275
+    },
+    "739": {
+      "valid": true,
+      "side": 27.69128409564997,
+      "message": "ok; wall=0.000e+00; pair=9.588e-10",
+      "score": 0.018640351772796437
+    },
+    "740": {
+      "valid": true,
+      "side": 27.707106781213255,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.018533502073124097
+    },
+    "741": {
+      "valid": true,
+      "side": 27.727922061384582,
+      "message": "ok; wall=0.000e+00; pair=9.841e-13",
+      "score": 0.01861066889848373
+    },
+    "742": {
+      "valid": true,
+      "side": 27.759369254558393,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01907850492790497
+    },
+    "743": {
+      "valid": true,
+      "side": 27.766845183248375,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01866675290453057
+    },
+    "744": {
+      "valid": true,
+      "side": 27.78113652278096,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01850588077004467
+    },
+    "745": {
+      "valid": true,
+      "side": 27.7883441263864,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.018086156403787967
+    },
+    "746": {
+      "valid": true,
+      "side": 27.802428720963228,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.01791923784640348
+    },
+    "747": {
+      "valid": true,
+      "side": 27.824728377476124,
+      "message": "ok; wall=0.000e+00; pair=5.036e-11",
+      "score": 0.018053573255934596
+    },
+    "748": {
+      "valid": true,
+      "side": 27.835109134379024,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01775238662702927
+    },
+    "749": {
+      "valid": true,
+      "side": 27.846045890625554,
+      "message": "ok; wall=0.000e+00; pair=2.618e-12",
+      "score": 0.01747237261221879
+    },
+    "750": {
+      "valid": true,
+      "side": 27.860963534050587,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.017338546761890505
+    },
+    "751": {
+      "valid": true,
+      "side": 27.871333367496916,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.01703939913375141
+    },
+    "752": {
+      "valid": true,
+      "side": 27.88819695175277,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.01697790281475675
+    },
+    "753": {
+      "valid": true,
+      "side": 27.90108111960867,
+      "message": "ok; wall=0.000e+00; pair=5.094e-11",
+      "score": 0.016771919513940414
+    },
+    "754": {
+      "valid": true,
+      "side": 27.90810544132811,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01635325458025272
+    },
+    "755": {
+      "valid": true,
+      "side": 27.91778820380206,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01603234173921142
+    },
+    "756": {
+      "valid": true,
+      "side": 27.92579819829406,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.01565146099796788
+    },
+    "757": {
+      "valid": true,
+      "side": 27.948480655925042,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015804807448600577
+    },
+    "758": {
+      "valid": true,
+      "side": 27.96578839195114,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015763175647666605
+    },
+    "759": {
+      "valid": true,
+      "side": 27.97565913373734,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.01545209462502073
+    },
+    "760": {
+      "valid": true,
+      "side": 27.992923233332153,
+      "message": "ok; wall=0.000e+00; pair=2.199e-12",
+      "score": 0.01541004884676167
+    },
+    "761": {
+      "valid": true,
+      "side": 27.99878373614147,
+      "message": "ok; wall=0.000e+00; pair=8.077e-11",
+      "score": 0.01495511750175238
+    },
+    "762": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.014332978403105878
+    },
+    "763": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013668059958395151
+    },
+    "764": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013004447409390218
+    },
+    "765": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012342136487062172
+    },
+    "766": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011681122941893829
+    },
+    "767": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01102140254376649
+    },
+    "768": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01036297108184514
+    },
+    "769": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00970582436446632
+    },
+    "770": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009049958219025989
+    },
+    "771": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008395368491867616
+    },
+    "772": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0077420510481724936
+    },
+    "773": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0070900017718489305
+    },
+    "774": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006439216565425232
+    },
+    "775": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005789691349939563
+    },
+    "776": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0051414220648333675
+    },
+    "777": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004494404667845453
+    },
+    "778": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003848635134904521
+    },
+    "779": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003204109460025917
+    },
+    "780": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002560823655206157
+    },
+    "781": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0019187737503183477
+    },
+    "782": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0012779557930122643
+    },
+    "783": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0006383658486086574
+    },
+    "784": {
+      "valid": true,
+      "side": 28.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "785": {
+      "valid": true,
+      "side": 28.52081528019883,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.017951548812096707
+    },
+    "786": {
+      "valid": true,
+      "side": 28.53553390596027,
+      "message": "ok; wall=0.000e+00; pair=9.930e-13",
+      "score": 0.01782878683533884
+    },
+    "787": {
+      "valid": true,
+      "side": 28.53553390694425,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.017181930251639388
+    },
+    "788": {
+      "valid": true,
+      "side": 28.571428571492547,
+      "message": "ok; wall=0.000e+00; pair=2.260e-12",
+      "score": 0.017814999829559586
+    },
+    "789": {
+      "valid": true,
+      "side": 28.591378146039624,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.017880015818702688
+    },
+    "790": {
+      "valid": true,
+      "side": 28.61436893961678,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.01805355968906497
+    },
+    "791": {
+      "valid": true,
+      "side": 28.63853358777932,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.01826902903766059
+    },
+    "792": {
+      "valid": true,
+      "side": 28.639665733279667,
+      "message": "ok; wall=0.000e+00; pair=2.695e-09",
+      "score": 0.017666208420075602
+    },
+    "793": {
+      "valid": true,
+      "side": 28.678779876712422,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.018413334095227496
+    },
+    "794": {
+      "valid": true,
+      "side": 28.69128409565997,
+      "message": "ok; wall=0.000e+00; pair=9.588e-10",
+      "score": 0.01821557194657797
+    },
+    "795": {
+      "valid": true,
+      "side": 28.707106781214254,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.018136156114430646
+    },
+    "796": {
+      "valid": true,
+      "side": 28.727922061385584,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01823420041302848
+    },
+    "797": {
+      "valid": true,
+      "side": 28.745423978561632,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01821515778215943
+    },
+    "798": {
+      "valid": true,
+      "side": 28.760978946642926,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.01812761826759468
+    },
+    "799": {
+      "valid": true,
+      "side": 28.772349372255793,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.01789254936437157
+    },
+    "800": {
+      "valid": true,
+      "side": 28.786728654347005,
+      "message": "ok; wall=0.000e+00; pair=1.585e-11",
+      "score": 0.017764551983293186
+    },
+    "801": {
+      "valid": true,
+      "side": 28.79620792814501,
+      "message": "ok; wall=0.000e+00; pair=3.015e-10",
+      "score": 0.01746397853520154
+    },
+    "802": {
+      "valid": true,
+      "side": 28.807219028190268,
+      "message": "ok; wall=0.000e+00; pair=2.873e-09",
+      "score": 0.017218266974199814
+    },
+    "803": {
+      "valid": true,
+      "side": 28.827585222408985,
+      "message": "ok; wall=0.000e+00; pair=2.204e-12",
+      "score": 0.017303390825652798
+    },
+    "804": {
+      "valid": true,
+      "side": 28.83155887208438,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016810682439689417
+    },
+    "805": {
+      "valid": true,
+      "side": 28.85166673782387,
+      "message": "ok; wall=0.000e+00; pair=1.212e-10",
+      "score": 0.016887635895839193
+    },
+    "806": {
+      "valid": true,
+      "side": 28.862370277919542,
+      "message": "ok; wall=0.000e+00; pair=1.124e-11",
+      "score": 0.016633632633777484
+    },
+    "807": {
+      "valid": true,
+      "side": 28.873685380978145,
+      "message": "ok; wall=0.000e+00; pair=1.121e-11",
+      "score": 0.016401863342611733
+    },
+    "808": {
+      "valid": true,
+      "side": 28.883458728514675,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016116532235082248
+    },
+    "809": {
+      "valid": true,
+      "side": 28.898298402515167,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016010065453880173
+    },
+    "810": {
+      "valid": true,
+      "side": 28.907320379984853,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.015699705032846678
+    },
+    "811": {
+      "valid": true,
+      "side": 28.918030589664884,
+      "message": "ok; wall=0.000e+00; pair=1.121e-11",
+      "score": 0.015449396170714946
+    },
+    "812": {
+      "valid": true,
+      "side": 28.92579860268839,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.015096530634655547
+    },
+    "813": {
+      "valid": true,
+      "side": 28.933692071869526,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014748883986568817
+    },
+    "814": {
+      "valid": true,
+      "side": 28.961440808879864,
+      "message": "ok; wall=0.000e+00; pair=2.601e-12",
+      "score": 0.015097975038173006
+    },
+    "815": {
+      "valid": true,
+      "side": 28.97845839945989,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.015071124595110286
+    },
+    "816": {
+      "valid": true,
+      "side": 28.98873065337712,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014808554879406355
+    },
+    "817": {
+      "valid": true,
+      "side": 28.996875921895946,
+      "message": "ok; wall=0.000e+00; pair=5.048e-11",
+      "score": 0.014472273727260232
+    },
+    "818": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013961221848845184
+    },
+    "819": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013342008831187746
+    },
+    "820": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012723928865888467
+    },
+    "821": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012106978501675192
+    },
+    "822": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011491154301976003
+    },
+    "823": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010876452844837292
+    },
+    "824": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010262870722845596
+    },
+    "825": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009650404543047442
+    },
+    "826": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009039050926870518
+    },
+    "827": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008428806510045295
+    },
+    "828": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007819667942527975
+    },
+    "829": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007211631888422554
+    },
+    "830": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006604695025903773
+    },
+    "831": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00599885404714251
+    },
+    "832": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0053941056582278435
+    },
+    "833": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004790446579093777
+    },
+    "834": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004187873543443521
+    },
+    "835": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003586383298674889
+    },
+    "836": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0029859726058081293
+    },
+    "837": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0023866382394110985
+    },
+    "838": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.001788376987526874
+    },
+    "839": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0011911856516018116
+    },
+    "840": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.000595061046413603
+    },
+    "841": {
+      "valid": true,
+      "side": 29.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "842": {
+      "valid": true,
+      "side": 29.52081528019983,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01735447920140576
+    },
+    "843": {
+      "valid": true,
+      "side": 29.535533905961273,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.017257823450631538
+    },
+    "844": {
+      "valid": true,
+      "side": 29.535533906954253,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.016655003980939442
+    },
+    "845": {
+      "valid": true,
+      "side": 29.57142857150367,
+      "message": "ok; wall=0.000e+00; pair=2.604e-12",
+      "score": 0.017288068887103103
+    },
+    "846": {
+      "valid": true,
+      "side": 29.583782190723667,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.017111383206830144
+    },
+    "847": {
+      "valid": true,
+      "side": 29.60660171786162,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.017294874171422503
+    },
+    "848": {
+      "valid": true,
+      "side": 29.63853358778032,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.01779142205741646
+    },
+    "849": {
+      "valid": true,
+      "side": 29.63853358778032,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.017191839429795186
+    },
+    "850": {
+      "valid": true,
+      "side": 29.656854249521036,
+      "message": "ok; wall=0.000e+00; pair=9.930e-13",
+      "score": 0.017221708714091788
+    },
+    "851": {
+      "valid": true,
+      "side": 29.69128409566997,
+      "message": "ok; wall=0.000e+00; pair=9.588e-10",
+      "score": 0.01780411038128049
+    },
+    "852": {
+      "valid": true,
+      "side": 29.707106781215256,
+      "message": "ok; wall=0.000e+00; pair=9.912e-13",
+      "score": 0.017748708406480018
+    },
+    "853": {
+      "valid": true,
+      "side": 29.707106781215256,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.0171519632901469
+    },
+    "854": {
+      "valid": true,
+      "side": 29.72792206538932,
+      "message": "ok; wall=0.000e+00; pair=1.118e-11",
+      "score": 0.017268550988980058
+    },
+    "855": {
+      "valid": true,
+      "side": 29.748737341557913,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.017385350476855965
+    },
+    "856": {
+      "valid": true,
+      "side": 29.763025486130807,
+      "message": "ok; wall=0.000e+00; pair=2.219e-11",
+      "score": 0.01727926839977023
+    },
+    "857": {
+      "valid": true,
+      "side": 29.77554968401262,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.017113401786957638
+    },
+    "858": {
+      "valid": true,
+      "side": 29.789053201778785,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01698150804907006
+    },
+    "859": {
+      "valid": true,
+      "side": 29.798309092680725,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.016705185949839496
+    },
+    "860": {
+      "valid": true,
+      "side": 29.809801295519822,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.01650578721420537
+    },
+    "861": {
+      "valid": true,
+      "side": 29.8280467379496,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016537113392874003
+    },
+    "862": {
+      "valid": true,
+      "side": 29.84205242141495,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01642433905974383
+    },
+    "863": {
+      "valid": true,
+      "side": 29.846981810027096,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016003076591408538
+    },
+    "864": {
+      "valid": true,
+      "side": 29.860767390323193,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015883936586542635
+    },
+    "865": {
+      "valid": true,
+      "side": 29.873685380979158,
+      "message": "ok; wall=0.000e+00; pair=1.121e-11",
+      "score": 0.015735775483650682
+    },
+    "866": {
+      "valid": true,
+      "side": 29.88306120632286,
+      "message": "ok; wall=0.000e+00; pair=1.338e-10",
+      "score": 0.015467757075116051
+    },
+    "867": {
+      "valid": true,
+      "side": 29.889544179977637,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015102139897958944
+    },
+    "868": {
+      "valid": true,
+      "side": 29.907566422605917,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.015128949904323008
+    },
+    "869": {
+      "valid": true,
+      "side": 29.91289655212571,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.014725515238100728
+    },
+    "870": {
+      "valid": true,
+      "side": 29.92579859398114,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01457959216427862
+    },
+    "871": {
+      "valid": true,
+      "side": 29.93369207198286,
+      "message": "ok; wall=0.000e+00; pair=5.213e-11",
+      "score": 0.014264462927732646
+    },
+    "872": {
+      "valid": true,
+      "side": 29.958178841211815,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.01451194907642317
+    },
+    "873": {
+      "valid": true,
+      "side": 29.973130466932766,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014436769221660706
+    },
+    "874": {
+      "valid": true,
+      "side": 29.98767717246468,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.014348311378439726
+    },
+    "875": {
+      "valid": true,
+      "side": 29.99679898840799,
+      "message": "ok; wall=0.000e+00; pair=1.500e-10",
+      "score": 0.014076891731563013
+    },
+    "876": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013606067599228888
+    },
+    "877": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013028020179761457
+    },
+    "878": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012450960594240446
+    },
+    "879": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011874886032327225
+    },
+    "880": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011299793694863114
+    },
+    "881": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010725680793813641
+    },
+    "882": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010152544552210818
+    },
+    "883": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009580382204096738
+    },
+    "884": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00900919099446873
+    },
+    "885": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008438968179221407
+    },
+    "886": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007869711025093817
+    },
+    "887": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007301416809611938
+    },
+    "888": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006734082821036491
+    },
+    "889": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006167706358306546
+    },
+    "890": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005602284730986229
+    },
+    "891": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005037815259212097
+    },
+    "892": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.00447429527363763
+    },
+    "893": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003911722115381933
+    },
+    "894": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003350093135976673
+    },
+    "895": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0027894056973134518
+    },
+    "896": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0022296571715914038
+    },
+    "897": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0016708449412667914
+    },
+    "898": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0011129663989997152
+    },
+    "899": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0005560189476050414
+    },
+    "900": {
+      "valid": true,
+      "side": 30.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "901": {
+      "valid": true,
+      "side": 30.52081528020083,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01679577962160894
+    },
+    "902": {
+      "valid": true,
+      "side": 30.53553390596227,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01672206592422243
+    },
+    "903": {
+      "valid": true,
+      "side": 30.535533906964247,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.016158940981703784
+    },
+    "904": {
+      "valid": true,
+      "side": 30.563628045936902,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01653114781619447
+    },
+    "905": {
+      "valid": true,
+      "side": 30.583782190733668,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.016639319609987657
+    },
+    "906": {
+      "valid": true,
+      "side": 30.591378146301423,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.01633046420019202
+    },
+    "907": {
+      "valid": true,
+      "side": 30.619088205708973,
+      "message": "ok; wall=0.000e+00; pair=4.000e-11",
+      "score": 0.016690136729164085
+    },
+    "908": {
+      "valid": true,
+      "side": 30.638533587781325,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.016775448772459622
+    },
+    "909": {
+      "valid": true,
+      "side": 30.656854249522038,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.016823670437385863
+    },
+    "910": {
+      "valid": true,
+      "side": 30.69128409567997,
+      "message": "ok; wall=0.000e+00; pair=9.588e-10",
+      "score": 0.01740616082753399
+    },
+    "911": {
+      "valid": true,
+      "side": 30.707106781216247,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.017371835717347572
+    },
+    "912": {
+      "valid": true,
+      "side": 30.707106781216247,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.016813913089308574
+    },
+    "913": {
+      "valid": true,
+      "side": 30.72792206539932,
+      "message": "ok; wall=0.000e+00; pair=1.118e-11",
+      "score": 0.016945792703916718
+    },
+    "914": {
+      "valid": true,
+      "side": 30.746670724641,
+      "message": "ok; wall=0.000e+00; pair=2.608e-12",
+      "score": 0.017009474904437827
+    },
+    "915": {
+      "valid": true,
+      "side": 30.76097894564493,
+      "message": "ok; wall=0.000e+00; pair=1.120e-11",
+      "score": 0.016926595292143354
+    },
+    "916": {
+      "valid": true,
+      "side": 30.763138875053638,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01644271885092552
+    },
+    "917": {
+      "valid": true,
+      "side": 30.784269998499557,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.016586157079717
+    },
+    "918": {
+      "valid": true,
+      "side": 30.787726448063818,
+      "message": "ok; wall=0.000e+00; pair=7.131e-11",
+      "score": 0.016146389879612144
+    },
+    "919": {
+      "valid": true,
+      "side": 30.80024012563516,
+      "message": "ok; wall=0.000e+00; pair=2.136e-09",
+      "score": 0.0160061731350436
+    },
+    "920": {
+      "valid": true,
+      "side": 30.809636410153114,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015763632063941824
+    },
+    "921": {
+      "valid": true,
+      "side": 30.83106536754861,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.0159181443949159
+    },
+    "922": {
+      "valid": true,
+      "side": 30.837876521626153,
+      "message": "ok; wall=0.000e+00; pair=3.191e-10",
+      "score": 0.015591376593737882
+    },
+    "923": {
+      "valid": true,
+      "side": 30.85591666412196,
+      "message": "ok; wall=0.000e+00; pair=3.814e-10",
+      "score": 0.015634868180471884
+    },
+    "924": {
+      "valid": true,
+      "side": 30.860957110513876,
+      "message": "ok; wall=0.000e+00; pair=1.257e-10",
+      "score": 0.01525095194716708
+    },
+    "925": {
+      "valid": true,
+      "side": 30.873685380423243,
+      "message": "ok; wall=0.000e+00; pair=6.149e-11",
+      "score": 0.015120522185159135
+    },
+    "926": {
+      "valid": true,
+      "side": 30.883061209280694,
+      "message": "ok; wall=0.000e+00; pair=1.448e-10",
+      "score": 0.01488036174555063
+    },
+    "927": {
+      "valid": true,
+      "side": 30.894920740834635,
+      "message": "ok; wall=0.000e+00; pair=6.268e-11",
+      "score": 0.014722331750321338
+    },
+    "928": {
+      "valid": true,
+      "side": 30.907887363278192,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.0146011092255387
+    },
+    "929": {
+      "valid": true,
+      "side": 30.917055701672822,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014355693979086093
+    },
+    "930": {
+      "valid": true,
+      "side": 30.923444882831276,
+      "message": "ok; wall=0.000e+00; pair=3.080e-10",
+      "score": 0.014019704280091139
+    },
+    "931": {
+      "valid": true,
+      "side": 30.93708804362992,
+      "message": "ok; wall=0.000e+00; pair=2.973e-09",
+      "score": 0.013922108192505833
+    },
+    "932": {
+      "valid": true,
+      "side": 30.960209722069965,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.014135388335298593
+    },
+    "933": {
+      "valid": true,
+      "side": 30.97170963360313,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.013968251915739138
+    },
+    "934": {
+      "valid": true,
+      "side": 30.980013394935785,
+      "message": "ok; wall=0.000e+00; pair=2.960e-09",
+      "score": 0.013697004360401221
+    },
+    "935": {
+      "valid": true,
+      "side": 30.99417405817851,
+      "message": "ok; wall=0.000e+00; pair=2.215e-12",
+      "score": 0.01361787858904906
+    },
+    "936": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.013266698213950878
+    },
+    "937": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012725856596441876
+    },
+    "938": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.012185880094925716
+    },
+    "939": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011646766405498221
+    },
+    "940": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01110851323283546
+    },
+    "941": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010571118290153114
+    },
+    "942": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.010034579299165625
+    },
+    "943": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.009498893990045998
+    },
+    "944": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008964060101384952
+    },
+    "945": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.008430075380150948
+    },
+    "946": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007896937581650443
+    },
+    "947": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.007364644469488146
+    },
+    "948": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006833193815527938
+    },
+    "949": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.006302583399853123
+    },
+    "950": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005772811010727796
+    },
+    "951": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.005243874444558427
+    },
+    "952": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004715771505854782
+    },
+    "953": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.004188500007192175
+    },
+    "954": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003662057769172833
+    },
+    "955": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.003136442620389035
+    },
+    "956": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0026116523973838124
+    },
+    "957": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.002087684944615642
+    },
+    "958": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0015645381144195891
+    },
+    "959": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.001042209766971114
+    },
+    "960": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0005206977702494342
+    },
+    "961": {
+      "valid": true,
+      "side": 31.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.0
+    },
+    "962": {
+      "valid": true,
+      "side": 31.520815280201827,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.01627187291408605
+    },
+    "963": {
+      "valid": true,
+      "side": 31.53553390596327,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.016218377614380497
+    },
+    "964": {
+      "valid": true,
+      "side": 31.535533906000403,
+      "message": "ok; wall=0.000e+00; pair=2.203e-12",
+      "score": 0.015691156631911785
+    },
+    "965": {
+      "valid": true,
+      "side": 31.563625653547888,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.01606906072521075
+    },
+    "966": {
+      "valid": true,
+      "side": 31.583782190743666,
+      "message": "ok; wall=0.000e+00; pair=1.999e-11",
+      "score": 0.016191534839081978
+    },
+    "967": {
+      "valid": true,
+      "side": 31.591378146311424,
+      "message": "ok; wall=0.000e+00; pair=3.999e-11",
+      "score": 0.015910233264201157
+    },
+    "968": {
+      "valid": true,
+      "side": 31.619088197126487,
+      "message": "ok; wall=0.000e+00; pair=9.460e-11",
+      "score": 0.01627598541471209
+    },
+    "969": {
+      "valid": true,
+      "side": 31.63853358778232,
+      "message": "ok; wall=0.000e+00; pair=1.180e-11",
+      "score": 0.01637613178607622
+    },
+    "970": {
+      "valid": true,
+      "side": 31.656854249523036,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.01644033246390042
+    },
+    "971": {
+      "valid": true,
+      "side": 31.67877987936473,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.016620425853654863
+    },
+    "972": {
+      "valid": true,
+      "side": 31.69238815550543,
+      "message": "ok; wall=0.000e+00; pair=2.606e-12",
+      "score": 0.01653382404684267
+    },
+    "973": {
+      "valid": true,
+      "side": 31.707106781217256,
+      "message": "ok; wall=0.000e+00; pair=9.877e-13",
+      "score": 0.016483176311375525
+    },
+    "974": {
+      "valid": true,
+      "side": 31.707106781217256,
+      "message": "ok; wall=0.000e+00; pair=9.948e-13",
+      "score": 0.015961233696058397
+    },
+    "975": {
+      "valid": true,
+      "side": 31.72792206142604,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.01610671675356934
+    },
+    "976": {
+      "valid": true,
+      "side": 31.746711759139384,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016187480442296565
+    },
+    "977": {
+      "valid": true,
+      "side": 31.760978945645927,
+      "message": "ok; wall=0.000e+00; pair=1.119e-11",
+      "score": 0.016123740029706735
+    },
+    "978": {
+      "valid": true,
+      "side": 31.778320156451016,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.016158627278908044
+    },
+    "979": {
+      "valid": true,
+      "side": 31.784269998566764,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01582967461387952
+    },
+    "980": {
+      "valid": true,
+      "side": 31.79577246868485,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.01567869481565176
+    },
+    "981": {
+      "valid": true,
+      "side": 31.79787206181357,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.01522792249681082
+    },
+    "982": {
+      "valid": true,
+      "side": 31.814147127937208,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.015230230566969594
+    },
+    "983": {
+      "valid": true,
+      "side": 31.82127679382271,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.014941106384690483
+    },
+    "984": {
+      "valid": true,
+      "side": 31.839809647433363,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.015016058978646551
+    },
+    "985": {
+      "valid": true,
+      "side": 31.848104841947436,
+      "message": "ok; wall=0.000e+00; pair=4.999e-11",
+      "score": 0.014764998437812205
+    },
+    "986": {
+      "valid": true,
+      "side": 31.860957115589393,
+      "message": "ok; wall=0.000e+00; pair=2.189e-10",
+      "score": 0.014659580960389107
+    },
+    "987": {
+      "valid": true,
+      "side": 31.873778691635394,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.01455355401521019
+    },
+    "988": {
+      "valid": true,
+      "side": 31.88351719084458,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014349808930533836
+    },
+    "989": {
+      "valid": true,
+      "side": 31.894920737525265,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.0141994750442338
+    },
+    "990": {
+      "valid": true,
+      "side": 31.907320378232587,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.014081210123943144
+    },
+    "991": {
+      "valid": true,
+      "side": 31.915730923258128,
+      "message": "ok; wall=0.000e+00; pair=1.055e-10",
+      "score": 0.013836605339714536
+    },
+    "992": {
+      "valid": true,
+      "side": 31.925798600029935,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.013645119196576516
+    },
+    "993": {
+      "valid": true,
+      "side": 31.933692072011247,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.013385087068526147
+    },
+    "994": {
+      "valid": true,
+      "side": 31.960209722065457,
+      "message": "ok; wall=0.000e+00; pair=2.210e-12",
+      "score": 0.013716296533479166
+    },
+    "995": {
+      "valid": true,
+      "side": 31.964232109062962,
+      "message": "ok; wall=0.000e+00; pair=5.005e-11",
+      "score": 0.013334281544256976
+    },
+    "996": {
+      "valid": true,
+      "side": 31.977630076199475,
+      "message": "ok; wall=0.000e+00; pair=5.000e-11",
+      "score": 0.013249982679425898
+    },
+    "997": {
+      "valid": true,
+      "side": 31.99453686511596,
+      "message": "ok; wall=0.000e+00; pair=3.000e-10",
+      "score": 0.013277149133509525
+    },
+    "998": {
+      "valid": true,
+      "side": 31.996875920320896,
+      "message": "ok; wall=0.000e+00; pair=2.206e-12",
+      "score": 0.012843409518382032
+    },
+    "999": {
+      "valid": true,
+      "side": 32.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.01243519546933225
+    },
+    "1000": {
+      "valid": true,
+      "side": 32.0,
+      "message": "ok; wall=0.000e+00; pair=0.000e+00",
+      "score": 0.011928851253881323
+    }
+  }
+}

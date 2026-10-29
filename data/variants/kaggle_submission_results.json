@@ -1,6 +1,6 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T18:10:14Z",
+  "checked_utc": "2026-10-29T18:24:00Z",
   "daily_quota": {
     "as_of": "2026-10-27",
     "used": 10,
@@ -21,11 +21,31 @@
       {
         "as_of": "2026-10-29T18:02:00Z",
         "remaining_after_issue844_upload": 6
+      },
+      {
+        "as_of": "2026-10-29T18:14:00Z",
+        "remaining_before_issue846_upload": 5
+      },
+      {
+        "as_of": "2026-10-29T18:24:00Z",
+        "remaining_after_issue846_upload": 4
       }
     ]
   },
   "promotion_policy": "Only strictly better, fully audited candidates are submitted for Kaggle validation.",
   "submissions": [
+    {
+      "id": null,
+      "variant": "Issue #846 N=299 certificate",
+      "local_score": 22.28605099928466,
+      "public_score": 22.2860509992,
+      "status": "COMPLETE",
+      "file": "data/variants/issue846_n299_20261030/submission.csv",
+      "sha256": "f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109",
+      "source": "Evan Daniel certificate, evand/square-packing commit 0e76d9fe5e48fc2a614e3c132a0a3fd67e0a6a8d; upstream jlevy/squares issue #846 candidate",
+      "submitted_at_utc": "2026-10-29T18:14:00Z",
+      "completed_at_utc": "2026-10-29T18:23:00Z"
+    },
     {
       "id": null,
       "variant": "Issue #844 N=232/N=307 certificate refresh",
@@ -161,10 +181,10 @@
   ],
   "best_completed_public": {
     "submission_id": null,
-    "score": 22.2868418214,
-    "local_score": 22.28684182148117,
-    "variant": "N=182 + N=344 certificate portfolio",
-    "file": "data/variants/issue806_n182_20261030/submission.csv",
-    "sha256": "7af0e96af7f9f5cafeb9db05ff7afc3775ec10cd8c72d7b7c00e9744d976b7cc"
+    "score": 22.2860509992,
+    "local_score": 22.28605099928466,
+    "variant": "Issue #846 N=299 certificate",
+    "file": "data/variants/issue846_n299_20261030/submission.csv",
+    "sha256": "f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109"
   }
 }

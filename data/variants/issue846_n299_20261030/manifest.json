@@ -1,0 +1,15 @@
+{
+  "issue": "https://github.com/jlevy/squares/issues/846 (unregistered upstream candidate; commit message updates jlevy#824)",
+  "source_repository": "https://github.com/evand/square-packing",
+  "source_commit": "0e76d9fe5e48fc2a614e3c132a0a3fd67e0a6a8d",
+  "source_license": "MIT",
+  "credit": "Evan Daniel; candidate commit says update to jlevy#824 and credits the refill descendant lineage.",
+  "certificates": {
+    "s299_1028.cert": "ccb323dd6d69bee141d59cae4c605f45136b998dfecce1248e200b678b253db5"
+  },
+  "screened_n": [
+    299
+  ],
+  "upstream_commit_message": "candidates: s(299) 17.801238549389 (update to jlevy#824; KKT certificate)",
+  "published_blob_sha": "265c9aa2c15a3494b5d5cbd2a5f96009d46dc408"
+}

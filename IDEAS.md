@@ -466,6 +466,19 @@ puzzles and errors), a further local gain of `0.00020487441409`. The candidate
 is submitted to Kaggle at
 `data/variants/issue844_n232_n307_20261030/submission.csv`.
 
+#### Issue #846 N=299 certificate (2026-10-30)
+
+The latest public candidate in [`evand/square-packing`](https://github.com/evand/square-packing/commit/0e76d9fe5e48fc2a614e3c132a0a3fd67e0a6a8d)
+provides `s299_1028.cert`, declared side `17.801238549388584085`, and a KKT
+certificate. The source file was hash-checked, parsed, and independently
+geometry-validated. A strict merge changed only N=299, producing serialized
+side `17.801238549405387` and a complete audit score of
+`22.28605099928466` with zero invalid puzzles and errors. Kaggle marked the
+matching upload Complete at public score `22.2860509992`. The submitted file is
+`data/variants/issue846_n299_20261030/submission.csv` with SHA-256
+`f75e108be03d7d248618a868feaa2817f74678c94af93cdda5690b733afae109`; source
+provenance and the MIT license are recorded in its manifest.
+
 ## Source notes and limits
 
 The detailed source discussions and links are preserved in `a.md`, `b.md`, `c.md`, and `d.md`. Those notes reference, among others, Griffin Casson’s square-packing source, Gensane–Ryckelynck, Friedman’s survey, Kaggle notebooks, soft-to-rigid packing research, and asymptotic tilted-stack constructions. The Santa 2025 comparison uses the [1st-place genetic/GPU-relaxation writeup](https://www.kaggle.com/competitions/santa-2025/writeups/1st-place-genetic-algorithm-and-gpu-relaxation), the [2nd-place SA/ILS/beam-search writeup](https://www.kaggle.com/competitions/santa-2025/writeups/2nd-place-simulated-annealing-iterated-local-sea), the [3rd-place customized Sparrow writeup](https://www.kaggle.com/competitions/santa-2025/writeups/third-place-solution-a-customized-sparrow-algorit), the [4th-place region-replacement writeup](https://www.kaggle.com/competitions/santa-2025/writeups/4th-place-hybrid-packing-with-sparrow-manual-str), and [Cottaar’s released implementation](https://github.com/jcottaar/packing). The released implementation states that it is under CC BY-SA 4.0; direct code reuse should preserve attribution and license obligations. Use the original papers/code for implementation details and verify that links, competition rules, notebook versions, and leaderboard figures are still current before acting on them.
@@ -475,14 +488,11 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in `EXPERIMENT_RANKING.md`. The combined N=182 + N=344 certificate
-portfolio is now the best completed and Kaggle-validated candidate: local
-score `22.28684182148117`, public score `22.2868418214`. It adds two strict
-per-size improvements to the previous public-union portfolio: the CC0 N=344
-certificate from [issue #819](https://github.com/jlevy/squares/issues/819)
-and Evan Daniel's N=182 certificate from
-[issue #806](https://github.com/jlevy/squares/issues/806). The earlier N=130
-refresh and 59 public-union improvements remain in that portfolio.
+recorded in `EXPERIMENT_RANKING.md`. The issue #846 N=299 certificate portfolio is now the best completed and
+Kaggle-validated candidate: local score `22.28605099928466`, public score
+`22.2860509992`. It adds one strict per-size improvement to the issue #844
+portfolio, which already contains the earlier public-union, N=130, N=182,
+N=344, N=172, N=204, N=260, N=293, N=232, and N=307 improvements.
 
 #### N=182 certificate refresh (2026-10-30)
 
