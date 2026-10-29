@@ -1,0 +1,33 @@
+{
+  "source_repository": "https://github.com/Mishapolk/square-packing-records",
+  "source_commit": "ab8e8337cb91ac24254fe4dc09514ce4bfee2862",
+  "source_license": "MIT",
+  "credit": "Mishapolk / Mykhailo Polkovskyi; exact certificates from the public certified world-record ledger.",
+  "screened_certificate_count": 531,
+  "declared_strict_candidates": 178,
+  "serialized_strict_candidates": [
+    507,
+    654
+  ],
+  "selection_rule": "Screen all 531 parsed certificates against the Mishapolk 125-certificate portfolio; independently validate declared-side candidates, serialize coordinates, keep only candidates whose measured serialized side is strictly smaller by more than 1e-12, then run a complete full-file audit.",
+  "base": "data/variants/mishapolk_20261030/submission.csv",
+  "base_score": 22.286050999282253,
+  "local_score": 22.286050999280988,
+  "local_gain": 1.2647660696529783e-12,
+  "invalid_puzzles": 0,
+  "errors": [],
+  "submission_file": "data/variants/mishapolk_n507_n654_20261030/submission.csv",
+  "submission_sha256": "1b07f3159185f05b275f857dcc587212ae23277d6ab623f5acf74bc8c8417336",
+  "candidate_file": "data/variants/mishapolk_n507_n654_20261030/candidates/mishapolk_n507_n654_candidates.json",
+  "candidate_file_sha256": "318c2238cab4d24a7796dbbaa225aef29779e00e8495116226b324561e9b23a0",
+  "audit_file_sha256": "7111b64f7e1b055739d52f735e0140cb8ef95111346f8a46400f20a692ac4a66",
+  "source_certificate_sha256": {
+    "n507.cert": "c813779ee514b147a3bf99b7fd2221545eb75caedd24bac4e129dd6450050301",
+    "n654.cert": "9d5832f38481c9a5a8c5019a88557a87a0dcf51b8573e7d22de083f470617b56"
+  },
+  "status": "COMPLETE",
+  "submitted_at_utc": "2026-10-29T18:56:00Z",
+  "public_score": 22.2860509992,
+  "completed_at_utc": "2026-10-29T19:06:00Z",
+  "external_result": "Kaggle public score 22.2860509992; tied with prior Mishapolk and issue846 portfolios at displayed precision."
+}
