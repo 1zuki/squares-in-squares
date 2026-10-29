@@ -1,0 +1,38 @@
+{
+  "base": {
+    "errors": 0,
+    "invalid_puzzles": 0,
+    "path": "data/variants/couzo_full_refresh_20261030/submission.csv",
+    "score": 22.28605099922317,
+    "sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114"
+  },
+  "candidate": {
+    "changed_puzzles": 547,
+    "errors": 0,
+    "estimated_score_gain": 9.748566879549644e-08,
+    "gap0_validated_puzzles": 1000,
+    "invalid_puzzles": 0,
+    "measured_score_gain": 9.748564266942594e-08,
+    "path": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
+    "score": 22.28605090173753,
+    "second_audit_errors": 0,
+    "second_audit_invalid_puzzles": 0,
+    "second_audit_score": 22.28605090173753,
+    "sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119"
+  },
+  "date": "2026-10-30",
+  "decision": "Material strict full-file improvement; candidate is ready for final Kaggle upload. Preserve Couzo as rollback incumbent until Kaggle completes.",
+  "experiment": "uniform clearance tightening of Couzo portfolio",
+  "method": {
+    "description": "For each N, binary-search a uniform contraction of center coordinates after float64 normalization, retaining only candidates with strict non-overlap (validate_packing gap=0) and side gain >1e-12.",
+    "elapsed_seconds": 317.08992201,
+    "independent_serialized_gap0_audit": {
+      "errors": 0,
+      "invalid_puzzles": 0,
+      "min_pair_gap": 0.0,
+      "valid_puzzles": 1000
+    },
+    "strict_gate": "gap=0 exact-valid after serialization; full audit zero invalid/error; strict side gain >1e-12",
+    "workers": 4
+  }
+}

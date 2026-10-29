@@ -1,0 +1,14 @@
+{
+  "audit_file": "data/variants/couzo_clearance_tighten_20261030/audit.json",
+  "audit_score": 22.28605090173753,
+  "changed_puzzles": 547,
+  "errors": [],
+  "invalid_puzzles": 0,
+  "method": "uniform float64 clearance tightening with gap=0 validation",
+  "second_audit_file": "data/variants/couzo_clearance_tighten_20261030/audit.second.json",
+  "source": "data/variants/couzo_full_refresh_20261030/submission.csv",
+  "source_sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114",
+  "status": "READY_FOR_KAGGLE_UPLOAD",
+  "submission_file": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
+  "submission_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119"
+}

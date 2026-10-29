@@ -22,6 +22,7 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
+| 1 | Couzo clearance tightening | 547 strict uniform contractions over the Couzo portfolio, all independently gap=0 valid | 22.28605090173753 | -0.00000009748564 | yes | Ready for final Kaggle validation |
 | 1 | Couzo full-catalogue refresh | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
 | 1 | Couzo refreshed-donor transfer beam | 404 targets, 12-size deletion window, 60 refreshed donor layouts | 22.28605099922317 | 0 | yes | No strict gains; exact audited tie |
 | 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
@@ -48,6 +49,23 @@ certificate portfolios.
 The serialized bytes differ for some files because experiment writers use
 different decimal formatting; audits and layout comparisons, rather than byte
 identity, are the comparison gate.
+
+### Couzo clearance tightening (2026-10-30)
+
+I tested whether the Couzo rows retained more clearance than necessary after
+CSV serialization. For each of the 1,000 sizes, I binary-searched a uniform
+contraction of the square centers, re-normalized the layout, and required the
+independent SAT validator to pass with `gap=0` (strict non-overlap). The
+serialized candidate changed 547 sizes.
+
+The complete candidate passed two independent `audit_submission.py` runs at
+**22.28605090173753**, with zero invalid puzzles and zero errors. A separate
+all-size `gap=0` re-read also passed all 1,000 layouts. The measured gain over
+the Couzo refresh is `9.748564266942594e-08`. The exact candidate SHA-256 is
+`5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119`. The
+variant package is retained under
+`data/variants/couzo_clearance_tighten_20261030/`; it is the candidate selected
+for the final Kaggle slot.
 
 ### Couzo refreshed-donor transfer beam (2026-10-30)
 
