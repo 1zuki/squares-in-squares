@@ -77,9 +77,11 @@ same float64 bounding-side prefilter against the Couzo incumbent:
 
 Issue #836's Zenodo v5 two-strip set contains 5,308 records, but its range is
 `N=1182..9944`, outside this competition. Reusing its exact strip parameters
-at `K=30..34` produced 26,471 projected configurations and zero rough
-survivors for `N≤1000`. No geometry validations or uploads were needed after
-those prefilters. The packet hashes, counts, and source links are in
+at `K=30..34` produced 26,471 projected configurations; independently mixing
+the published horizontal and vertical parameter sets added 36,980 combinations.
+Both screens had zero rough survivors for `N≤1000`. No geometry validations or
+uploads were needed after those prefilters. The packet hashes, counts, and
+source links are in
 `data/variants/external_issue_sweep_20261030/summary.json`.
 
 ## Eight-branch expansion

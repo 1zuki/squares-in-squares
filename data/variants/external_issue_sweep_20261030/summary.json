@@ -45,7 +45,20 @@
       "projected_configs": 26471,
       "projected_rough_survivors": 0,
       "projected_strict_survivors": 0,
-      "result": "No direct N<=1000 rows; reusing published parameters at K=30..34 produced no rough survivors."
+      "result": "No direct N<=1000 rows; same-parameter projection had 26,471 configs and mixed H/V projection had 36,980 configs at K=30..34; both had zero rough survivors.",
+      "mixed_source_bands": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "mixed_h_pool": 86,
+      "mixed_v_pool": 86,
+      "mixed_combinations": 36980,
+      "mixed_rough_survivors": 0,
+      "mixed_strict_survivors": 0
     }
   ],
   "promotion": "No candidate CSV or Kaggle upload created; Couzo incumbent preserved."
