@@ -21,7 +21,7 @@ Lower is better.
 
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Issue #845 certificates | 66 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, and N=293 replacements | 22.28639795912737 | -0.00086780628115 | yes | Kaggle pending; full audit passed |
+| 1 | Issue #845 certificates | 66 sizes improve; public union plus N=182, N=344, N=172, N=204, N=260, and N=293 replacements | 22.28639795912737 | -0.00086780628115 | yes | Kaggle Complete: 22.2863979591 |
 | 2 | N=182 + N=344 certificate portfolio | 62 sizes improve; public union plus two certificate replacements | 22.28684182148117 | -0.00042394392735 | yes | Kaggle Complete: 22.2868418214 |
 | 3 | CC0 N=344 certificate refresh | 61 sizes improve; adds N=344 to the previous portfolio | 22.287077114539976 | -0.00018865086855 | yes | Kaggle Complete: 22.2870771145 |
 | 4 | Strict per-`N` union plus refreshed record | 60 sizes improve; 59 union layouts plus N=130 | 22.287085755423853 | -0.00018000998467 | yes | Kaggle Complete: 22.2870857554 |
@@ -300,8 +300,8 @@ candidate is `data/variants/issue845_n172_204_260_293_20261030/submission.csv`
 with SHA-256
 `cf726c180a8e7886ecd94a26fb5a0dd0ffacccc2fb37547764df32e5321c3f49`.
 The source repository is MIT licensed; the Kaggle description records Evan
-Daniel and issue #845 attribution. Kaggle upload status is pending external
-evaluation.
+Daniel and issue #845 attribution. Kaggle marked the upload Complete at public
+score `22.2863979591`, matching the local audit to displayed precision.
 
 ### Additional certificate screen (2026-10-30)
 
