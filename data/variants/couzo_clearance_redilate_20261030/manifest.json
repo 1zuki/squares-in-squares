@@ -9,5 +9,14 @@
   "status": "READY_AFTER_KAGGLE_QUOTA_RESET",
   "strict_wins_vs_couzo": 276,
   "submission_file": "data/variants/couzo_clearance_redilate_20261030/submission.csv",
-  "submission_sha256": "359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d"
+  "submission_sha256": "359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d",
+  "high_precision_validation_file": "data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json",
+  "high_precision_decimal_digits": 80,
+  "high_precision_float_filter_threshold": 1e-07,
+  "high_precision_broadphase_inflation": 1e-08,
+  "high_precision_broadphase_pairs": 1677923,
+  "high_precision_checked_pairs": 1542866,
+  "high_precision_negative_pair_count": 0,
+  "high_precision_global_min_gap": "9.934505195620690280325446970849782735664e-13",
+  "high_precision_global_min_layout": 795
 }

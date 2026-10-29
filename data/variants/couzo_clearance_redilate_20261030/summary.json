@@ -11,13 +11,29 @@
     "strict_wins_vs_couzo": 276
   },
   "date": "2026-10-30",
-  "decision": "READY_AFTER_KAGGLE_QUOTA_RESET; do not upload until the daily slot is available.",
+  "decision": "READY_AFTER_KAGGLE_QUOTA_RESET; full high-precision near-contact audit clean; do not upload until the daily slot is available.",
   "experiment": "positive-clearance re-dilation of the rejected clearance-tightened candidate",
   "method": {
     "clearance_factor": "1 + 1e-12",
     "description": "Parse the rejected candidate at high precision, apply merge_submission.normalize (1e-12 outward dilation) per N, then serialize compact float64 decimals. This restores positive clearance before official verification.",
-    "strict_gate": "audit zero invalid/errors plus serialized gap=0 validation; representative high-precision SAT sample had no negative gaps."
+    "strict_gate": "audit zero invalid/errors plus serialized gap=0 validation; full 1,000-layout 80-digit mpmath near-contact audit checked 1,542,866 pairs with zero negative gaps (minimum exact gap 9.934505195620690280325446970849782735664e-13)."
   },
   "source": "data/variants/couzo_clearance_tighten_20261030/submission.csv",
-  "source_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119"
+  "source_sha256": "5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119",
+  "high_precision_validation": {
+    "file": "data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json",
+    "decimal_digits": 80,
+    "float_filter_threshold": 1e-07,
+    "broadphase_inflation": 1e-08,
+    "broadphase_pairs": 1677923,
+    "checked_pairs": 1542866,
+    "negative_pair_count": 0,
+    "global_min_exact_gap": "9.934505195620690280325446970849782735664e-13",
+    "global_min_layout": 795,
+    "global_min_pair": [
+      734,
+      735
+    ],
+    "elapsed_seconds": 58.785986381997645
+  }
 }

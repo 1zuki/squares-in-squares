@@ -23,7 +23,7 @@ Lower is better.
 | Rank | Experiment | Scope | Local score | Delta vs incumbent | Valid | Result |
 |---:|---|---|---:|---:|---:|---|
 | — | Couzo clearance tightening | 547 strict uniform contractions over the Couzo portfolio, all independently gap=0 valid locally | 22.28605090173753 | -0.00000009748564 | local yes / Kaggle no | Kaggle Complete: 26.1695943166; rejected for promotion |
-| — | Positive-clearance re-dilation (prepared) | 276 strict local wins after restoring 1e-12 outward clearance | 22.286050902697255 | -0.00000009652592 | local yes / pending | Ready after Kaggle quota reset; not submitted |
+| — | Positive-clearance re-dilation (prepared) | 276 strict local wins after restoring 1e-12 outward clearance | 22.286050902697255 | -0.00000009652592 | local + high precision / pending | 1,542,866 80-digit near-contact checks, zero negative gaps; ready after Kaggle quota reset |
 | 1 | Couzo full-catalogue refresh | 60 strict serialized per-N replacements over the Mishapolk N=507/N=654 incumbent | 22.28605099922317 | -0.00000000005782 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
 | 1 | Couzo refreshed-donor transfer beam | 404 targets, 12-size deletion window, 60 refreshed donor layouts | 22.28605099922317 | 0 | yes | No strict gains; exact audited tie |
 | 2 | Mishapolk N=507/N=654 refresh | Two serialized certificate improvements over the 125-certificate portfolio | 22.286050999280988 | 0 | yes | Kaggle Complete: 22.2860509992 (tie at displayed precision) |
@@ -85,7 +85,12 @@ prepared file changes 276 sizes versus Couzo and audits at
 layouts gap=0 valid. Its SHA-256 is
 `359c422da0ed93998647661d630e18323939554449c2a08588e6a28bcd72eb7d`; it is
 retained at `data/variants/couzo_clearance_redilate_20261030/` and awaits the
-next Kaggle quota window.
+next Kaggle quota window. A full high-precision near-contact audit recomputed
+1,542,866 pairs from the serialized decimal strings at 80-digit precision,
+using an inflated AABB broadphase; it found zero negative gaps, with a minimum
+exact gap of `9.934505195620690280325446970849782735664e-13` at N=795. The
+machine-readable result is in
+`data/variants/couzo_clearance_redilate_20261030/high_precision_validation.json`.
 
 ### Couzo refreshed-donor transfer beam (2026-10-30)
 
