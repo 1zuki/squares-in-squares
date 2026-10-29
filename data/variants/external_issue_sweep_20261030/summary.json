@@ -1,0 +1,52 @@
+{
+  "experiment": "External upstream issue and construction sweep",
+  "baseline": "data/variants/couzo_full_refresh_20261030/submission.csv",
+  "baseline_sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114",
+  "baseline_audit_score": 22.28605099922317,
+  "invalid_puzzles": 0,
+  "error_count": 0,
+  "sources": [
+    {
+      "issue": "https://github.com/jlevy/squares/issues/719",
+      "repository": "Mishapolk/square-packing-records",
+      "commit": "12fc46678fa8eefa1f3f156ff37dfffd84c8f3a580",
+      "packet_tar_sha256": "2a6545571d7b8b1c1d259dcb19a7afd2bc45c15597502fbc8f64b21ae52a36a4",
+      "candidate_count_le_1000": 399,
+      "rough_survivors": 0,
+      "strict_survivors": 0,
+      "invalid_rough_survivors": 0,
+      "result": "No candidate survived the float64 bounding-side prefilter."
+    },
+    {
+      "issue": "https://github.com/jlevy/squares/issues/607",
+      "repository": "franciscouzo/square-packing",
+      "commit": "43ac7d29cfeb7b71ea1eb09939cb30b9f71850f2",
+      "packet_tar_sha256": "4cde2ad0341276d09bee0a7475c65e7191fdfc6870c674da2d5593333cf51b47",
+      "candidate_count_le_1000": 347,
+      "rough_survivors": 0,
+      "strict_survivors": 0,
+      "invalid_rough_survivors": 0,
+      "result": "No candidate survived the float64 bounding-side prefilter."
+    },
+    {
+      "issue": "https://github.com/jlevy/squares/issues/836",
+      "zenodo_record": "https://zenodo.org/records/23664800",
+      "packet_sha256": "9c70c4d84c8fb9795a00d1a792210f4bd6e44bf17de245351f2f03a69fcc6325",
+      "records": 5308,
+      "direct_in_scope_n_min": 1182,
+      "direct_in_scope_n_max": 9944,
+      "projected_target_K": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "projected_configs": 26471,
+      "projected_rough_survivors": 0,
+      "projected_strict_survivors": 0,
+      "result": "No direct N<=1000 rows; reusing published parameters at K=30..34 produced no rough survivors."
+    }
+  ],
+  "promotion": "No candidate CSV or Kaggle upload created; Couzo incumbent preserved."
+}

@@ -64,6 +64,24 @@ errors. It accepted zero strict per-`N` replacements, so the Couzo CSV remains
 the incumbent and the final Kaggle slot stays reserved. Compact provenance is
 in `data/variants/couzo_transfer_beam12_20261030/summary.json`.
 
+### External upstream issue sweep (2026-10-30)
+
+The live issue index had two exact-certificate packets that were not present in
+the retained local JSON catalogues. I fetched the pinned bytes and applied the
+same float64 bounding-side prefilter against the Couzo incumbent:
+
+| Source | In-scope records | Rough survivors | Strict survivors |
+|---|---:|---:|---:|
+| Mishapolk issue #719, commit `12fc466…` | 399 | 0 | 0 |
+| Couzo issue #607, commit `43ac7d…` | 347 | 0 | 0 |
+
+Issue #836's Zenodo v5 two-strip set contains 5,308 records, but its range is
+`N=1182..9944`, outside this competition. Reusing its exact strip parameters
+at `K=30..34` produced 26,471 projected configurations and zero rough
+survivors for `N≤1000`. No geometry validations or uploads were needed after
+those prefilters. The packet hashes, counts, and source links are in
+`data/variants/external_issue_sweep_20261030/summary.json`.
+
 ## Eight-branch expansion
 
 The eight remaining ideas were implemented in `eight_ideas.py`, with shared
