@@ -409,6 +409,18 @@ change is below `1e-12`, far below Kaggle's displayed precision of `1e-10`, so
 this certificate was not imported or submitted. The other displayed bounds
 cannot clear the strict per-size merge gate.
 
+### Current-incumbent per-N tournament (2026-10-30)
+
+I reran all eight existing search branches directly from the Couzo refresh on
+the shared 30-size screen, using seed `202610304`, two trials, four repair
+steps, beam width 3, beam depth 2, three islands, two generations, and three
+replicas. Every one of the 240 method/N outputs passed the exact geometry
+validator, but all 30 sizes retained the incumbent side: there were zero
+strict per-N wins. The screen took 377.0 seconds and produced no complete
+candidate to audit or submit. Full method records and the incumbent SHA-256
+are retained in
+`data/variants/per_n_tournament_couzo_seed20261030/metadata.json`.
+
 ## What was implemented
 
 ### Boundary-aware N+K deletion beam
