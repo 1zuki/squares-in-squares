@@ -9,11 +9,11 @@ N=344 certificate refresh upload, then 8 before the combined N=182 + N=344
 candidate, 7 after the issue #845 upload, 6 after the issue #844 upload, 4
 after the issue #846 upload, 3 after the first Mishapolk portfolio, and 2
 after the N=507/N=654 refresh. The form showed 2 remaining before the Couzo
-refresh upload, leaving 1 while it is pending.
+refresh upload, leaving 1 remaining.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
-| — | Couzo full-catalogue refresh (SHA-256 a45f2c5da138) | 22.28605099922317 | pending | PENDING (2026-10-30; 60 strict serialized per-N wins) |
+| — | Couzo full-catalogue refresh (SHA-256 a45f2c5da138) | 22.28605099922317 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie) |
 | — | Mishapolk N=507/N=654 refresh (SHA-256 1b07f3159185) | 22.286050999280988 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie) |
 | — | Mishapolk 125-certificate portfolio (SHA-256 9dbf43f6d7a0) | 22.286050999282253 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie with issue #846) |
 | — | Issue #846 N=299 certificate (SHA-256 f75e108be03d) | 22.28605099928466 | 22.2860509992 | COMPLETE (2026-10-30) |
@@ -35,13 +35,11 @@ refresh upload, leaving 1 while it is pending.
 
 ## Best completed public result
 
-The Couzo full-catalogue refresh is the best local-audit result at
-22.28605099922317 and is pending Kaggle evaluation. It improves the
-completed Mishapolk N=507/N=654 portfolio by 5.781686240879935e-11. Its
-SHA-256 is
-a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114. The
-latest completed public result remains the Mishapolk refresh at
-22.2860509992 displayed precision.
+The Couzo full-catalogue refresh is the best local-audit and completed public
+result at 22.28605099922317 / 22.2860509992. It improves the completed
+Mishapolk N=507/N=654 portfolio by 5.781686240879935e-11 while tying its
+displayed public score. Its SHA-256 is
+a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114.
 ## Latest submitted candidate
 
 The Couzo full-catalogue refresh passed the complete local audit with score
@@ -49,16 +47,16 @@ The Couzo full-catalogue refresh passed the complete local audit with score
 data/variants/couzo_full_refresh_20261030/submission.csv, with SHA-256
 a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114. It uses
 60 strict serialized per-N replacements from the pinned Couzo catalogue;
-Kaggle evaluation is pending.
+Kaggle marked it Complete at public score 22.2860509992.
 
 ## Latest completed candidate
 
-The Mishapolk N=507/N=654 refresh passed the complete local audit with score
-22.286050999280988, zero invalid puzzles, and zero errors. Kaggle returned
+The Couzo full-catalogue refresh passed the complete local audit with score
+22.28605099922317, zero invalid puzzles, and zero errors. Kaggle returned
 public score 22.2860509992, tying the prior certificate portfolios at
-displayed precision. It replaces two layouts in the 125-certificate portfolio.
-The submitted file hash is
-1b07f3159185f05b275f857dcc587212ae23277d6ab623f5acf74bc8c8417336a.
+displayed precision. It strictly improves 60 serialized per-N layouts over the
+Mishapolk N=507/N=654 incumbent. The submitted file hash is
+a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114.
 ## Audit record
 
 All seven new source portfolios were generated from the public certificate control with imported complete layouts, then serialized and checked by `audit_submission.py`. Each contains all 1,000 puzzle sizes and reports zero invalid puzzles. The source CSVs, converted candidate JSON, merge logs, `.sources.json`, SHA-256 values, and individual JSON audit reports are retained in `data/public_external/` and `data/variants/.`

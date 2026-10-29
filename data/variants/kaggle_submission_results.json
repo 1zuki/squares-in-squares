@@ -1,6 +1,6 @@
 {
   "competition": "squares-in-squares",
-  "checked_utc": "2026-10-29T19:22:58Z",
+  "checked_utc": "2026-10-29T19:33:59Z",
   "daily_quota": {
     "as_of": "2026-10-30",
     "used": 9,
@@ -62,14 +62,15 @@
       "id": null,
       "variant": "Couzo full-catalogue refresh",
       "local_score": 22.28605099922317,
-      "public_score": null,
-      "status": "PENDING",
+      "public_score": 22.2860509992,
+      "status": "COMPLETE",
       "file": "data/variants/couzo_full_refresh_20261030/submission.csv",
       "sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114",
       "source": "Francisco Couzo square-packing best-certificate catalogue, commit 712c6a6e9ef58a9521784e6b7e236af813422de7 (MIT); 60 strict serialized replacements",
       "submitted_at_utc": "2026-10-29T19:22:58Z",
       "local_gain_vs_previous": 5.781686240879935e-11,
-      "external_note": "Submitted after two independent complete audits; Kaggle evaluation pending."
+      "external_note": "Kaggle public score ties the prior Mishapolk and issue846 certificate portfolios at displayed precision; lower local audit score.",
+      "completed_at_utc": "2026-10-29T19:33:59Z"
     },
     {
       "id": null,
@@ -247,10 +248,10 @@
   "best_completed_public": {
     "submission_id": null,
     "score": 22.2860509992,
-    "local_score": 22.286050999280988,
-    "variant": "Mishapolk N=507/N=654 certificate refresh",
-    "file": "data/variants/mishapolk_n507_n654_20261030/submission.csv",
-    "sha256": "1b07f3159185f05b275f857dcc587212ae23277d6ab623f5acf74bc8c8417336",
-    "external_note": "Tied with prior Mishapolk and issue846 portfolios at Kaggle displayed precision; lower local audit score."
+    "local_score": 22.28605099922317,
+    "variant": "Couzo full-catalogue refresh",
+    "file": "data/variants/couzo_full_refresh_20261030/submission.csv",
+    "sha256": "a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114",
+    "external_note": "Tied the prior certificate portfolios at Kaggle displayed precision; lower local audit score."
   }
 }

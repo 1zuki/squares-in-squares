@@ -82,5 +82,9 @@
   "comparison_file": "data/variants/couzo_full_refresh_20261030/candidates/couzo_selected_comparison.json",
   "comparison_file_sha256": "5df8311d20c9cf5a54921dff846add41afb65e64eed5fe09ad92745ac3bfcdbe",
   "audit_file_sha256": "5d1667b669784f9a9f4e98579ee016d4ac4301ae26e200194bff8b08abc09ee9",
-  "status": "AUDITED_PENDING_KAGGLE"
+  "status": "COMPLETE",
+  "public_score": 22.2860509992,
+  "submitted_at_utc": "2026-10-29T19:22:58Z",
+  "completed_at_utc": "2026-10-29T19:33:59Z",
+  "external_result": "Kaggle public score 22.2860509992; tied the prior certificate portfolios at displayed precision while remaining strictly better on the local audit."
 }

@@ -500,13 +500,12 @@ The source research is not a fresh benchmark of this repository. Kaggle crawl-ti
 ## O. Implemented remainder audit (2026-10-27)
 
 The first bounded implementations of the remaining low-cost ideas are now
-recorded in EXPERIMENT_RANKING.md. The Couzo full-catalogue refresh is now the
-best local-audit candidate at 22.28605099922317 and is pending Kaggle
-validation. It is a strict 5.781686240879935e-11 improvement over the
-completed Mishapolk N=507/N=654 portfolio. That completed candidate remains at
-public score 22.2860509992 and retains the earlier public-union, N=130, N=182,
-N=344, N=172, N=204, N=260, N=293, N=232, N=307, N=299, N=507, and N=654
-improvements.
+recorded in EXPERIMENT_RANKING.md. The Couzo full-catalogue refresh is now the best local-audit and
+Kaggle-completed candidate at 22.28605099922317 / 22.2860509992. It is a
+strict 5.781686240879935e-11 improvement over the completed Mishapolk
+N=507/N=654 portfolio, with the same displayed public score. It retains the
+earlier public-union, N=130, N=182, N=344, N=172, N=204, N=260, N=293, N=232,
+N=307, N=299, N=507, and N=654 improvements.
 
 #### N=182 certificate refresh (2026-10-30)
 
@@ -610,8 +609,9 @@ repository](https://github.com/franciscouzo/square-packing/tree/712c6a6e9ef58a95
 incumbent. Strict serialized-side screening accepted 60 per-size replacements.
 The complete audit passed at `22.28605099922317` with zero invalid puzzles and
 zero errors, a strict local gain of `5.781686240879935e-11`. The candidate
-was submitted to Kaggle; its public result is pending. Provenance and the
-selected records are retained under
+was submitted to Kaggle and marked Complete at public score `22.2860509992`,
+tying the prior certificate portfolios at displayed precision. Provenance and
+the selected records are retained under
 `data/variants/couzo_full_refresh_20261030/`.
 
 #### Current certified-row screen (2026-10-29)
