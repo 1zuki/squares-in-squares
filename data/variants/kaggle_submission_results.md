@@ -11,10 +11,13 @@ after the issue #846 upload, 3 after the first Mishapolk portfolio, and 2
 after the N=507/N=654 refresh. The form showed 2 remaining before the Couzo
 refresh upload, leaving 1 remaining. The final slot was used for the clearance
 tightening candidate; Kaggle completed it with a materially worse public score.
-The Couzo refresh remains the auto-selection incumbent.
+After the daily quota reset, the form showed 10 remaining and the positive-
+clearance re-dilation completed successfully at a better public score. It is
+now the promoted leader; auto-selection remains available for the best score.
 
 | Submission | Variant | Local audit | Public score | Status |
 |---:|---|---:|---:|---|
+| — | Positive-clearance re-dilation (SHA-256 f76d8f3dce3a) | 22.286050901929478 | 22.2860509019 | COMPLETE, promoted (2026-10-30; exact download SHA matched) |
 | — | Couzo clearance tightening (SHA-256 5117c9682675) | 22.28605090173753 | 26.1695943166 | COMPLETE, rejected for promotion (2026-10-30; exact download SHA matched) |
 | — | Couzo full-catalogue refresh (SHA-256 a45f2c5da138) | 22.28605099922317 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie) |
 | — | Mishapolk N=507/N=654 refresh (SHA-256 1b07f3159185) | 22.286050999280988 | 22.2860509992 | COMPLETE (2026-10-30; displayed tie) |
@@ -38,40 +41,41 @@ The Couzo refresh remains the auto-selection incumbent.
 
 ## Best completed public result
 
-The Couzo full-catalogue refresh is the best local-audit and completed public
-result at 22.28605099922317 / 22.2860509992. It improves the completed
-Mishapolk N=507/N=654 portfolio by 5.781686240879935e-11 while tying its
-displayed public score. Its SHA-256 is
-a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114.
+The positive-clearance re-dilation is the best local-audit and completed public
+result at 22.286050901929478 / 22.2860509019. It improves the Couzo public
+incumbent 22.2860509992 by 9.73e-08. Its SHA-256 is
+f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9, and the
+downloaded Kaggle file matched it byte-for-byte.
 ## Latest submitted candidate
 
-The clearance-tightened CSV passed two local audits with score
-22.28605090173753, zero invalid puzzles, and zero errors. The uploaded file is
-data/variants/couzo_clearance_tighten_20261030/submission.csv, with SHA-256
-5117c9682675b181c4da645e2e1f56c264101ba59f229cffcff02ad900f20119. Kaggle
-downloaded the exact same bytes and marked it Complete at public score
-26.1695943166, so it was rejected for promotion.
+The positive-clearance re-dilation passed the complete local and high-precision
+audits with score 22.286050901929478, zero invalid puzzles, and zero errors.
+The uploaded file is
+data/variants/couzo_clearance_redilate_20261030/submission.csv, with SHA-256
+f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9. Kaggle
+marked the exact bytes Complete at public score 22.2860509019, and its download
+matched the local SHA byte-for-byte.
 
 ## Latest completed candidate
 
-The Couzo full-catalogue refresh passed the complete local audit with score
-22.28605099922317, zero invalid puzzles, and zero errors. Kaggle returned
-public score 22.2860509992, tying the prior certificate portfolios at
-displayed precision. It strictly improves 60 serialized per-N layouts over the
-Mishapolk N=507/N=654 incumbent. The submitted file hash is
-a45f2c5da138a7316921576f75068a6dbcd325f3950e89d40530f4bc909f4114.
+The positive-clearance re-dilation passed the complete local audit with score
+22.286050901929478, zero invalid puzzles, and zero errors, plus the 80-digit
+near-contact audit with zero negative gaps. Kaggle returned public score
+22.2860509019, beating the Couzo refresh. It strictly improves 543 serialized
+per-N layouts over Couzo, and the submitted file hash is
+f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9.
 ## Final slot decision
 
 The post-Couzo audit-corpus screen found only an older neighbour-transfer
 `N=147` replacement. Its complete merge score was `22.286050999222418`, a
 `7.531752999057062e-13` gain over the Couzo incumbent, so it was not uploaded.
 The final daily slot was spent on clearance tightening, which Kaggle rejected
-by returning 26.1695943166. A positive-clearance re-dilation is prepared locally
-at `data/variants/couzo_clearance_redilate_20261030/submission.csv` with
-score 22.286050901929478 and SHA-256
-f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9. Keep the
-Couzo refresh as the final auto-selected incumbent and submit the prepared file
-only after the next slot is available. Before upload, a full 80-digit
+by returning 26.1695943166. After the quota reset, the positive-clearance
+re-dilation at `data/variants/couzo_clearance_redilate_20261030/submission.csv`
+was submitted with score 22.286050901929478 and SHA-256
+f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9. Kaggle
+completed it at 22.2860509019, and the downloaded bytes matched exactly. Before
+upload, a full 80-digit
 near-contact audit recomputed 1,514,622 serialized pairs with an inflated
 broadphase and found zero negative gaps; the minimum exact gap was
 `1.930056432588972304107888791822891981009e-13` at N=447. The detailed result

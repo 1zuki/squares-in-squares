@@ -6,12 +6,17 @@
     "invalid_puzzles": 0,
     "measured_gain_vs_couzo": -9.729369310207403e-08,
     "path": "data/variants/couzo_clearance_redilate_20261030/submission.csv",
+    "public_score": 22.2860509019,
+    "public_status": "Complete",
+    "downloaded_sha256": "f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9",
+    "promoted": true,
+    "kaggle_score_delta_vs_couzo": -9.73e-08,
     "score": 22.286050901929478,
     "sha256": "f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9",
     "strict_wins_vs_couzo": 543
   },
   "date": "2026-10-30",
-  "decision": "READY_AFTER_KAGGLE_QUOTA_RESET; full high-precision near-contact audit clean; do not upload until the daily slot is available.",
+  "decision": "KAGGLE_COMPLETE_PROMOTED; official public score 22.2860509019 beats the Couzo incumbent 22.2860509992; downloaded bytes match the local SHA-256 exactly.",
   "experiment": "positive-clearance re-dilation of the rejected clearance-tightened candidate",
   "method": {
     "clearance_factor": "1 + 2e-13",
@@ -35,5 +40,14 @@
       344
     ],
     "elapsed_seconds": 53.585677656999906
+  },
+  "official_validation": {
+    "status": "Complete",
+    "public_score": 22.2860509019,
+    "incumbent_public_score": 22.2860509992,
+    "downloaded_sha256": "f76d8f3dce3ae31cb2fc384db34e5e1d727a295261e438ff6649415a55dbc5f9",
+    "byte_match": true,
+    "promoted": true,
+    "completed_at_utc": "2026-10-30T07:16:16Z"
   }
 }
